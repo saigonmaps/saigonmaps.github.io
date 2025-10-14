@@ -1,0 +1,8293 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68232,
+          10.77434
+        ]
+      },
+      "properties": {
+        "address": "107 đường Vườn Chuối phường 4 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0001"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69289,
+          10.77931
+        ]
+      },
+      "properties": {
+        "address": "9 đường Võ Văn Tần phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0002"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69246,
+          10.77847
+        ]
+      },
+      "properties": {
+        "address": "15 đường Võ Văn Tần phường Võ Thi Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0003"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69315,
+          10.78002
+        ]
+      },
+      "properties": {
+        "address": "20 đường Võ Văn Tần phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0004"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69165,
+          10.77716
+        ]
+      },
+      "properties": {
+        "address": "22 đường Võ Văn Tần phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0005"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69211,
+          10.77882
+        ]
+      },
+      "properties": {
+        "address": "32 đường Võ Văn Tần phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0006"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69196,
+          10.77861
+        ]
+      },
+      "properties": {
+        "address": "36 đường Võ Văn Tần phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0007"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69184,
+          10.77852
+        ]
+      },
+      "properties": {
+        "address": "38 đường Võ Văn Tần phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0008"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69175,
+          10.7784
+        ]
+      },
+      "properties": {
+        "address": "40 đường Võ Văn Tần phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0009"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69134,
+          10.77805
+        ]
+      },
+      "properties": {
+        "address": "44 đường Võ Văn Tần phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0010"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69109,
+          10.77817
+        ]
+      },
+      "properties": {
+        "address": "50 đường Võ Văn Tần phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0011"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69057,
+          10.77751
+        ]
+      },
+      "properties": {
+        "address": "60 đường Võ Văn Tần phường 6 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0012"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69096,
+          10.77702
+        ]
+      },
+      "properties": {
+        "address": "69 đường Võ Văn Tần phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0013"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68971,
+          10.77622
+        ]
+      },
+      "properties": {
+        "address": "84 đường Võ Văn Tần phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0014"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68936,
+          10.77496
+        ]
+      },
+      "properties": {
+        "address": "141 đường Võ Văn Tần phường 6 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0015"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6901,
+          10.77608
+        ]
+      },
+      "properties": {
+        "address": "101 đường Võ Văn Tần phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0016"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68951,
+          10.77559
+        ]
+      },
+      "properties": {
+        "address": "110-112 đường Võ Văn Tần phường 6 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0017"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68586,
+          10.77155
+        ]
+      },
+      "properties": {
+        "address": "Hẻm 3/13 đường Võ Văn Tần phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0018"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69003,
+          10.77628
+        ]
+      },
+      "properties": {
+        "address": "99  đường Võ Văn Tần phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0019"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.76295,
+          10.85047
+        ]
+      },
+      "properties": {
+        "address": "186 đường Võ Văn Ngân phường Bình Thọ quận Thủ Đức Thành phố Hồ Chí Minh",
+        "id": "SG0020"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.65171,
+          10.75372
+        ]
+      },
+      "properties": {
+        "address": "1 đường Võ Trường Toản phường 15 quận 5 Thành phố Hồ Chí Minh",
+        "id": "SG0021"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.65163,
+          10.75398
+        ]
+      },
+      "properties": {
+        "address": "3 đường Võ Trường Toàn phường 15 quận 5 Thành phố Hồ Chí Minh",
+        "id": "SG0022"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69118,
+          10.78638
+        ]
+      },
+      "properties": {
+        "address": "101 đường Võ Thị Sáu phường 6 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0023"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69051,
+          10.78629
+        ]
+      },
+      "properties": {
+        "address": "115 đường Võ Thị Sáu phường 6 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69055,
+          10.78624
+        ]
+      },
+      "properties": {
+        "address": "117 đường Võ Thị Sáu phường 6 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0025"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69041,
+          10.78606
+        ]
+      },
+      "properties": {
+        "address": "121 đường Võ Thị Sáu phường 6 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0026"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68672,
+          10.78211
+        ]
+      },
+      "properties": {
+        "address": "175 đường Võ Thị Sáu phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0027"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68844,
+          10.78479
+        ]
+      },
+      "properties": {
+        "address": "176 đường Võ Thị Sáu phường 7 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0028"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68641,
+          10.78199
+        ]
+      },
+      "properties": {
+        "address": "177 đường Võ Thị Sáu phường 7 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0029"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68814,
+          10.78489
+        ]
+      },
+      "properties": {
+        "address": "178 đường Võ Thị Sáu phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0030"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68656,
+          10.78177
+        ]
+      },
+      "properties": {
+        "address": "181 đường Võ Thị Sáu phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0031"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68594,
+          10.78151
+        ]
+      },
+      "properties": {
+        "address": "189 đường Võ Thị Sáu phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0032"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68805,
+          10.784
+        ]
+      },
+      "properties": {
+        "address": "198 đường Võ Thị Sáu phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0033"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68507,
+          10.78078
+        ]
+      },
+      "properties": {
+        "address": "201 đường Võ Thị Sáu phường 7 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0034"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68737,
+          10.78371
+        ]
+      },
+      "properties": {
+        "address": "204 đường Võ Thị Sáu phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0035"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68714,
+          10.78328
+        ]
+      },
+      "properties": {
+        "address": "212 đường Võ Thị Sáu phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0036"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6869,
+          10.7832
+        ]
+      },
+      "properties": {
+        "address": "214 đường Võ Thị Sáu phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0037"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68663,
+          10.78251
+        ]
+      },
+      "properties": {
+        "address": "216 đường Võ Thị Sáu phường 7 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0038"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68294,
+          10.77811
+        ]
+      },
+      "properties": {
+        "address": "233 đường Võ Thị Sáu phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0039"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68254,
+          10.77861
+        ]
+      },
+      "properties": {
+        "address": "274 đường Võ Thị Sáu phường 7 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0040"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68227,
+          10.77819
+        ]
+      },
+      "properties": {
+        "address": "278 đường Võ Thị Sáu phường 7 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0041"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69572,
+          10.79072
+        ]
+      },
+      "properties": {
+        "address": "16-18 đường Võ Thị Sáu phường Đa Kao quận 1 Thành phố Hồ Chí Minh",
+        "id": "SG0042"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6877,
+          10.78283
+        ]
+      },
+      "properties": {
+        "address": "Hẻm 169/4 đường Võ Thị Sáu phường Vỗ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0043"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68624,
+          10.78189
+        ]
+      },
+      "properties": {
+        "address": "179B đường Võ Thị Sáu phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0044"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6862,
+          10.78181
+        ]
+      },
+      "properties": {
+        "address": "185  đường Võ Thị Sáu phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0045"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68787,
+          10.78411
+        ]
+      },
+      "properties": {
+        "address": "200-202 đường Võ Thị Sáu phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0046"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68516,
+          10.78062
+        ]
+      },
+      "properties": {
+        "address": "203A đường Võ Thị Sáu phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0047"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68663,
+          10.78251
+        ]
+      },
+      "properties": {
+        "address": "229&231 đường Võ Thị Sáu phường 7 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0048"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6858,
+          10.78201
+        ]
+      },
+      "properties": {
+        "address": "Hẻm 232/3 đường Võ Thị Sáu phường 7 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0049"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69258,
+          10.78912
+        ]
+      },
+      "properties": {
+        "address": "Hẻm 78/1 đường Võ Thị Sáu phường Tân Định quận 1 Thành phố Hồ Chí Minh",
+        "id": "SG0050"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68857,
+          10.78307
+        ]
+      },
+      "properties": {
+        "address": "6 đường Tú Xương phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0051"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68916,
+          10.78328
+        ]
+      },
+      "properties": {
+        "address": "15 đường Tú Xương phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0052"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68689,
+          10.78152
+        ]
+      },
+      "properties": {
+        "address": "18 đường Tú Xương phường 7 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0053"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68663,
+          10.78158
+        ]
+      },
+      "properties": {
+        "address": "20 đường Tú Xương phường 7 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0054"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68676,
+          10.7813
+        ]
+      },
+      "properties": {
+        "address": "22 đường Tú Xương phường 7 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0055"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68676,
+          10.78123
+        ]
+      },
+      "properties": {
+        "address": "24 đường Tú Xương phường 7 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0056"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68797,
+          10.78197
+        ]
+      },
+      "properties": {
+        "address": "27 đường Tú Xương phường 7 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0057"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68689,
+          10.78095
+        ]
+      },
+      "properties": {
+        "address": "35 đường Tú Xương phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0058"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68668,
+          10.78079
+        ]
+      },
+      "properties": {
+        "address": "37 đường Tú Xương phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0059"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68629,
+          10.78022
+        ]
+      },
+      "properties": {
+        "address": "41 đường Tú Xương phường 7 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0060"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68358,
+          10.77787
+        ]
+      },
+      "properties": {
+        "address": "53 đường Tú Xương phường 7 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0061"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68356,
+          10.77787
+        ]
+      },
+      "properties": {
+        "address": "55 đường Tú Xương phường 7 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0062"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6834,
+          10.77766
+        ]
+      },
+      "properties": {
+        "address": "59 đường Tú Xương phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0063"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68332,
+          10.77761
+        ]
+      },
+      "properties": {
+        "address": "61 đường Tú Xương phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0064"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68692,
+          10.78148
+        ]
+      },
+      "properties": {
+        "address": "18A đường Tú Xương phường 7 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0065"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6866,
+          10.78107
+        ]
+      },
+      "properties": {
+        "address": "26-26A đường Tú Xương phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0066"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68631,
+          10.78068
+        ]
+      },
+      "properties": {
+        "address": "49ABC đường Tú Xương phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0067"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68367,
+          10.77756
+        ]
+      },
+      "properties": {
+        "address": "57A đường Tú Xương phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0068"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68369,
+          10.77757
+        ]
+      },
+      "properties": {
+        "address": "57D đường Tú Xương phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0069"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68322,
+          10.77781
+        ]
+      },
+      "properties": {
+        "address": "57E đường Tú Xương phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0070"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68355,
+          10.77743
+        ]
+      },
+      "properties": {
+        "address": "57G đường Tú Xương phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0071"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68346,
+          10.7775
+        ]
+      },
+      "properties": {
+        "address": "57H đường Tú Xương phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0072"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68828,
+          10.78283
+        ]
+      },
+      "properties": {
+        "address": "6A đường Tú Xương phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0073"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68967,
+          10.78377
+        ]
+      },
+      "properties": {
+        "address": "9A đường Tú Xương phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0074"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68954,
+          10.78354
+        ]
+      },
+      "properties": {
+        "address": "9B đường Tú Xương phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0075"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6921,
+          10.78691
+        ]
+      },
+      "properties": {
+        "address": "9 đường Trương Quyền phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0076"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69199,
+          10.78694
+        ]
+      },
+      "properties": {
+        "address": "11 đường Trương Quyền phường 6 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0077"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69188,
+          10.78702
+        ]
+      },
+      "properties": {
+        "address": "13 đường Trương Quyền phường 6 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0078"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68983,
+          10.77794
+        ]
+      },
+      "properties": {
+        "address": "22 đường Trương Định phường 6 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0079"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68887,
+          10.77897
+        ]
+      },
+      "properties": {
+        "address": "26 đường Trương Định phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0080"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6877,
+          10.77998
+        ]
+      },
+      "properties": {
+        "address": "32 đường Trương Định phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0081"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68702,
+          10.78064
+        ]
+      },
+      "properties": {
+        "address": "42 đường Trương Định phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0082"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68601,
+          10.78117
+        ]
+      },
+      "properties": {
+        "address": "50 đường Trương Định phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0083"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68582,
+          10.78132
+        ]
+      },
+      "properties": {
+        "address": "52 đường Trương Định phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0084"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.684,
+          10.78254
+        ]
+      },
+      "properties": {
+        "address": "68 đường Trương Định phường 7 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0085"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68697,
+          10.78008
+        ]
+      },
+      "properties": {
+        "address": "115 đường Trương Định phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0086"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68685,
+          10.78015
+        ]
+      },
+      "properties": {
+        "address": "117-119 đường Trương Định phường 7 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0087"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.64043,
+          10.79966
+        ]
+      },
+      "properties": {
+        "address": "Hẻm 419/18 đường Trường Chinh phường 14 quận Tân Bình Thành phố Hồ Chí Minh",
+        "id": "SG0088"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68907,
+          10.79336
+        ]
+      },
+      "properties": {
+        "address": "7 đường Trần Quý Khoách phường Tân Định quận 1 Thành phố Hồ Chí Minh",
+        "id": "SG0089"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68736,
+          10.78606
+        ]
+      },
+      "properties": {
+        "address": "98 đường Trần Quốc Toản phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0090"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68682,
+          10.78437
+        ]
+      },
+      "properties": {
+        "address": "103 đường Trần Quốc Toản phường 7 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0091"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68698,
+          10.78556
+        ]
+      },
+      "properties": {
+        "address": "106 đường Trần Quốc Toản phường 7 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0092"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68689,
+          10.78537
+        ]
+      },
+      "properties": {
+        "address": "108 đường Trần Quốc Toản phường 7 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0093"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68639,
+          10.78427
+        ]
+      },
+      "properties": {
+        "address": "120 đường Trần Quốc Toản phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0094"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68657,
+          10.78419
+        ]
+      },
+      "properties": {
+        "address": "122 đường Trần Quốc Toản phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0095"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68717,
+          10.7859
+        ]
+      },
+      "properties": {
+        "address": "102-102B đường Trần Quốc Toản phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0096"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68693,
+          10.78592
+        ]
+      },
+      "properties": {
+        "address": "104A đường Trần Quốc Toản phường 7 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0097"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68926,
+          10.78079
+        ]
+      },
+      "properties": {
+        "address": "34 đường Trần Quốc Thảo phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0098"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6894,
+          10.78093
+        ]
+      },
+      "properties": {
+        "address": "36 đường Trần Quốc Thảo phường 7 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0099"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68946,
+          10.78099
+        ]
+      },
+      "properties": {
+        "address": "38 đường Trần Quốc Thảo phường 7 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0100"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68983,
+          10.77938
+        ]
+      },
+      "properties": {
+        "address": "39 đường Trần Quốc Thảo phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0101"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68947,
+          10.78102
+        ]
+      },
+      "properties": {
+        "address": "40 đường Trần Quốc Thảo phường 7 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0102"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68931,
+          10.77981
+        ]
+      },
+      "properties": {
+        "address": "49 đường Trần Quốc Thảo phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0103"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68899,
+          10.78049
+        ]
+      },
+      "properties": {
+        "address": "57 đường Trần Quốc Thảo phường 7 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0104"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68863,
+          10.78041
+        ]
+      },
+      "properties": {
+        "address": "59 đường Trần Quốc Thảo phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0105"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6887,
+          10.78055
+        ]
+      },
+      "properties": {
+        "address": "61 đường Trần Quốc Thảo phường 7 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0106"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68768,
+          10.78216
+        ]
+      },
+      "properties": {
+        "address": "62 đường Trần Quốc Thảo phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0107"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68614,
+          10.78355
+        ]
+      },
+      "properties": {
+        "address": "74 đường Trần Quốc Thảo phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0108"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68618,
+          10.78372
+        ]
+      },
+      "properties": {
+        "address": "76 đường Trần Quốc Thảo phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0109"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68571,
+          10.78354
+        ]
+      },
+      "properties": {
+        "address": "115 đường Trần Quốc Thảo phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0110"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68537,
+          10.78388
+        ]
+      },
+      "properties": {
+        "address": "123 đường Trần Quốc Thảo phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0111"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68536,
+          10.78317
+        ]
+      },
+      "properties": {
+        "address": "Hẻm 115/2 đường Trần Quốc Thảo phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0112"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68902,
+          10.7914
+        ]
+      },
+      "properties": {
+        "address": "227 đường Trần Quang Khải phường Tân Định quận 1 Thành phố Hồ Chí Minh",
+        "id": "SG0113"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.67819,
+          10.78642
+        ]
+      },
+      "properties": {
+        "address": "6D đường Trần Quang Diệu phường 13 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0114"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69207,
+          10.79373
+        ]
+      },
+      "properties": {
+        "address": "Hẻm 38/11 đường Trần Khắc Chân phường Tân Định quận 1 Thành phố Hồ Chí Minh",
+        "id": "SG0115"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69215,
+          10.79356
+        ]
+      },
+      "properties": {
+        "address": "Hẻm 38/16A đường Trần Khắc Chân phường Tân Định quận 1 Thành phố Hồ Chí Minh",
+        "id": "SG0116"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6922,
+          10.79348
+        ]
+      },
+      "properties": {
+        "address": "Hẻm 38/16B đường Trần Khắc Chân phường Tân Định quận 1 Thành phố Hồ Chí Minh",
+        "id": "SG0117"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69185,
+          10.79363
+        ]
+      },
+      "properties": {
+        "address": "Hẻm 38/9 đường Trần Khắc Chân phường Tân Định quận 1 Thành phố Hồ Chí Minh",
+        "id": "SG0118"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6883,
+          10.794
+        ]
+      },
+      "properties": {
+        "address": "Hẻm 34/1A đường Trần Khánh Dư phường Tân Định quận 1 Thành phố Hồ Chí Minh",
+        "id": "SG0119"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.67858,
+          10.75493
+        ]
+      },
+      "properties": {
+        "address": "672 đường Trần Hưng Đạo phường 2 quận 5 Thành phố Hồ Chí Minh",
+        "id": "SG0120"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.67824,
+          10.75463
+        ]
+      },
+      "properties": {
+        "address": "696 đường Trần Hưng Đạo phường 2 quận 5 Thành phố Hồ Chí Minh",
+        "id": "SG0121"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69058,
+          10.76133
+        ]
+      },
+      "properties": {
+        "address": "84 đường Trần Đình Xu phường Cô Giang quận 1 Thành phố Hồ Chí Minh",
+        "id": "SG0122"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68915,
+          10.76216
+        ]
+      },
+      "properties": {
+        "address": "116 đường Trần Đình Xu phường Nguyễn Cư Trinh quận 1 Thành phố Hồ Chí Minh",
+        "id": "SG0123"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69057,
+          10.75988
+        ]
+      },
+      "properties": {
+        "address": "Hẻm 35/11 đường Trần Đình Xu phường Cầu Kho quận 1 Thành phố Hồ Chí Minh",
+        "id": "SG0124"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69056,
+          10.76073
+        ]
+      },
+      "properties": {
+        "address": "Hẻm 55/6 đường Trần Đình Xu phường Cầu Kho quận 1 Thành phố Hồ Chí Minh",
+        "id": "SG0125"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69774,
+          10.78424
+        ]
+      },
+      "properties": {
+        "address": "15 đường Trần Cao Vân phường Đa Kao quận 1 Thành phố Hồ Chí Minh",
+        "id": "SG0126"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69626,
+          10.78364
+        ]
+      },
+      "properties": {
+        "address": "32 đường Trần Cao Vân phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0127"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69779,
+          10.78442
+        ]
+      },
+      "properties": {
+        "address": "11B đường Trần Cao Vân phường Đa Kao quận 1 Thành phố Hồ Chí Minh",
+        "id": "SG0128"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.65816,
+          10.75144
+        ]
+      },
+      "properties": {
+        "address": "4 đường Tống Duy Tân phường 14 quận 5 Thành phố Hồ Chí Minh",
+        "id": "SG0129"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.76755,
+          10.84166
+        ]
+      },
+      "properties": {
+        "address": "19 đường Thống Nhất phường Bình Thọ quận Thủ Đức Thành phố Hồ Chí Minh",
+        "id": "SG0130"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.76782,
+          10.84234
+        ]
+      },
+      "properties": {
+        "address": "21 đường Thống Nhất phường Bình Thọ quận Thủ Đức Thành phố Hồ Chí Minh",
+        "id": "SG0131"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.76798,
+          10.84255
+        ]
+      },
+      "properties": {
+        "address": "23 đường Thống Nhất phường Bình Thọ quận Thủ Đức Thành phố Hồ Chí Minh",
+        "id": "SG0132"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.76904,
+          10.84394
+        ]
+      },
+      "properties": {
+        "address": "26 đường Thống Nhất phường Bình Thọ quận Thủ Đức Thành phố Hồ Chí Minh",
+        "id": "SG0133"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.76939,
+          10.84613
+        ]
+      },
+      "properties": {
+        "address": "28 đường Thống Nhất phường Bình Thọ quận Thủ Đức Thành phố Hồ Chí Minh",
+        "id": "SG0134"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.77067,
+          10.84631
+        ]
+      },
+      "properties": {
+        "address": "32 đường Thống Nhất phường Bình Thọ quận Thủ Đức Thành phố Hồ Chí Minh",
+        "id": "SG0135"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69166,
+          10.79088
+        ]
+      },
+      "properties": {
+        "address": "96 đường Thạch Thị Thanh phường Tân Định quận 1 Thành phố Hồ Chí Minh",
+        "id": "SG0136"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.66248,
+          10.75777
+        ]
+      },
+      "properties": {
+        "address": "5 đường Tăng Bạt Hổ phường 12 quận 5 Thành phố Hồ Chí Minh",
+        "id": "SG0137"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.662,
+          10.75756
+        ]
+      },
+      "properties": {
+        "address": "9 đường Tăng Bạt Hổ phường 12 quận 5 Thành phố Hồ Chí Minh",
+        "id": "SG0138"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.66195,
+          10.75802
+        ]
+      },
+      "properties": {
+        "address": "40 đường Tăng Bạt Hổ phường 12 quận 5 Thành phố Hồ Chí Minh",
+        "id": "SG0139"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.66274,
+          10.75782
+        ]
+      },
+      "properties": {
+        "address": "1A đường Tăng Bạt Hổ phường 12 quận 5 Thành phố Hồ Chí Minh",
+        "id": "SG0140"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68956,
+          10.77263
+        ]
+      },
+      "properties": {
+        "address": "68 đường Sương Nguyệt Ánh phường Bến Thành quận 1 Thành phố Hồ Chí Minh",
+        "id": "SG0141"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68931,
+          10.77241
+        ]
+      },
+      "properties": {
+        "address": "74 đường Sương Nguyệt Ánh phường Bến Thành quận 1 Thành phố Hồ Chí Minh",
+        "id": "SG0142"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68929,
+          10.77237
+        ]
+      },
+      "properties": {
+        "address": "76 đường Sương Nguyệt Ánh phường Bến Thành quận 1 Thành phố Hồ Chí Minh",
+        "id": "SG0143"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6889,
+          10.7714
+        ]
+      },
+      "properties": {
+        "address": "79 đường Sương Nguyệt Ánh phường Bến Thành quận 1 Thành phố Hồ Chí Minh",
+        "id": "SG0144"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68876,
+          10.7712
+        ]
+      },
+      "properties": {
+        "address": "85 đường Sương Nguyệt Ánh phường Bến Thành quận 1 Thành phố Hồ Chí Minh",
+        "id": "SG0145"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68889,
+          10.77222
+        ]
+      },
+      "properties": {
+        "address": "92 đường Sương Nguyệt Ánh phường Bến Thành quận 1 Thành phố Hồ Chí Minh",
+        "id": "SG0146"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68882,
+          10.77207
+        ]
+      },
+      "properties": {
+        "address": "94 đường Sương Nguyệt Ánh phường Bến Thành quận 1 Thành phố Hồ Chí Minh",
+        "id": "SG0147"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68864,
+          10.77102
+        ]
+      },
+      "properties": {
+        "address": "97 đường Sương Nguyệt Ánh phường Bến Thành quận 1 Thành phố Hồ Chí Minh",
+        "id": "SG0148"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68892,
+          10.77203
+        ]
+      },
+      "properties": {
+        "address": "98 đường Sương Nguyệt Ánh phường Bến Thành quận 1 Thành phố Hồ Chí Minh",
+        "id": "SG0149"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68882,
+          10.77178
+        ]
+      },
+      "properties": {
+        "address": "100 đường Sương Nguyệt Ánh phường Bến Thành quận 1 Thành phố Hồ Chí Minh",
+        "id": "SG0150"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6887,
+          10.77174
+        ]
+      },
+      "properties": {
+        "address": "102 đường Sương Nguyệt Ánh phường Bến Thành quận 1 Thành phố Hồ Chí Minh",
+        "id": "SG0151"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68804,
+          10.77091
+        ]
+      },
+      "properties": {
+        "address": "132 đường Sương Nguyệt Ánh phường Bến Thành quận 1 Thành phố Hồ Chí Minh",
+        "id": "SG0152"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68797,
+          10.77083
+        ]
+      },
+      "properties": {
+        "address": "134 đường Sương Nguyệt Ánh phường Bến Thành quận 1 Thành phố Hồ Chí Minh",
+        "id": "SG0153"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68786,
+          10.7709
+        ]
+      },
+      "properties": {
+        "address": "136 đường Sương Nguyệt Ánh phường Bến Thành quận 1 Thành phố Hồ Chí Minh",
+        "id": "SG0154"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68982,
+          10.77299
+        ]
+      },
+      "properties": {
+        "address": "10-10B đường Sương Nguyệt Ánh phường Bến Thành quận 1 Thành phố Hồ Chí Minh",
+        "id": "SG0155"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68857,
+          10.77181
+        ]
+      },
+      "properties": {
+        "address": "112-114 đường Sương Nguyệt Ánh phường Bến Thành quận 1 Thành phố Hồ Chí Minh",
+        "id": "SG0156"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6892,
+          10.77217
+        ]
+      },
+      "properties": {
+        "address": "86-88 đường Sương Nguyệt Ánh phường Bến Thành quận 1 Thành phố Hồ Chí Minh",
+        "id": "SG0157"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69847,
+          10.78373
+        ]
+      },
+      "properties": {
+        "address": "3 đường Phùng Khắc Khoan phường Đa Kao quận 1 Thành phố Hồ Chí Minh",
+        "id": "SG0158"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69838,
+          10.78401
+        ]
+      },
+      "properties": {
+        "address": "5 đường Phùng Khắc Khoan phường Đa Kao quận 1 Thành phố Hồ Chí Minh",
+        "id": "SG0159"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69825,
+          10.78412
+        ]
+      },
+      "properties": {
+        "address": "7 đường Phùng Khắc Khoan phường Đa Kao quận 1 Thành phố Hồ Chí Minh",
+        "id": "SG0160"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69815,
+          10.78464
+        ]
+      },
+      "properties": {
+        "address": "10 đường Phùng Khắc Khoan phường Đa Kao quận 1 Thành phố Hồ Chí Minh",
+        "id": "SG0161"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6978,
+          10.78503
+        ]
+      },
+      "properties": {
+        "address": "12 đường Phùng Khắc Khoan phường Đa Kao quận 1 Thành phố Hồ Chí Minh",
+        "id": "SG0162"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69756,
+          10.78521
+        ]
+      },
+      "properties": {
+        "address": "16 đường Phùng Khắc Khoan phường Đa Kao quận 1 Thành phố Hồ Chí Minh",
+        "id": "SG0163"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69618,
+          10.78661
+        ]
+      },
+      "properties": {
+        "address": "32 đường Phùng Khắc Khoan phường Đa kao quận 1 Thành phố Hồ Chí Minh",
+        "id": "SG0164"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69537,
+          10.7866
+        ]
+      },
+      "properties": {
+        "address": "39 đường Phùng Khắc Khoan phường Đa Kao quận 1 Thành phố Hồ Chí Minh",
+        "id": "SG0165"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69518,
+          10.78749
+        ]
+      },
+      "properties": {
+        "address": "40 đường Phùng Khắc Khoan phường Đa Kao quận 1 Thành phố Hồ Chí Minh",
+        "id": "SG0166"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69482,
+          10.78659
+        ]
+      },
+      "properties": {
+        "address": "41 đường Phùng Khắc Khoan phường Đa Kao quận 1 Thành phố Hồ Chí Minh",
+        "id": "SG0167"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69766,
+          10.78533
+        ]
+      },
+      "properties": {
+        "address": "16B đường Phùng Khắc Khoan phường Đa Kao quận 1 Thành phố Hồ Chí Minh",
+        "id": "SG0168"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6977,
+          10.7853
+        ]
+      },
+      "properties": {
+        "address": "16C đường Phùng Khắc Khoan phường Đa Kao quận 1 Thành phố Hồ Chí Minh",
+        "id": "SG0169"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69756,
+          10.78549
+        ]
+      },
+      "properties": {
+        "address": "16G đường Phùng Khắc Khoan phường Đa Kao quận 1 Thành phố Hồ Chí Minh",
+        "id": "SG0170"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69585,
+          10.78613
+        ]
+      },
+      "properties": {
+        "address": "33B đường Phùng Khắc Khoan phường Đa Kao quận 1 Thành phố Hồ Chí Minh",
+        "id": "SG0171"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69571,
+          10.785
+        ]
+      },
+      "properties": {
+        "address": "7C đường Phùng Khắc Khoan phường Đa Kao quận 1 Thành phố Hồ Chí Minh",
+        "id": "SG0172"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69796,
+          10.7838
+        ]
+      },
+      "properties": {
+        "address": "7D đường Phùng Khắc Khoan phường Đa Kao quận 1 Thành phố Hồ Chí Minh",
+        "id": "SG0173"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69804,
+          10.78426
+        ]
+      },
+      "properties": {
+        "address": "9B đường Phùng Khắc Khoan phường Đa Kao quận 1 Thành phố Hồ Chí Minh",
+        "id": "SG0174"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.71416,
+          10.78949
+        ]
+      },
+      "properties": {
+        "address": "A17/1 đường Phú Mỹ phường 22 quận Bình Thạnh Thành phố Hồ Chí Minh",
+        "id": "SG0175"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.66137,
+          10.80371
+        ]
+      },
+      "properties": {
+        "address": "2 đường Phan Thúc Duyệt phường 4 quận Tân Bình Thành phố Hồ Chí Minh",
+        "id": "SG0176"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69688,
+          10.79012
+        ]
+      },
+      "properties": {
+        "address": "6 đường Phan Ngữ phường Đa Kao quận 1 Thành phố Hồ Chí Minh",
+        "id": "SG0177"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69866,
+          10.79032
+        ]
+      },
+      "properties": {
+        "address": "81 đường Phan Kế Bính phường Đa Kao quận 1 Thành phố Hồ Chí Minh",
+        "id": "SG0178"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69883,
+          10.79022
+        ]
+      },
+      "properties": {
+        "address": "7-9A-9B đường Phan Kế Bính phường Đa Kao quận 1 Thành phố Hồ Chí Minh",
+        "id": "SG0179"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69655,
+          10.78164
+        ]
+      },
+      "properties": {
+        "address": "3 đường Phạm Ngọc Thạch phường 6 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0180"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69629,
+          10.78188
+        ]
+      },
+      "properties": {
+        "address": "7 đường Phạm Ngọc Thạch phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0181"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69669,
+          10.78216
+        ]
+      },
+      "properties": {
+        "address": "8 đường Phạm Ngọc Thạch phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0182"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69467,
+          10.78389
+        ]
+      },
+      "properties": {
+        "address": "16 đường Phạm Ngọc Thạch phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0183"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69459,
+          10.78411
+        ]
+      },
+      "properties": {
+        "address": "18 đường Phạm Ngọc Thạch phường 6 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0184"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69434,
+          10.78387
+        ]
+      },
+      "properties": {
+        "address": "21 đường Phạm Ngọc Thạch phường 6 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0185"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69405,
+          10.78402
+        ]
+      },
+      "properties": {
+        "address": "23 đường Phạm Ngọc Thạch phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0186"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69376,
+          10.78416
+        ]
+      },
+      "properties": {
+        "address": "29 đường Phạm Ngọc Thạch phường 6 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0187"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69397,
+          10.78457
+        ]
+      },
+      "properties": {
+        "address": "30 đường Phạm Ngọc Thạch phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0188"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69397,
+          10.78512
+        ]
+      },
+      "properties": {
+        "address": "36 đường Phạm Ngọc Thạch phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0189"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69332,
+          10.78475
+        ]
+      },
+      "properties": {
+        "address": "43 đường Phạm Ngọc Thạch phường 6 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0190"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69319,
+          10.78479
+        ]
+      },
+      "properties": {
+        "address": "45 đường Phạm Ngọc Thạch phường 6 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0191"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69264,
+          10.78589
+        ]
+      },
+      "properties": {
+        "address": "54 đường Phạm Ngọc Thạch phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0192"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69202,
+          10.78653
+        ]
+      },
+      "properties": {
+        "address": "68 đường Phạm Ngọc Thạch phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0193"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69433,
+          10.78453
+        ]
+      },
+      "properties": {
+        "address": "24-26 đường Phạm Ngọc Thạch phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0194"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68639,
+          10.77622
+        ]
+      },
+      "properties": {
+        "address": "1 Đ Phạm Đình Toái phường 6 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0195"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68627,
+          10.77604
+        ]
+      },
+      "properties": {
+        "address": "5 đường Phạm Đình Toái phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0196"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68585,
+          10.77591
+        ]
+      },
+      "properties": {
+        "address": "16 đường Phạm Đình Toái phường 6 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0197"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69179,
+          10.78409
+        ]
+      },
+      "properties": {
+        "address": "145 đường Pasteur phường 6 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0198"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69927,
+          10.77779
+        ]
+      },
+      "properties": {
+        "address": "170 đường Pasteur phường Bến Nghé quận 1 Thành phố Hồ Chí Minh",
+        "id": "SG0199"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69907,
+          10.77772
+        ]
+      },
+      "properties": {
+        "address": "172 đường Pasteur phường Bến Nghé quận 1 Thành phố Hồ Chí Minh",
+        "id": "SG0200"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69564,
+          10.78091
+        ]
+      },
+      "properties": {
+        "address": "190 đường Pasteur phường 6 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0201"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69354,
+          10.78307
+        ]
+      },
+      "properties": {
+        "address": "202 đường Pasteur phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0202"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69299,
+          10.78346
+        ]
+      },
+      "properties": {
+        "address": "214 đường Pasteur phường 6 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0203"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69286,
+          10.78359
+        ]
+      },
+      "properties": {
+        "address": "216 đường Pasteur phường 6 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0204"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69243,
+          10.78379
+        ]
+      },
+      "properties": {
+        "address": "218 đường Pasteur phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0205"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68851,
+          10.77509
+        ]
+      },
+      "properties": {
+        "address": "228 đường Pasteur phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0206"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69114,
+          10.78487
+        ]
+      },
+      "properties": {
+        "address": "232 đường Pasteur phường 6 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0207"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69077,
+          10.78536
+        ]
+      },
+      "properties": {
+        "address": "238 đường Pasteur phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0208"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69064,
+          10.78545
+        ]
+      },
+      "properties": {
+        "address": "240 đường Pasteur phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0209"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69036,
+          10.78575
+        ]
+      },
+      "properties": {
+        "address": "244 đường Pasteur phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0210"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69499,
+          10.80958
+        ]
+      },
+      "properties": {
+        "address": "89 đường Nơ Trang Long phường 11 quận Bình Thạnh Thành phố Hồ Chí Minh",
+        "id": "SG0211"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69762,
+          10.81733
+        ]
+      },
+      "properties": {
+        "address": "237 đường Nơ Trang Long phường 11 quận Bình Thạnh Thành phố Hồ Chí Minh",
+        "id": "SG0212"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69532,
+          10.78588
+        ]
+      },
+      "properties": {
+        "address": "219 đường Nguyễn Văn Thủ phường Đa Kao quận 1 Thành phố Hồ Chí Minh",
+        "id": "SG0213"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69538,
+          10.78631
+        ]
+      },
+      "properties": {
+        "address": "180-182 đường Nguyễn Văn Thủ phường Đa Kao quận 1 Thành phố Hồ Chí Minh",
+        "id": "SG0214"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68776,
+          10.7901
+        ]
+      },
+      "properties": {
+        "address": "15 đường Nguyễn Văn Mai phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0215"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68737,
+          10.80572
+        ]
+      },
+      "properties": {
+        "address": "Hẻm 40/10 đường Nguyễn Văn Đậu phường 5 quận Phú Nhuận Thành phố Hồ Chí Minh",
+        "id": "SG0216"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.07478,
+          51.55094
+        ]
+      },
+      "properties": {
+        "address": "241-245",
+        "id": "SG0217"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.86601,
+          21.04002
+        ]
+      },
+      "properties": {
+        "address": "01 đường Nguyễn Văn Cừ",
+        "id": "SG0218"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.67824,
+          10.76174
+        ]
+      },
+      "properties": {
+        "address": "Trần Phú phường 4 quận 5 Thành phố Hồ Chí Minh",
+        "id": "SG0219"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.76792,
+          10.84047
+        ]
+      },
+      "properties": {
+        "address": "9 đường Nguyễn Văn Bá phường Bình Thọ quận Thủ Đức Thành phố Hồ Chí Minh",
+        "id": "SG0220"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.76864,
+          10.84175
+        ]
+      },
+      "properties": {
+        "address": "15 đường Nguyễn Văn Bá phường Bình Thọ quận Thủ Đức Thành phố Hồ Chí Minh",
+        "id": "SG0221"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.77054,
+          10.84479
+        ]
+      },
+      "properties": {
+        "address": "29 đường Nguyễn Văn Bá phường Bình Thọ quận Thủ Đức Thành phố Hồ Chí Minh",
+        "id": "SG0222"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.77141,
+          10.84667
+        ]
+      },
+      "properties": {
+        "address": "37 đường Nguyễn Văn Bá phường Bình Thọ quận Thủ Đức Thành phố Hồ Chí Minh",
+        "id": "SG0223"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.66932,
+          10.7973
+        ]
+      },
+      "properties": {
+        "address": "Hẻm 305/12 đường Nguyễn Trọng Tuyển phường 10 quận Phú Nhuận Thành phố Hồ Chí Minh",
+        "id": "SG0224"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.66956,
+          10.79761
+        ]
+      },
+      "properties": {
+        "address": "Hẻm 305/5 đường Nguyễn Trọng Tuyển phường 10 quận Phú Nhuận Thành phố Hồ Chí Minh",
+        "id": "SG0225"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6853,
+          10.75965
+        ]
+      },
+      "properties": {
+        "address": "385B3 đường Nguyễn Trãi phường Nguyễn Cư Trinh quận 1 Thành phố Hồ Chí Minh",
+        "id": "SG0226"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.65771,
+          10.75303
+        ]
+      },
+      "properties": {
+        "address": "Hẻm 8/10-8/11 đường Nguyễn Trãi phường 3 quận 5 Thành phố Hồ Chí Minh",
+        "id": "SG0227"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68597,
+          10.81453
+        ]
+      },
+      "properties": {
+        "address": "36 đường Nguyễn Thượng Hiền phường 1 quận Gò Vấp Thành phố Hồ Chí Minh",
+        "id": "SG0228"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68457,
+          10.77777
+        ]
+      },
+      "properties": {
+        "address": "35 đường Nguyễn Thông phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0229"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68414,
+          10.77787
+        ]
+      },
+      "properties": {
+        "address": "37 đường Nguyễn Thông phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0230"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68396,
+          10.77811
+        ]
+      },
+      "properties": {
+        "address": "41 đường Nguyễn Thông phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0231"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68524,
+          10.77728
+        ]
+      },
+      "properties": {
+        "address": "31-31A đường Nguyễn Thông phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0232"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69919,
+          10.78433
+        ]
+      },
+      "properties": {
+        "address": "36 đường Nguyễn Thị Minh Khai phường Đa Kao quận 1 Thành phố Hồ Chí Minh",
+        "id": "SG0233"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69076,
+          10.77461
+        ]
+      },
+      "properties": {
+        "address": "57 đường Nguyễn Thị Minh Khai phường Bến Thành quận 1 Thành phố Hồ Chí Minh",
+        "id": "SG0234"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69781,
+          10.78285
+        ]
+      },
+      "properties": {
+        "address": "70 đường Nguyễn Thị Minh Khai phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0235"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69557,
+          10.78045
+        ]
+      },
+      "properties": {
+        "address": "94 đường Nguyễn Thị Minh Khai phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0236"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69536,
+          10.78011
+        ]
+      },
+      "properties": {
+        "address": "98 đường Nguyễn Thị Minh Khai phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0237"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69498,
+          10.77984
+        ]
+      },
+      "properties": {
+        "address": "106 đường Nguyễn Thị Minh Khai phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0238"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69285,
+          10.77766
+        ]
+      },
+      "properties": {
+        "address": "128 đường Nguyễn Thị Minh Khai phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0239"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6927,
+          10.77734
+        ]
+      },
+      "properties": {
+        "address": "130 đường Nguyễn Thị Minh Khai phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0240"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69145,
+          10.77598
+        ]
+      },
+      "properties": {
+        "address": "182 đường Nguyễn Thị Minh Khai phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0241"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69082,
+          10.7754
+        ]
+      },
+      "properties": {
+        "address": "202 đường Nguyễn Thị Minh Khai phường 6 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0242"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69018,
+          10.77487
+        ]
+      },
+      "properties": {
+        "address": "208 đường Nguyễn Thị Minh Khai phường 6 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0243"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68831,
+          10.77308
+        ]
+      },
+      "properties": {
+        "address": "306 đường Nguyễn Thị Minh Khai phường 5 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0244"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68672,
+          10.77126
+        ]
+      },
+      "properties": {
+        "address": "410 đường Nguyễn Thị Minh Khai phường 5 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0245"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68327,
+          10.76751
+        ]
+      },
+      "properties": {
+        "address": "470 đường Nguyễn Thị Minh Khai phường 2 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0246"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68294,
+          10.76711
+        ]
+      },
+      "properties": {
+        "address": "478 đường Nguyễn Thị Minh Khai phường 3 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0247"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69329,
+          10.77825
+        ]
+      },
+      "properties": {
+        "address": "116-118 đường Nguyễn Thị Minh Khai phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0248"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69061,
+          10.77558
+        ]
+      },
+      "properties": {
+        "address": "200 đường Nguyễn Thị Minh Khai phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0249"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69077,
+          10.77524
+        ]
+      },
+      "properties": {
+        "address": "202A đường Nguyễn Thị Minh Khai phường 6 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0250"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68649,
+          10.77077
+        ]
+      },
+      "properties": {
+        "address": "416G đường Nguyễn Thị Minh Khai phường 5 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0251"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68553,
+          10.76994
+        ]
+      },
+      "properties": {
+        "address": "430-430A đường Nguyễn Thị Minh Khai phường 5 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0252"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68672,
+          10.77126
+        ]
+      },
+      "properties": {
+        "address": "(476A-B-C) đường Nguyễn Thị Minh Khai phường 2 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0253"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.70278,
+          10.78797
+        ]
+      },
+      "properties": {
+        "address": "64A&64B đường Nguyễn Thị Minh Khai phường Đa Kao quận 1 Thành phố Hồ Chí Minh",
+        "id": "SG0254"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.67627,
+          10.79708
+        ]
+      },
+      "properties": {
+        "address": "12A-12B đường Nguyễn Thị Huỳnh phường 8 quận Phú Nhuận Thành phố Hồ Chí Minh",
+        "id": "SG0255"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68999,
+          10.77699
+        ]
+      },
+      "properties": {
+        "address": "3 đường Nguyễn Thị Diệu phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0256"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68973,
+          10.77697
+        ]
+      },
+      "properties": {
+        "address": "5 đường Nguyễn Thị Diệu phường 6 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0257"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6896,
+          10.77669
+        ]
+      },
+      "properties": {
+        "address": "15 đường Nguyễn Thị Diệu phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0258"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6888,
+          10.77593
+        ]
+      },
+      "properties": {
+        "address": "21 đường Nguyễn Thị Diệu phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0259"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68865,
+          10.77612
+        ]
+      },
+      "properties": {
+        "address": "24 đường Nguyễn Thị Diệu phường 6 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0260"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68855,
+          10.77599
+        ]
+      },
+      "properties": {
+        "address": "26 đường Nguyễn Thị Diệu phường 6 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0261"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68855,
+          10.77554
+        ]
+      },
+      "properties": {
+        "address": "27 đường Nguyễn Thị Diệu phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0262"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68769,
+          10.77509
+        ]
+      },
+      "properties": {
+        "address": "36 đường Nguyễn Thị Diệu phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0263"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6875,
+          10.77483
+        ]
+      },
+      "properties": {
+        "address": "38 đường Nguyễn Thị Diệu phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0264"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68782,
+          10.77487
+        ]
+      },
+      "properties": {
+        "address": "45 đường Nguyễn Thị Diệu phường 6 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0265"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68895,
+          10.77608
+        ]
+      },
+      "properties": {
+        "address": "23A đường Nguyễn Thị Diệu phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0266"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6879,
+          10.77531
+        ]
+      },
+      "properties": {
+        "address": "34B đường Nguyễn Thị Diệu phường Võ Thi Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0267"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69753,
+          10.78959
+        ]
+      },
+      "properties": {
+        "address": "2F đường Nguyễn Thành Ý phường Đa Kao quận 1 Thành phố Hồ Chí Minh",
+        "id": "SG0268"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69437,
+          10.79186
+        ]
+      },
+      "properties": {
+        "address": "38 đường Nguyễn Phi Khanh phường Tân Định quận 1 Thành phố Hồ Chí Minh",
+        "id": "SG0269"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.76961,
+          10.8487
+        ]
+      },
+      "properties": {
+        "address": "12 đường Nguyễn Khuyến phường Bình Thọ quận Thủ Đức Thành phố Hồ Chí Minh",
+        "id": "SG0270"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69658,
+          10.78485
+        ]
+      },
+      "properties": {
+        "address": "43 đường Nguyễn Đình Chiểu phường Đa Kao quận 1 Thành phố Hồ Chí Minh",
+        "id": "SG0271"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69664,
+          10.78724
+        ]
+      },
+      "properties": {
+        "address": "48 đường Nguyễn Đình Chiểu phường Đa Kao quận 1 Thành phố Hồ Chí Minh",
+        "id": "SG0272"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.70022,
+          10.78946
+        ]
+      },
+      "properties": {
+        "address": "54 đường Nguyễn Đình Chiểu phường Đa Kao quận 1 Thành phố Hồ Chí Minh",
+        "id": "SG0273"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69936,
+          10.78841
+        ]
+      },
+      "properties": {
+        "address": "66 đường Nguyễn Đình Chiểu phường Đa Kao quận 1 Thành phố Hồ Chí Minh",
+        "id": "SG0274"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6993,
+          10.78842
+        ]
+      },
+      "properties": {
+        "address": "68 đường Nguyễn Đình Chiểu phường Đa Kao quận 1 Thành phố Hồ Chí Minh",
+        "id": "SG0275"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69921,
+          10.78837
+        ]
+      },
+      "properties": {
+        "address": "72 đường Nguyễn Đình Chiểu phường Đa Kao quận 1 Thành phố Hồ Chí Minh",
+        "id": "SG0276"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69191,
+          10.78006
+        ]
+      },
+      "properties": {
+        "address": "87 đường Nguyễn Đình Chiểu phường 6 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0277"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69775,
+          10.78677
+        ]
+      },
+      "properties": {
+        "address": "104 đường Nguyễn Đình Chiểu phường Đa Kao quận 1 Thành phố Hồ Chí Minh",
+        "id": "SG0278"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69536,
+          10.78456
+        ]
+      },
+      "properties": {
+        "address": "124 đường Nguyễn Đình Chiểu phường 6 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0279"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6952,
+          10.78434
+        ]
+      },
+      "properties": {
+        "address": "126 đường Nguyễn Đình Chiểu phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0280"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69508,
+          10.78392
+        ]
+      },
+      "properties": {
+        "address": "128 đường Nguyễn Đình Chiểu phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0281"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6949,
+          10.78371
+        ]
+      },
+      "properties": {
+        "address": "130 đường Nguyễn Đình Chiểu phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0282"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69407,
+          10.78308
+        ]
+      },
+      "properties": {
+        "address": "140 đường Nguyễn Đình Chiểu phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0283"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.694,
+          10.783
+        ]
+      },
+      "properties": {
+        "address": "142 đường Nguyễn Đình Chiểu phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0284"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69323,
+          10.78227
+        ]
+      },
+      "properties": {
+        "address": "150 đường Nguyễn Đình Chiểu phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0285"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68764,
+          10.77566
+        ]
+      },
+      "properties": {
+        "address": "171 đường Nguyễn Đình Chiểu phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0286"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69136,
+          10.77998
+        ]
+      },
+      "properties": {
+        "address": "178 đường Nguyễn Đình Chiểu phường 6 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0287"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69085,
+          10.77996
+        ]
+      },
+      "properties": {
+        "address": "180 đường Nguyễn Đình Chiểu phường 6 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0288"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68776,
+          10.77628
+        ]
+      },
+      "properties": {
+        "address": "272 đường Nguyễn Đình Chiểu phường 6 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0289"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68756,
+          10.77612
+        ]
+      },
+      "properties": {
+        "address": "274 đường Nguyễn Đình Chiểu phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0290"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68728,
+          10.77571
+        ]
+      },
+      "properties": {
+        "address": "280 đường Nguyễn Đình Chiểu phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0291"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68327,
+          10.77151
+        ]
+      },
+      "properties": {
+        "address": "510 đường Nguyễn Đình Chiểu phường 4 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0292"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68901,
+          10.77755
+        ]
+      },
+      "properties": {
+        "address": "242-242A đường Nguyễn Đình Chiểu phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0293"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69871,
+          10.78671
+        ]
+      },
+      "properties": {
+        "address": "29 đường Nguyễn Đình Chiểu phường Đa Kao quận 1 Thành phố Hồ Chí Minh",
+        "id": "SG0294"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69181,
+          10.78013
+        ]
+      },
+      "properties": {
+        "address": "89A đường Nguyễn Đình Chiểu phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0295"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69187,
+          10.77988
+        ]
+      },
+      "properties": {
+        "address": "89B đường Nguyễn Đình Chiểu phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0296"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69905,
+          10.77843
+        ]
+      },
+      "properties": {
+        "address": "84 đường Nguyễn Du phường Bến Nghé quận 1 Thành phố Hồ Chí Minh",
+        "id": "SG0297"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69892,
+          10.77832
+        ]
+      },
+      "properties": {
+        "address": "86 đường Nguyễn Du phường Bến Nghé quận 1 Thành phố Hồ Chí Minh",
+        "id": "SG0298"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69704,
+          10.77522
+        ]
+      },
+      "properties": {
+        "address": "97A đường Nguyễn Du phường Bến Nghé quận 1 Thành phố Hồ Chí Minh",
+        "id": "SG0299"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68962,
+          10.76427
+        ]
+      },
+      "properties": {
+        "address": "18 đường Nguyễn Cư Trinh phường Nguyễn Cư Trinh quận 1 Thành phố Hồ Chí Minh",
+        "id": "SG0300"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.77164,
+          10.84712
+        ]
+      },
+      "properties": {
+        "address": "1 đường Nguyễn Công Trứ phường Bình Thọ quận Thủ Đức Thành phố Hồ Chí Minh",
+        "id": "SG0301"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.67253,
+          10.76051
+        ]
+      },
+      "properties": {
+        "address": "23 đường Nguyễn Chí Thanh phường 9 quận 5 Thành phố Hồ Chí Minh",
+        "id": "SG0302"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.66517,
+          10.75898
+        ]
+      },
+      "properties": {
+        "address": "Hẻm 157/2 đường Nguyễn Chí Thanh phường 9 quận 5 Thành phố Hồ Chí Minh",
+        "id": "SG0303"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.702,
+          10.78964
+        ]
+      },
+      "properties": {
+        "address": "35 đường Nguyễn Bỉnh Khiêm phường Đa Kao quận 1 Thành phố Hồ Chí Minh",
+        "id": "SG0304"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69998,
+          10.79221
+        ]
+      },
+      "properties": {
+        "address": "58 đường Nguyễn Bỉnh Khiêm phường Đa Kao quận 1 Thành phố Hồ Chí Minh",
+        "id": "SG0305"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.70066,
+          10.79233
+        ]
+      },
+      "properties": {
+        "address": "Hẻm 54/14C đường Nguyễn Bỉnh Khiêm phường Đa Kao quận 1 Thành phố Hồ Chí Minh",
+        "id": "SG0306"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69135,
+          10.78134
+        ]
+      },
+      "properties": {
+        "address": "7 đường Ngô Thời Nhiệm phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0307"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69132,
+          10.78175
+        ]
+      },
+      "properties": {
+        "address": "9 đường Ngô Thời Nhiệm phường 6 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0308"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69128,
+          10.78171
+        ]
+      },
+      "properties": {
+        "address": "11 đường Ngô Thời Nhiệm phường 6 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0309"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69124,
+          10.78148
+        ]
+      },
+      "properties": {
+        "address": "13 đường Ngô Thời Nhiệm phường 6 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0310"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69114,
+          10.78161
+        ]
+      },
+      "properties": {
+        "address": "15 đường Ngô Thời Nhiệm phường 6 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0311"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6911,
+          10.78163
+        ]
+      },
+      "properties": {
+        "address": "17 đường Ngô Thời Nhiệm phường 6 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0312"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68879,
+          10.77927
+        ]
+      },
+      "properties": {
+        "address": "45 đường Ngô Thời Nhiệm phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0313"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68615,
+          10.77665
+        ]
+      },
+      "properties": {
+        "address": "71 đường Ngô Thời Nhiệm phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0314"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68596,
+          10.77641
+        ]
+      },
+      "properties": {
+        "address": "77 đường Ngô Thời Nhiệm phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0315"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69038,
+          10.78073
+        ]
+      },
+      "properties": {
+        "address": "23A đường Ngô Thời Nhiệm phường 6 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0316"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69031,
+          10.78066
+        ]
+      },
+      "properties": {
+        "address": "23B đường Ngô Thời Nhiệm phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0317"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68988,
+          10.78111
+        ]
+      },
+      "properties": {
+        "address": "6G1 đường Ngô Thời Nhiệm phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0318"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69007,
+          10.78108
+        ]
+      },
+      "properties": {
+        "address": "6G2 đường Ngô Thời Nhiệm phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0319"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68774,
+          10.76789
+        ]
+      },
+      "properties": {
+        "address": "9 đường Nam Quốc Cang phường Phạm Ngũ Lão quận 1 Thành phố Hồ Chí Minh",
+        "id": "SG0320"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68774,
+          10.76789
+        ]
+      },
+      "properties": {
+        "address": "11 đường Nam Quốc Cang phường Phạm Ngũ Lão quận 1 Thành phố Hồ Chí Minh",
+        "id": "SG0321"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6879,
+          10.76785
+        ]
+      },
+      "properties": {
+        "address": "8A đường Nam Quốc Cang phường Phạm Ngũ Lão quận 1 Thành phố Hồ Chí Minh",
+        "id": "SG0322"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6976,
+          10.77736
+        ]
+      },
+      "properties": {
+        "address": "136 đường Nam Kỳ Khởi Nghĩa phường Bến Nghé quận 1 Thành phố Hồ Chí Minh",
+        "id": "SG0323"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69328,
+          10.78069
+        ]
+      },
+      "properties": {
+        "address": "143 đường Nam Kỳ Khởi Nghĩa phường 6 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0324"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69305,
+          10.78086
+        ]
+      },
+      "properties": {
+        "address": "145 đường Nam Kỳ Khởi Nghĩa phường 6 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0325"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69737,
+          10.77759
+        ]
+      },
+      "properties": {
+        "address": "148 đường Nam Kỳ Khởi Nghĩa phường Bến Nghé quận 1 Thành phố Hồ Chí Minh",
+        "id": "SG0326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69226,
+          10.78181
+        ]
+      },
+      "properties": {
+        "address": "151 đường Nam Kỳ Khởi Nghĩa phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0327"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69471,
+          10.77997
+        ]
+      },
+      "properties": {
+        "address": "162 đường Nam Kỳ Khởi Nghĩa phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0328"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69041,
+          10.78354
+        ]
+      },
+      "properties": {
+        "address": "163 đường Nam Kỳ Khởi Nghĩa phường 7 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0329"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68923,
+          10.78429
+        ]
+      },
+      "properties": {
+        "address": "169 đường Nam Kỳ Khởi Nghĩa phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0330"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69268,
+          10.78186
+        ]
+      },
+      "properties": {
+        "address": "186 đường Nam Kỳ Khởi Nghĩa phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0331"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69154,
+          10.78296
+        ]
+      },
+      "properties": {
+        "address": "206 đường Nam Kỳ Khởi Nghĩa phường 6 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0332"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69156,
+          10.78301
+        ]
+      },
+      "properties": {
+        "address": "208 đường Nam Kỳ Khởi Nghĩa phường 6 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0333"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69164,
+          10.78319
+        ]
+      },
+      "properties": {
+        "address": "210 đường Nam Kỳ Khởi Nghĩa phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0334"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69145,
+          10.78329
+        ]
+      },
+      "properties": {
+        "address": "216 đường Nam Kỳ Khởi Nghĩa phường 6 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0335"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69111,
+          10.78332
+        ]
+      },
+      "properties": {
+        "address": "218 đường Nam Kỳ Khởi Nghĩa phường 6 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0336"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6901,
+          10.78438
+        ]
+      },
+      "properties": {
+        "address": "234 đường Nam Kỳ Khởi Nghĩa phường 6 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0337"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68969,
+          10.7848
+        ]
+      },
+      "properties": {
+        "address": "236 đường Nam Kỳ Khởi Nghĩa phường 6 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0338"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68718,
+          10.78696
+        ]
+      },
+      "properties": {
+        "address": "260 đường Nam Kỳ Khởi Nghĩa phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0339"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69755,
+          10.77761
+        ]
+      },
+      "properties": {
+        "address": "140-142A đường Nam Kỳ Khởi Nghĩa phường Bến Nghé quận 1 Thành phố Hồ Chí Minh",
+        "id": "SG0340"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68998,
+          10.78379
+        ]
+      },
+      "properties": {
+        "address": "167A đường Nam Kỳ Khởi Nghĩa phường 7 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0341"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68687,
+          10.78631
+        ]
+      },
+      "properties": {
+        "address": "193B đường Nam Kỳ Khởi Nghĩa phường 7 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0342"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68714,
+          10.78701
+        ]
+      },
+      "properties": {
+        "address": "260A đường Nam Kỳ Khởi Nghĩa phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0343"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.684,
+          10.79022
+        ]
+      },
+      "properties": {
+        "address": "Hẻm 292/3 đường Nam Kỳ Khởi Nghĩa phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0344"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69946,
+          10.79104
+        ]
+      },
+      "properties": {
+        "address": "26 đường Mai Thị Lựu phường Đa Kao quận 1 Thành phố Hồ Chí Minh",
+        "id": "SG0345"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6988,
+          10.78522
+        ]
+      },
+      "properties": {
+        "address": "39 đường Mạc Đĩnh Chi phường Đa Kao quận 1 Thành phố Hồ Chí Minh",
+        "id": "SG0346"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69607,
+          10.78776
+        ]
+      },
+      "properties": {
+        "address": "65 đường Mạc Đĩnh Chi phường Đa Kao quận 1 Thành phố Hồ Chí Minh",
+        "id": "SG0347"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69926,
+          10.7857
+        ]
+      },
+      "properties": {
+        "address": "28 đường Mạc Đĩnh Chi phường Đa Kao quận 1 Thành phố Hồ Chí Minh",
+        "id": "SG0348"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69917,
+          10.78479
+        ]
+      },
+      "properties": {
+        "address": "31 đường Mạc Đĩnh Chi phường Đa Kao quận 1 Thành phố Hồ Chí Minh",
+        "id": "SG0349"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69747,
+          10.78689
+        ]
+      },
+      "properties": {
+        "address": "34 đường Mạc Đĩnh Chi phường Đa Kao quận 1 Thành phố Hồ Chí Minh",
+        "id": "SG0350"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69884,
+          10.78507
+        ]
+      },
+      "properties": {
+        "address": "37 đường Mạc Đĩnh Chi phường Đa Kao quận 1 Thành phố Hồ Chí Minh",
+        "id": "SG0351"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69615,
+          10.78797
+        ]
+      },
+      "properties": {
+        "address": "88 đường Mạc Đĩnh Chi phường Đa Kao quận 1 Thành phố Hồ Chí Minh",
+        "id": "SG0352"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.70266,
+          10.7795
+        ]
+      },
+      "properties": {
+        "address": "31 đường Lý Tự Trọng phường Bến Nghé quận 1 Thành phố Hồ Chí Minh",
+        "id": "SG0353"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.70202,
+          10.77873
+        ]
+      },
+      "properties": {
+        "address": "43 đường Lý Tự Trọng phường Bến Nghé quận 1 Thành phố Hồ Chí Minh",
+        "id": "SG0354"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.74849,
+          10.85398
+        ]
+      },
+      "properties": {
+        "address": "Hẻm 147/12 đường Lý Tề Xuyên phường Bình Thọ quận Thủ Đức Thành phố Hồ Chí Minh",
+        "id": "SG0355"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68404,
+          10.79118
+        ]
+      },
+      "properties": {
+        "address": "108 đường Lý Chính Thắng phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0356"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68352,
+          10.78601
+        ]
+      },
+      "properties": {
+        "address": "152 đường Lý Chính Thắng phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0357"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68404,
+          10.79143
+        ]
+      },
+      "properties": {
+        "address": "179 đường Lý Chính Thắng phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0358"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68318,
+          10.78135
+        ]
+      },
+      "properties": {
+        "address": "193 đường Lý Chính Thắng phường 7 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0359"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68266,
+          10.78068
+        ]
+      },
+      "properties": {
+        "address": "210 đường Lý Chính Thắng phường 9 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0360"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6846,
+          10.7871
+        ]
+      },
+      "properties": {
+        "address": "140E  đường Lý Chính Thắng phường 7 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0361"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68306,
+          10.78231
+        ]
+      },
+      "properties": {
+        "address": "200 đường Lý Chính Thắng phường 7 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0362"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.76791,
+          10.84618
+        ]
+      },
+      "properties": {
+        "address": "2 đường Lương Khải Siêu phường Bình Thọ quận Thủ Đức Thành phố Hồ Chí Minh",
+        "id": "SG0363"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.76768,
+          10.84642
+        ]
+      },
+      "properties": {
+        "address": "6 đường Lương Khải Siêu phường Bình Thọ quận Thủ Đức Thành phố Hồ Chí Minh",
+        "id": "SG0364"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.76611,
+          10.84692
+        ]
+      },
+      "properties": {
+        "address": "11 đường Lương Khải Siêu phường Bình Thọ quận Thủ Đức Thành phố Hồ Chí Minh",
+        "id": "SG0365"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68047,
+          10.78669
+        ]
+      },
+      "properties": {
+        "address": "262D đường Lê Văn Sỹ phường 14 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0366"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.67693,
+          10.78917
+        ]
+      },
+      "properties": {
+        "address": "Hẻm 386/23 đường Lê Văn Sỹ phường 14 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0367"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.67665,
+          10.78955
+        ]
+      },
+      "properties": {
+        "address": "Hẻm 400/10 đường Lê Văn Sỹ phường 14 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0368"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.67657,
+          10.78911
+        ]
+      },
+      "properties": {
+        "address": "Hẻm 400/4 đường Lê Văn Sỹ phường 14 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0369"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.688,
+          10.78356
+        ]
+      },
+      "properties": {
+        "address": "87 đường Lê Quý Đôn và Nguyễn Đình Chiểu phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0370"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.76709,
+          10.84159
+        ]
+      },
+      "properties": {
+        "address": "10 đường Lê Quý Đôn phường Bình Thọ quận Thủ Đức Thành phố Hồ Chí Minh",
+        "id": "SG0371"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69199,
+          10.77993
+        ]
+      },
+      "properties": {
+        "address": "13 đường Lê Quý Đôn phường 6 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0372"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.76643,
+          10.84107
+        ]
+      },
+      "properties": {
+        "address": "13 đường Lê Quý Đôn phường Bình Thọ quận Thủ Đức Thành phố Hồ Chí Minh",
+        "id": "SG0373"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69125,
+          10.78055
+        ]
+      },
+      "properties": {
+        "address": "17 đường Lê Quý Đôn phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0374"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68938,
+          10.78287
+        ]
+      },
+      "properties": {
+        "address": "28 đường Lê Quý Đôn phường 7 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0375"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68979,
+          10.78168
+        ]
+      },
+      "properties": {
+        "address": "29 đường Lê Quý Đôn phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0376"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6894,
+          10.78291
+        ]
+      },
+      "properties": {
+        "address": "30 đường Lê Quý Đôn phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0377"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68935,
+          10.78236
+        ]
+      },
+      "properties": {
+        "address": "33 đường Lê Quý Đôn phường 7 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0378"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68915,
+          10.78252
+        ]
+      },
+      "properties": {
+        "address": "35 đường Lê Quý Đôn phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0379"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68902,
+          10.78265
+        ]
+      },
+      "properties": {
+        "address": "37 đường Lê Quý Đôn phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0380"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7655,
+          10.84159
+        ]
+      },
+      "properties": {
+        "address": "15/1 đường Lê Quý Đôn phường Bình Thọ quận Thủ Đức Thành phố Hồ Chí Minh",
+        "id": "SG0381"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68922,
+          10.81755
+        ]
+      },
+      "properties": {
+        "address": "570 đường Lê Quang Định phường 1 quận Gò Vấp Thành phố Hồ Chí Minh",
+        "id": "SG0382"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68494,
+          10.77659
+        ]
+      },
+      "properties": {
+        "address": "7 đường Lê Ngô Cát phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0383"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68572,
+          10.77649
+        ]
+      },
+      "properties": {
+        "address": "8 đường Lê Ngô Cát phường 7 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0384"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68502,
+          10.77694
+        ]
+      },
+      "properties": {
+        "address": "10 đường Lê Ngô Cát phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0385"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68466,
+          10.77677
+        ]
+      },
+      "properties": {
+        "address": "11-11B đường Lê Ngô Cát phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0386"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.76913,
+          10.84384
+        ]
+      },
+      "properties": {
+        "address": "6 đường Khổng Tử phường Bình Thọ quận Thủ Đức Thành phố Hồ Chí Minh",
+        "id": "SG0387"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.76802,
+          10.84382
+        ]
+      },
+      "properties": {
+        "address": "7 đường Khổng Tử phường Bình Thọ quận Thủ Đức Thành phố Hồ Chí Minh",
+        "id": "SG0388"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.76829,
+          10.84441
+        ]
+      },
+      "properties": {
+        "address": "10 đường Khổng Tử phường Bình Thọ quận Thủ Đức Thành phố Hồ Chí Minh",
+        "id": "SG0389"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.76709,
+          10.84462
+        ]
+      },
+      "properties": {
+        "address": "13 đường Khổng Tử phường Bình Thọ quận Thủ Đức Thành phố Hồ Chí Minh",
+        "id": "SG0390"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.76769,
+          10.84478
+        ]
+      },
+      "properties": {
+        "address": "18 đường Khổng Tử phường Bình Thọ quận Thủ Đức Thành phố Hồ Chí Minh",
+        "id": "SG0391"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.76749,
+          10.84483
+        ]
+      },
+      "properties": {
+        "address": "20 đường Khổng Tử phường Bình Thọ quận Thủ Đức Thành phố Hồ Chí Minh",
+        "id": "SG0392"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.76699,
+          10.84507
+        ]
+      },
+      "properties": {
+        "address": "22 đường Khổng Tử phường Bình Thọ quận Thủ Đức Thành phố Hồ Chí Minh",
+        "id": "SG0393"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.76664,
+          10.84514
+        ]
+      },
+      "properties": {
+        "address": "24 đường Khổng Tử phường Bình Thọ quận Thủ Đức Thành phố Hồ Chí Minh",
+        "id": "SG0394"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.76622,
+          10.84549
+        ]
+      },
+      "properties": {
+        "address": "26 đường Khổng Tử phường Bình Thọ quận Thủ Đức Thành phố Hồ Chí Minh",
+        "id": "SG0395"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.76722,
+          10.84424
+        ]
+      },
+      "properties": {
+        "address": "11  đường Khổng Tử phường Bình Thọ quận Thủ Đức Thành phố Hồ Chí Minh",
+        "id": "SG0396"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68916,
+          10.78824
+        ]
+      },
+      "properties": {
+        "address": "11 đường Huỳnh Tịnh Của phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0397"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69632,
+          10.79031
+        ]
+      },
+      "properties": {
+        "address": "26 đường Huỳnh Khương Ninh phường Đa Kao quận 1 Thành phố Hồ Chí Minh",
+        "id": "SG0398"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.76817,
+          10.84156
+        ]
+      },
+      "properties": {
+        "address": "2 đường Hồng Đức phường Bình Thọ quận Thủ Đức Thành phố Hồ Chí Minh",
+        "id": "SG0399"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.76752,
+          10.84237
+        ]
+      },
+      "properties": {
+        "address": "6 đường Hồng Đức phường Bình Thọ quận Thủ Đức Thành phố Hồ Chí Minh",
+        "id": "SG0400"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.76645,
+          10.84303
+        ]
+      },
+      "properties": {
+        "address": "16 đường Hồng Đức phường Bình Thọ quận Thủ Đức Thành phố Hồ Chí Minh",
+        "id": "SG0401"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.76602,
+          10.84328
+        ]
+      },
+      "properties": {
+        "address": "18 đường Hồng Đức phường Bình Thọ quận Thủ Đức Thành phố Hồ Chí Minh",
+        "id": "SG0402"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.76698,
+          10.84257
+        ]
+      },
+      "properties": {
+        "address": "10-12 đường Hồng Đức phường Bình Thọ quận Thủ Đức Thành phố Hồ Chí Minh",
+        "id": "SG0403"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.65717,
+          10.75414
+        ]
+      },
+      "properties": {
+        "address": "399 đường Hồng Bàng phường 14 quận 5 Thành phố Hồ Chí Minh",
+        "id": "SG0404"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6447,
+          10.7538
+        ]
+      },
+      "properties": {
+        "address": "763 đường Hồng Bàng phường 6 quận 6 Thành phố Hồ Chí Minh",
+        "id": "SG0405"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68763,
+          10.77626
+        ]
+      },
+      "properties": {
+        "address": "57 đường Hồ Xuân Hương phường 6 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0406"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68708,
+          10.77595
+        ]
+      },
+      "properties": {
+        "address": "65 đường Hồ Xuân Hương phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0407"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68903,
+          10.77784
+        ]
+      },
+      "properties": {
+        "address": "7-9 đường Hồ Xuân Hương phường 6 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0408"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69294,
+          10.76098
+        ]
+      },
+      "properties": {
+        "address": "32H đường Hồ Hảo Hớn phường Cô Giang quận 1 Thành phố Hồ Chí Minh",
+        "id": "SG0409"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69186,
+          10.7616
+        ]
+      },
+      "properties": {
+        "address": "53E đường Hồ Hảo Hớn phường Cô Giang quận 1 Thành phố Hồ Chí Minh",
+        "id": "SG0410"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.67647,
+          10.79369
+        ]
+      },
+      "properties": {
+        "address": "26/1 đường Hồ Biểu Chánh phường 11 quận Phú Nhuận Thành phố Hồ Chí Minh",
+        "id": "SG0411"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.76573,
+          10.84131
+        ]
+      },
+      "properties": {
+        "address": "01-03 đường Hòa Bình phường Bình Thọ quận Thủ Đức Thành phố Hồ Chí Minh",
+        "id": "SG0412"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69837,
+          10.77905
+        ]
+      },
+      "properties": {
+        "address": "7 đường Hàn Thuyên phường Bến Nghé quận 1 Thành phố Hồ Chí Minh",
+        "id": "SG0413"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.77029,
+          10.84617
+        ]
+      },
+      "properties": {
+        "address": "2 đường Hàn Thuyên phường Bình Thọ quận Thủ Đức Thành phố Hồ Chí Minh",
+        "id": "SG0414"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.70225,
+          10.77863
+        ]
+      },
+      "properties": {
+        "address": "113 đường Hai Bà Trưng phường Bến Nghé quận 1 Thành phố Hồ Chí Minh",
+        "id": "SG0415"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.70113,
+          10.77991
+        ]
+      },
+      "properties": {
+        "address": "115 đường Hai Bà Trưng phường Bến Nghé quận 1 Thành phố Hồ Chí Minh",
+        "id": "SG0416"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69716,
+          10.78342
+        ]
+      },
+      "properties": {
+        "address": "149 đường Hai Bà Trưng phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0417"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69584,
+          10.78499
+        ]
+      },
+      "properties": {
+        "address": "156 đường Hai Bà Trưng phường Đa Kao quận 1 Thành phố Hồ Chí Minh",
+        "id": "SG0418"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.696,
+          10.78513
+        ]
+      },
+      "properties": {
+        "address": "158 đường Hai Bà Trưng phường Đa Kao quận 1 Thành phố Hồ Chí Minh",
+        "id": "SG0419"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69555,
+          10.7854
+        ]
+      },
+      "properties": {
+        "address": "168 đường Hai Bà Trưng phường Đa Kao quận 1 Thành phố Hồ Chí Minh",
+        "id": "SG0420"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69479,
+          10.78598
+        ]
+      },
+      "properties": {
+        "address": "176 đường Hai Bà Trưng phường Đa Kao quận 1 Thành phố Hồ Chí Minh",
+        "id": "SG0421"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69448,
+          10.78601
+        ]
+      },
+      "properties": {
+        "address": "178 đường Hai Bà Trưng phường Đa Kao quận 1 Thành phố Hồ Chí Minh",
+        "id": "SG0422"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69433,
+          10.78617
+        ]
+      },
+      "properties": {
+        "address": "180 đường Hai Bà Trưng phường Đa Kao quận 1 Thành phố Hồ Chí Minh",
+        "id": "SG0423"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69692,
+          10.78299
+        ]
+      },
+      "properties": {
+        "address": "151A-151B đường Hai Bà Trưng phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0424"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69476,
+          10.78566
+        ]
+      },
+      "properties": {
+        "address": "178A&B đường Hai Bà Trưng phường Đa Kao quận 1 Thành phố Hồ Chí Minh",
+        "id": "SG0425"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69457,
+          10.78636
+        ]
+      },
+      "properties": {
+        "address": "180C đường Hai Bà Trưng phường Đa Kao quận 1 Thành phố Hồ Chí Minh",
+        "id": "SG0426"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69468,
+          10.78664
+        ]
+      },
+      "properties": {
+        "address": "180D đường Hai Bà Trưng phường Đa Kao quận 1 Thành phố Hồ Chí Minh",
+        "id": "SG0427"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.76675,
+          10.84352
+        ]
+      },
+      "properties": {
+        "address": "15 đường Einstein phường Bình Thọ quận Thủ Đức Thành phố Hồ Chí Minh",
+        "id": "SG0428"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.76547,
+          10.84435
+        ]
+      },
+      "properties": {
+        "address": "25 đường Einstein phường Bình Thọ quận Thủ Đức Thành phố Hồ Chí Minh",
+        "id": "SG0429"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.71079,
+          10.83159
+        ]
+      },
+      "properties": {
+        "address": "30 đường Đường số 9 phường Hiệp Bình Chánh quận Thủ Đức Thành phố Hồ Chí Minh",
+        "id": "SG0430"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.74806,
+          10.8497
+        ]
+      },
+      "properties": {
+        "address": "6 đường Đường số 32 phường Linh Đông quận Thủ Đức Thành phố Hồ Chí Minh",
+        "id": "SG0431"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.73102,
+          10.84816
+        ]
+      },
+      "properties": {
+        "address": "24 đường Đường số 11 phường Hiệp Bình Chánh quận Thủ Đức Thành phố Hồ Chí Minh",
+        "id": "SG0432"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.73048,
+          10.82832
+        ]
+      },
+      "properties": {
+        "address": "210/17 đường Đường số 11 phường Hiệp Bình Chánh quận Thủ Đức Thành phố Hồ Chí Minh",
+        "id": "SG0433"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.76809,
+          10.84692
+        ]
+      },
+      "properties": {
+        "address": "9 đường Đoàn Kết phường Bình Thọ quận Thủ Đức Thành phố Hồ Chí Minh",
+        "id": "SG0434"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.76869,
+          10.84797
+        ]
+      },
+      "properties": {
+        "address": "26 đường Đoàn Kết phường Bình Thọ quận Thủ Đức Thành phố Hồ Chí Minh",
+        "id": "SG0435"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.76876,
+          10.84944
+        ]
+      },
+      "properties": {
+        "address": "36 đường Đoàn Kết phường Bình Thọ quận Thủ Đức Thành phố Hồ Chí Minh",
+        "id": "SG0436"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69912,
+          10.78907
+        ]
+      },
+      "properties": {
+        "address": "38 đường Đinh Tiên Hoàng phường Đa Kao quận 1 Thành phố Hồ Chí Minh",
+        "id": "SG0437"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6991,
+          10.78919
+        ]
+      },
+      "properties": {
+        "address": "38C đường Đinh Tiên Hoàng phường Đa Kao quận 1 Thành phố Hồ Chí Minh",
+        "id": "SG0438"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69178,
+          10.79022
+        ]
+      },
+      "properties": {
+        "address": "16 đường Đinh Công Tráng phường Tân Định quận 1 Thành phố Hồ Chí Minh",
+        "id": "SG0439"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69229,
+          10.78449
+        ]
+      },
+      "properties": {
+        "address": "213 đường Điện Biên Phủ phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0440"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69,
+          10.78286
+        ]
+      },
+      "properties": {
+        "address": "214 đường Điện Biên Phủ phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0441"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68677,
+          10.77978
+        ]
+      },
+      "properties": {
+        "address": "254 đường Điện Biên Phủ phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0442"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6864,
+          10.77939
+        ]
+      },
+      "properties": {
+        "address": "260 đường Điện Biên Phủ phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0443"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69373,
+          10.78591
+        ]
+      },
+      "properties": {
+        "address": "195 đường Điện Biên Phủ phường 6 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0444"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68646,
+          10.77947
+        ]
+      },
+      "properties": {
+        "address": "260A đường Điện Biên Phủ phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0445"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.67893,
+          10.77212
+        ]
+      },
+      "properties": {
+        "address": "262A&C đường Điện Biên Phủ phường 7 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0446"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68998,
+          10.78288
+        ]
+      },
+      "properties": {
+        "address": "216B đường Điện Biên Phủ phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0447"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69254,
+          10.7855
+        ]
+      },
+      "properties": {
+        "address": "170 đường Điện Biên Phủ phường 6 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0448"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69181,
+          10.78509
+        ]
+      },
+      "properties": {
+        "address": "178 đường Điện Biên Phủ phường 6 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0449"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69201,
+          10.7849
+        ]
+      },
+      "properties": {
+        "address": "180 đường Điện Biên Phủ phường 6 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0450"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69558,
+          10.78839
+        ]
+      },
+      "properties": {
+        "address": "200 đường Điện Biên Phủ phường 7 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0451"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69558,
+          10.78839
+        ]
+      },
+      "properties": {
+        "address": "202 đường Điện Biên Phủ phường 7 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0452"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69016,
+          10.78296
+        ]
+      },
+      "properties": {
+        "address": "206 đường Điện Biên Phủ phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0453"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69007,
+          10.78303
+        ]
+      },
+      "properties": {
+        "address": "208 đường Điện Biên Phủ phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0454"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69235,
+          10.78489
+        ]
+      },
+      "properties": {
+        "address": "209 đường Điện Biên Phủ phường 6 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0455"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69009,
+          10.7829
+        ]
+      },
+      "properties": {
+        "address": "210 đường Điện Biên Phủ phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0456"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69227,
+          10.78483
+        ]
+      },
+      "properties": {
+        "address": "211 đường Điện Biên Phủ phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0457"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69003,
+          10.7829
+        ]
+      },
+      "properties": {
+        "address": "212 đường Điện Biên Phủ phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0458"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69558,
+          10.78839
+        ]
+      },
+      "properties": {
+        "address": "226 đường Điện Biên Phủ phường 7 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0459"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69558,
+          10.78839
+        ]
+      },
+      "properties": {
+        "address": "228 đường Điện Biên Phủ phường 7 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0460"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68804,
+          10.78103
+        ]
+      },
+      "properties": {
+        "address": "234 đường Điện Biên Phủ phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0461"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69558,
+          10.78839
+        ]
+      },
+      "properties": {
+        "address": "236 đường Điện Biên Phủ phường 7 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0462"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68779,
+          10.7808
+        ]
+      },
+      "properties": {
+        "address": "238 đường Điện Biên Phủ phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0463"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68777,
+          10.78075
+        ]
+      },
+      "properties": {
+        "address": "240 đường Điện Biên Phủ phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0464"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68748,
+          10.78046
+        ]
+      },
+      "properties": {
+        "address": "244 đường Điện Biên Phủ phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0465"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68696,
+          10.78003
+        ]
+      },
+      "properties": {
+        "address": "250 đường Điện Biên Phủ phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0466"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69558,
+          10.78839
+        ]
+      },
+      "properties": {
+        "address": "251 đường Điện Biên Phủ phường 7 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0467"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68678,
+          10.77989
+        ]
+      },
+      "properties": {
+        "address": "252 đường Điện Biên Phủ phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0468"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68833,
+          10.78069
+        ]
+      },
+      "properties": {
+        "address": "265 đường Điện Biên Phủ phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0469"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69558,
+          10.78839
+        ]
+      },
+      "properties": {
+        "address": "267 đường Điện Biên Phủ phường 7 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0470"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.67895,
+          10.77254
+        ]
+      },
+      "properties": {
+        "address": "269 đường Điện Biên Phủ phường 7 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0471"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69558,
+          10.78839
+        ]
+      },
+      "properties": {
+        "address": "273 đường Điện Biên Phủ phường 7 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0472"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69558,
+          10.78839
+        ]
+      },
+      "properties": {
+        "address": "283 đường Điện Biên Phủ phường 7 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0473"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68417,
+          10.77747
+        ]
+      },
+      "properties": {
+        "address": "288 đường Điện Biên Phủ phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0474"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68423,
+          10.77731
+        ]
+      },
+      "properties": {
+        "address": "290 đường Điện Biên Phủ phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0475"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69558,
+          10.78839
+        ]
+      },
+      "properties": {
+        "address": "292 đường Điện Biên Phủ phường 7 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0476"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68373,
+          10.77695
+        ]
+      },
+      "properties": {
+        "address": "300 đường Điện Biên Phủ phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0477"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68022,
+          10.77345
+        ]
+      },
+      "properties": {
+        "address": "387 đường Điện Biên Phủ phường 4 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0478"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69343,
+          10.78591
+        ]
+      },
+      "properties": {
+        "address": "Hẻm 197/2 đường Điện Biên Phủ phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0479"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69015,
+          10.78301
+        ]
+      },
+      "properties": {
+        "address": "204D đường Điện Biên Phủ phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0480"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69235,
+          10.78471
+        ]
+      },
+      "properties": {
+        "address": "211A đường Điện Biên Phủ phường 6 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0481"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69227,
+          10.78483
+        ]
+      },
+      "properties": {
+        "address": "211 đường Điện Biên Phủ phường 6 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0482"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68964,
+          10.78319
+        ]
+      },
+      "properties": {
+        "address": "Hẻm 216/3 đường Điện Biên Phủ phường 7 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0483"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68964,
+          10.78319
+        ]
+      },
+      "properties": {
+        "address": "Hẻm 216/5 đường Điện Biên Phủ phường 7 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0484"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68962,
+          10.783
+        ]
+      },
+      "properties": {
+        "address": "216D đường Điện Biên Phủ phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0485"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69558,
+          10.78839
+        ]
+      },
+      "properties": {
+        "address": "228B đường Điện Biên Phủ phường 7 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0486"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68666,
+          10.77963
+        ]
+      },
+      "properties": {
+        "address": "Hẻm 256/2 đường Điện Biên Phủ phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0487"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.67887,
+          10.77218
+        ]
+      },
+      "properties": {
+        "address": "Hẻm 258/3 đường Điện Biên Phủ phường 7 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0488"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69558,
+          10.78839
+        ]
+      },
+      "properties": {
+        "address": "258 đường Điện Biên Phủ phường 7 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0489"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68812,
+          10.78034
+        ]
+      },
+      "properties": {
+        "address": "Hẻm 267/2  đường Điện Biên Phủ phường 7 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0490"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.76464,
+          10.8415
+        ]
+      },
+      "properties": {
+        "address": "46 đường Đặng Văn Bi phường Bình Thọ quận Thủ Đức Thành phố Hồ Chí Minh",
+        "id": "SG0491"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.66551,
+          10.75485
+        ]
+      },
+      "properties": {
+        "address": "20 đường Đặng Thái Thân phường 11 quận 5 Thành phố Hồ Chí Minh",
+        "id": "SG0492"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.66561,
+          10.75491
+        ]
+      },
+      "properties": {
+        "address": "18/1 đường Đặng Thái Thân phường 11 quận 5 Thành phố Hồ Chí Minh",
+        "id": "SG0493"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68934,
+          10.79294
+        ]
+      },
+      "properties": {
+        "address": "5 đường Đặng Tất phường Tân Định quận 1 Thành phố Hồ Chí Minh",
+        "id": "SG0494"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68891,
+          10.79192
+        ]
+      },
+      "properties": {
+        "address": "89 đường Đặng Dung phường Tân Định quận 1 Thành phố Hồ Chí Minh",
+        "id": "SG0495"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69057,
+          10.76325
+        ]
+      },
+      "properties": {
+        "address": "19D đường Cống Quỳnh phường Nguyễn Cư Trinh quận 1 Thành phố Hồ Chí Minh",
+        "id": "SG0496"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.76661,
+          10.84453
+        ]
+      },
+      "properties": {
+        "address": "14 đường Công Lý phường Bình Thọ quận Thủ Đức Thành phố Hồ Chí Minh",
+        "id": "SG0497"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7674,
+          10.84587
+        ]
+      },
+      "properties": {
+        "address": "17 đường Công Lý phường Bình Thọ quận Thủ Đức Thành phố Hồ Chí Minh",
+        "id": "SG0498"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.76762,
+          10.84678
+        ]
+      },
+      "properties": {
+        "address": "23 đường Công Lý phường Bình Thọ quận Thủ Đức Thành phố Hồ Chí Minh",
+        "id": "SG0499"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.76754,
+          10.84691
+        ]
+      },
+      "properties": {
+        "address": "25 đường Công Lý phường Bình Thọ quận Thủ Đức Thành phố Hồ Chí Minh",
+        "id": "SG0500"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.76783,
+          10.84717
+        ]
+      },
+      "properties": {
+        "address": "27 đường Công Lý phường Bình Thọ quận Thủ Đức Thành phố Hồ Chí Minh",
+        "id": "SG0501"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.76788,
+          10.84731
+        ]
+      },
+      "properties": {
+        "address": "29 đường Công Lý phường Bình Thọ quận Thủ Đức Thành phố Hồ Chí Minh",
+        "id": "SG0502"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69332,
+          10.76399
+        ]
+      },
+      "properties": {
+        "address": "208 đường Cô Giang phường Cô Giang quận 1 Thành phố Hồ Chí Minh",
+        "id": "SG0503"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69336,
+          10.76118
+        ]
+      },
+      "properties": {
+        "address": "Hẻm 187/10 đường Cô Giang phường Cô Giang quận 1 Thành phố Hồ Chí Minh",
+        "id": "SG0504"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69344,
+          10.76136
+        ]
+      },
+      "properties": {
+        "address": "Hẻm 187/3 đường Cô Giang phường Cô Giang quận 1 Thành phố Hồ Chí Minh",
+        "id": "SG0505"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.76962,
+          10.84893
+        ]
+      },
+      "properties": {
+        "address": "2 đường Chân Lý phường Bình Thọ quận Thủ Đức Thành phố Hồ Chí Minh",
+        "id": "SG0506"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.73745,
+          10.8588
+        ]
+      },
+      "properties": {
+        "address": "23 đường Cây Keo phường Tam Phú quận Thủ Đức Thành phố Hồ Chí Minh",
+        "id": "SG0507"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68252,
+          10.76952
+        ]
+      },
+      "properties": {
+        "address": "29 đường Cao Thắng phường 2 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0508"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68157,
+          10.77028
+        ]
+      },
+      "properties": {
+        "address": "53 đường Cao Thắng phường 3 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0509"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68139,
+          10.77106
+        ]
+      },
+      "properties": {
+        "address": "84 đường Cao Thắng phường 5 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0510"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68405,
+          10.7688
+        ]
+      },
+      "properties": {
+        "address": "Hẻm 2/1 đường Cao Thắng phường 5 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0511"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68415,
+          10.76921
+        ]
+      },
+      "properties": {
+        "address": "Hẻm 2/10 đường Cao Thắng phường 5 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0512"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68454,
+          10.76902
+        ]
+      },
+      "properties": {
+        "address": "Hẻm 2/12 đường Cao Thắng phường 5 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0513"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68472,
+          10.76971
+        ]
+      },
+      "properties": {
+        "address": "Hẻm 2/22 đường Cao Thắng phường 5 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0514"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68477,
+          10.76971
+        ]
+      },
+      "properties": {
+        "address": "Hẻm 2/23 đường Cao Thắng phường 5 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0515"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68533,
+          10.77041
+        ]
+      },
+      "properties": {
+        "address": "Hẻm 2/37 đường Cao Thắng phường 5 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0516"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68558,
+          10.77048
+        ]
+      },
+      "properties": {
+        "address": "Hẻm 2/41 đường Cao Thắng phường 5 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0517"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68565,
+          10.77064
+        ]
+      },
+      "properties": {
+        "address": "Hẻm 2/45 đường Cao Thắng phường 5 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0518"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68596,
+          10.77097
+        ]
+      },
+      "properties": {
+        "address": "Hẻm 2/48 đường Cao Thắng phường 5 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0519"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68271,
+          10.76927
+        ]
+      },
+      "properties": {
+        "address": "29A đường Cao Thắng phường 2 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0520"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68189,
+          10.77048
+        ]
+      },
+      "properties": {
+        "address": "84A đường Cao Thắng phường 5 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0521"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68041,
+          10.77888
+        ]
+      },
+      "properties": {
+        "address": "Hẻm 134/1 số 28 đường Cách Mạng Tháng Tám phường 10 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0522"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69054,
+          10.77345
+        ]
+      },
+      "properties": {
+        "address": "16 đường Cách Mạng Tháng Tám phường Bến Thành quận 1 Thành phố Hồ Chí Minh",
+        "id": "SG0523"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.65772,
+          10.7907
+        ]
+      },
+      "properties": {
+        "address": "124 đường Cách Mạng Tháng Tám phường 7 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0524"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.65772,
+          10.7907
+        ]
+      },
+      "properties": {
+        "address": "126 đường Cách Mạng Tháng Tám phường 7 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0525"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68419,
+          10.77665
+        ]
+      },
+      "properties": {
+        "address": "112 đường Cách Mạng Tháng 8 phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0526"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68458,
+          10.77601
+        ]
+      },
+      "properties": {
+        "address": "205 đường Cách Mạng Tháng 8 phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0527"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6929,
+          10.75958
+        ]
+      },
+      "properties": {
+        "address": "262 đường Bến Chương Dương phường Cô Giang quận 1 Thành phố Hồ Chí Minh",
+        "id": "SG0528"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.76576,
+          10.84602
+        ]
+      },
+      "properties": {
+        "address": "15 đường Bác Ái phường Bình Thọ quận Thủ Đức Thành phố Hồ Chí Minh",
+        "id": "SG0529"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.76575,
+          10.84504
+        ]
+      },
+      "properties": {
+        "address": "25 đường Bác Ái phường Bình Thọ quận Thủ Đức Thành phố Hồ Chí Minh",
+        "id": "SG0530"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.76718,
+          10.84802
+        ]
+      },
+      "properties": {
+        "address": "43 đường Bác Ái phường Bình Thọ quận Thủ Đức Thành phố Hồ Chí Minh",
+        "id": "SG0531"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.76707,
+          10.84827
+        ]
+      },
+      "properties": {
+        "address": "45 đường Bác Ái phường Bình Thọ quận Thủ Đức Thành phố Hồ Chí Minh",
+        "id": "SG0532"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68938,
+          10.77608
+        ]
+      },
+      "properties": {
+        "address": "12 đường Bà Huyện Thanh Quan phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0533"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68935,
+          10.77618
+        ]
+      },
+      "properties": {
+        "address": "14 đường Bà Huyện Thanh Quan phường 6 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0534"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68933,
+          10.77626
+        ]
+      },
+      "properties": {
+        "address": "16 đường Bà Huyện Thanh Quan phường 6 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0535"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68886,
+          10.77662
+        ]
+      },
+      "properties": {
+        "address": "20 đường Bà Huyện Thanh Quan phường 6 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0536"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68882,
+          10.77668
+        ]
+      },
+      "properties": {
+        "address": "22 đường Bà Huyện Thanh Quan phường 6 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0537"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6887,
+          10.77669
+        ]
+      },
+      "properties": {
+        "address": "24 đường Bà Huyện Thanh Quan phường 6 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0538"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68867,
+          10.77679
+        ]
+      },
+      "properties": {
+        "address": "26 đường Bà Huyện Thanh Quan phường 6 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0539"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68837,
+          10.77703
+        ]
+      },
+      "properties": {
+        "address": "30 đường Bà Huyện Thanh Quan phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0540"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68832,
+          10.77711
+        ]
+      },
+      "properties": {
+        "address": "36 đường Bà Huyện Thanh Quan phường 6 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0541"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68589,
+          10.77969
+        ]
+      },
+      "properties": {
+        "address": "56 đường Bà Huyện Thanh Quan phường 6 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0542"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68557,
+          10.77947
+        ]
+      },
+      "properties": {
+        "address": "58 đường Bà Huyện Thanh Quan phường 7 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0543"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6855,
+          10.77949
+        ]
+      },
+      "properties": {
+        "address": "60 đường Bà Huyện Thanh Quan phường 7 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0544"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68457,
+          10.77977
+        ]
+      },
+      "properties": {
+        "address": "64 đường Bà Huyện Thanh Quan phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0545"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68278,
+          10.78116
+        ]
+      },
+      "properties": {
+        "address": "78 đường Bà Huyện Thanh Quan phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0546"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68873,
+          10.77679
+        ]
+      },
+      "properties": {
+        "address": "127 đường Bà Huyện Thanh Quan phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0547"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68943,
+          10.77599
+        ]
+      },
+      "properties": {
+        "address": "12B đường Bà Huyện Thanh Quan phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0548"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69029,
+          10.77531
+        ]
+      },
+      "properties": {
+        "address": "2 đường Bà Huyện Thanh Quan phường 6 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0549"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68618,
+          10.7792
+        ]
+      },
+      "properties": {
+        "address": "54B đường Bà Huyện Thanh Quan phường 6 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0550"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69612,
+          10.77914
+        ]
+      },
+      "properties": {
+        "address": "16 đường Alexandre De Rhodes phường Bến Nghé quận 1 Thành phố Hồ Chí Minh",
+        "id": "SG0551"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69655,
+          10.7796
+        ]
+      },
+      "properties": {
+        "address": "8 đường Alexandre De Rhodes phường Bến Nghé quận 1 Thành phố Hồ Chí Minh",
+        "id": "SG0552"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68843,
+          10.78123
+        ]
+      },
+      "properties": {
+        "address": "224A-B đường Điện Biên Phủ phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0553"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68872,
+          10.78278
+        ]
+      },
+      "properties": {
+        "address": "17 đường Tú Xương phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0554"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68624,
+          10.78189
+        ]
+      },
+      "properties": {
+        "address": "179 đường Võ Thị Sáu phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0555"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68949,
+          10.77242
+        ]
+      },
+      "properties": {
+        "address": "70 đường Sương Nguyệt Ánh phường Bến Thành quận 1 Thành phố Hồ Chí Minh",
+        "id": "SG0556"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68934,
+          10.77247
+        ]
+      },
+      "properties": {
+        "address": "72 đường Sương Nguyệt Ánh phường Bến Thành quận 1 Thành phố Hồ Chí Minh",
+        "id": "SG0557"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6891,
+          10.77207
+        ]
+      },
+      "properties": {
+        "address": "90 đường Sương Nguyệt Ánh phường Bến Thành quận 1 Thành phố Hồ Chí Minh",
+        "id": "SG0558"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.67848,
+          10.77319
+        ]
+      },
+      "properties": {
+        "address": "45506 đường Cao Thắng phường 5 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0559"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68503,
+          10.76996
+        ]
+      },
+      "properties": {
+        "address": "2/32 đường Cao Thắng phường 5 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0560"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6917,
+          10.78462
+        ]
+      },
+      "properties": {
+        "address": "182 đường Điện Biên Phủ phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0561"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68486,
+          10.77742
+        ]
+      },
+      "properties": {
+        "address": "299 đường Điện Biên Phủ phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0562"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68835,
+          10.78325
+        ]
+      },
+      "properties": {
+        "address": "45 đường Lê Quý Đôn phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0563"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.70935,
+          10.79515
+        ]
+      },
+      "properties": {
+        "address": "151 đường Xô Viết Nghệ Tĩnh phường 17 quận Bình Thạnh Thành phố Hồ Chí Minh",
+        "id": "SG0564"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.67573,
+          10.79476
+        ]
+      },
+      "properties": {
+        "address": "155 đường Nguyễn Văn Trỗi phường 11 quận Phú Nhuận Thành phố Hồ Chí Minh",
+        "id": "SG0565"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.67865,
+          10.7551
+        ]
+      },
+      "properties": {
+        "address": "608 đường Trần Hưng Đạo  phường 2 quận 5 Thành phố Hồ Chí Minh",
+        "id": "SG0566"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.67869,
+          10.75491
+        ]
+      },
+      "properties": {
+        "address": "610 đường Trần Hưng Đạo  phường 2 quận 5 Thành phố Hồ Chí Minh",
+        "id": "SG0567"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.67865,
+          10.75484
+        ]
+      },
+      "properties": {
+        "address": "614 đường Trần Hưng Đạo  phường 2 quận 5 Thành phố Hồ Chí Minh",
+        "id": "SG0568"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.67817,
+          10.75679
+        ]
+      },
+      "properties": {
+        "address": "89 đường Lê Hồng Phong phường 2 quận 5 Thành phố Hồ Chí Minh",
+        "id": "SG0569"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.67884,
+          10.75497
+        ]
+      },
+      "properties": {
+        "address": "91 đường Lê Hồng Phong phường 2 quận 5 Thành phố Hồ Chí Minh",
+        "id": "SG0570"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.67879,
+          10.75503
+        ]
+      },
+      "properties": {
+        "address": "93 đường Lê Hồng Phong phường 2 quận 5 Thành phố Hồ Chí Minh",
+        "id": "SG0571"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.67878,
+          10.75509
+        ]
+      },
+      "properties": {
+        "address": "97 đường Lê Hồng Phong phường 2 quận 5 Thành phố Hồ Chí Minh",
+        "id": "SG0572"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.67816,
+          10.75686
+        ]
+      },
+      "properties": {
+        "address": "101 đường Lê Hồng Phong phường 2 quận 5 Thành phố Hồ Chí Minh",
+        "id": "SG0573"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.67877,
+          10.75521
+        ]
+      },
+      "properties": {
+        "address": "103 đường Lê Hồng Phong phường 2 quận 5 Thành phố Hồ Chí Minh",
+        "id": "SG0574"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.67814,
+          10.75685
+        ]
+      },
+      "properties": {
+        "address": "105 đường Lê Hồng Phong phường 2 quận 5 Thành phố Hồ Chí Minh",
+        "id": "SG0575"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.67814,
+          10.75685
+        ]
+      },
+      "properties": {
+        "address": "107 đường Lê Hồng Phong phường 2 quận 5 Thành phố Hồ Chí Minh",
+        "id": "SG0576"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.67816,
+          10.75686
+        ]
+      },
+      "properties": {
+        "address": "101/1 đường Lê Hồng Phong phường 2 quận 5 Thành phố Hồ Chí Minh",
+        "id": "SG0577"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.67816,
+          10.75686
+        ]
+      },
+      "properties": {
+        "address": "101/3 đường Lê Hồng Phong phường 2 quận 5 Thành phố Hồ Chí Minh",
+        "id": "SG0578"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.67816,
+          10.75686
+        ]
+      },
+      "properties": {
+        "address": "101/4 đường Lê Hồng Phong phường 2 quận 5 Thành phố Hồ Chí Minh",
+        "id": "SG0579"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68866,
+          10.78198
+        ]
+      },
+      "properties": {
+        "address": "224A-224B đường Điện Biên Phủ phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0580"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68843,
+          10.78123
+        ]
+      },
+      "properties": {
+        "address": "262ABC đường Điện Biên Phủ phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0581"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.67848,
+          10.77319
+        ]
+      },
+      "properties": {
+        "address": "45871 đường Cao Thắng phường 5 quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0582"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.688,
+          10.7883
+        ]
+      },
+      "properties": {
+        "address": "27/7A đường Huỳnh Tịnh Của phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0583"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68765,
+          10.78892
+        ]
+      },
+      "properties": {
+        "address": "39 đường Huỳnh Tịnh Của phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0584"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.687,
+          10.78951
+        ]
+      },
+      "properties": {
+        "address": "67 đường Huỳnh Tịnh Của phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0585"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68682,
+          10.78271
+        ]
+      },
+      "properties": {
+        "address": "126BC đường Trần Quốc Thảo phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0586"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68128,
+          10.78644
+        ]
+      },
+      "properties": {
+        "address": "162/6B đường Lê Văn Sỹ phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0587"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68412,
+          10.7781
+        ]
+      },
+      "properties": {
+        "address": "39 đường Nguyễn Thông phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0588"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69325,
+          10.78455
+        ]
+      },
+      "properties": {
+        "address": "41/1 đường Phạm Ngọc Thạch phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0589"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69314,
+          10.78449
+        ]
+      },
+      "properties": {
+        "address": "41/3-41/4 đường Phạm Ngọc Thạch phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0590"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68708,
+          10.78496
+        ]
+      },
+      "properties": {
+        "address": "99 đường Trần Quốc Toản phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0591"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68698,
+          10.785
+        ]
+      },
+      "properties": {
+        "address": "97 đường Trần Quốc Toản phường Võ Thị Sáu quận 3 Thành phố Hồ Chí Minh",
+        "id": "SG0592"
+      }
+    }
+  ]
+}

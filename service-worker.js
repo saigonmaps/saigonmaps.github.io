@@ -1,4 +1,4 @@
-const CACHE_NAME = "hanoi-main-map-cache-v1";
+const CACHE_NAME = "saigon-main-map-cache-v1";
 const urlsToCache = [
   "/",
   "/index.html",
