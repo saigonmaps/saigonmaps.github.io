@@ -21,7 +21,7 @@
     </div>
 
     <div id="top-right-controls">
-      <!-- Street View Button will be injected here by app.js -->
+      <!-- Controls will be injected here if needed -->
     </div>
 
     <div id="opacity-slider-wrapper">
@@ -36,7 +36,7 @@
       />
     </div>
 
-    <!-- Image Lightbox -->
+    <!-- Image Lightbox (Logic currently commented out in app.js) -->
     <div id="img-lightbox">
       <button id="img-lightbox-close" aria-label="Close Lightbox">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M18 6L6 18M6 6l12 12"/></svg>
@@ -51,16 +51,5 @@
     </div>
 
     <script type="module" src="app.js"></script>
-    <script>
-      // Service worker for caching
-      if ("serviceWorker" in navigator) {
-        window.addEventListener("load", () => {
-          navigator.serviceWorker
-            .register("/service-worker.js")
-            .then(() => console.log("Service Worker registered."))
-            .catch((err) => console.error("Service Worker failed:", err));
-        });
-      }
-    </script>
   </body>
 </html>

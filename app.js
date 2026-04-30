@@ -4,16 +4,16 @@ import {
   StyleSwitcherControl,
   modifyBaseStyle,
   setupKeyboardControls,
-  createPopupHTML,
-  initPopupCarousel,
-  POPUP_OFFSET,
-  FLY_TO_OFFSET,
+  // createPopupHTML,
+  // initPopupCarousel,
+  // POPUP_OFFSET,
+  // FLY_TO_OFFSET,
 } from "./shared.js";
 
 // --- 1. CONSTANTS ---
 // TODO: Update these paths when you have your GeoJSON files ready
-const GEOJSON_PATH = "saigon_streets.geojson";
-const BUILDINGS_GEOJSON_PATH = "saigon_buildings.geojson";
+// const GEOJSON_PATH = "saigon_streets.geojson";
+// const BUILDINGS_GEOJSON_PATH = "saigon_buildings.geojson";
 
 let streetData = null;
 let buildingData = null;
@@ -53,6 +53,11 @@ const mapData = [
       106.63986717020128, 10.72754518476272, 106.72452232633253,
       10.80500557574007,
     ],
+  },
+  {
+    year: "1963",
+    title: "1963",
+    extent: [106.62514593895938, 10.71911876657395, 106.72711331429993, 10.84730018915248],
   },
   {
     year: "1964",
@@ -116,28 +121,15 @@ map.on("load", () => {
     document.body.appendChild(topRightControls);
   }
 
-  const streetBtn = document.createElement("button");
-  streetBtn.id = "street-view-btn";
-  streetBtn.title = "Toggle Street View (P)";
-  streetBtn.innerHTML = `
-    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="style-switcher-icon">
-      <path d="M4 3h16a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1h-5l-3 3-3-3H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1z" stroke-linecap="round"/>
-      <rect x="7" y="7" width="10" height="2" fill="black" stroke="none"/>
-      <rect x="7" y="11" width="6" height="2" fill="black" stroke="none"/>
-    </svg>
-  `;
-  topRightControls.insertBefore(streetBtn, topRightControls.firstChild);
-
   setupMapLayers();
 
   if (mapData.length > 0) {
     map.fitBounds(mapData[0].extent, { padding: 50, duration: 0 });
   }
 
-  map.addControl(
-    new maplibregl.NavigationControl({ showCompass: false }),
-    "top-left"
-  );
+  // Restore NavigationControl with compass enabled (rotating maps icon)
+  map.addControl(new maplibregl.NavigationControl(), "top-left");
+
   map.addControl(
     new maplibregl.GeolocateControl({
       positionOptions: { enableHighAccuracy: true },
@@ -146,156 +138,33 @@ map.on("load", () => {
     "top-left"
   );
 
-  const styleSwitcher = new StyleSwitcherControl({
-    streets: STREETS_STYLE,
-    satellite: SATELLITE_HYBRID_STYLE,
-  });
+  const styleSwitcher = new StyleSwitcherControl(
+    { streets: STREETS_STYLE, satellite: SATELLITE_HYBRID_STYLE },
+    () => {
+      symbolLayerIds = map
+        .getStyle()
+        .layers.filter((layer) => layer.type === "symbol")
+        .map((layer) => layer.id);
+      modifyBaseStyle(map);
+      const year = layerSelect.value;
+      loadHistoricLayer(year);
+      map.setLayoutProperty(`historic-${year}`, "visibility", "visible");
+      changeOpacity();
+    }
+  );
   map.addControl(styleSwitcher, "top-left");
 
   map.addControl(
     new maplibregl.AttributionControl({
       customAttribution:
-        '<a href="https://github.com/saigonmaps/saigonmaps.github.io" target="_blank" style="text-decoration: underline">Saigon Maps</a>',
+        '<a href="https://threads.com/@tomeyinhanoi" target="_blank" style="text-decoration: underline">By Tomey</a>',
       compact: true,
     }),
     "bottom-left"
   );
 
   setupKeyboardControls(map, layerSelect, opacitySlider, styleSwitcher);
-
-  // TODO: Add fetch logic for GeoJSONs here when files are ready
-
-  streetBtn.addEventListener("click", () => {
-    isStreetViewActive = !isStreetViewActive;
-    streetBtn.classList.toggle("active", isStreetViewActive);
-    const visibility = isStreetViewActive ? "visible" : "none";
-    [
-      "streets-line",
-      "streets-line-hit-area",
-      "buildings-fill",
-      "buildings-outline",
-      "buildings-fill-hit-area",
-    ].forEach((layerId) => {
-      if (map.getLayer(layerId))
-        map.setLayoutProperty(layerId, "visibility", visibility);
-    });
-    if (!isStreetViewActive) {
-      if (window.currentPopup) {
-        window.currentPopup.remove();
-        window.currentPopup = null;
-      }
-      clearSelection();
-    }
-  });
-
-  map.on(
-    "mouseenter",
-    "streets-line-hit-area",
-    () => (map.getCanvas().style.cursor = "pointer")
-  );
-  map.on(
-    "mouseleave",
-    "streets-line-hit-area",
-    () => (map.getCanvas().style.cursor = "")
-  );
-  map.on(
-    "mouseenter",
-    "buildings-fill-hit-area",
-    () => (map.getCanvas().style.cursor = "pointer")
-  );
-  map.on(
-    "mouseleave",
-    "buildings-fill-hit-area",
-    () => (map.getCanvas().style.cursor = "")
-  );
-
-  map.on("click", (e) => {
-    const hitLayers = [];
-    if (map.getLayer("streets-line-hit-area"))
-      hitLayers.push("streets-line-hit-area");
-    if (map.getLayer("buildings-fill-hit-area"))
-      hitLayers.push("buildings-fill-hit-area");
-    const features = hitLayers.length
-      ? map.queryRenderedFeatures(e.point, { layers: hitLayers })
-      : [];
-    if (!features.length) {
-      clearSelection();
-      if (window.currentPopup) {
-        window.currentPopup.remove();
-        window.currentPopup = null;
-      }
-    }
-  });
-
-  map.on("click", "streets-line-hit-area", (e) =>
-    handleFeatureClick(e, "osm-streets", "selectedStreetId")
-  );
-  map.on("click", "buildings-fill-hit-area", (e) =>
-    handleFeatureClick(e, "osm-buildings", "selectedBuildingId")
-  );
 });
-
-function handleFeatureClick(e, source, idVar) {
-  if (e.features.length > 0) {
-    const feature = e.features[0];
-    const newId = feature.id;
-    map.flyTo({
-      center: e.lngLat,
-      duration: 900,
-      curve: 1.42,
-      essential: true,
-      offset: FLY_TO_OFFSET,
-    });
-    clearSelection();
-    if (source === "osm-streets") selectedStreetId = newId;
-    else selectedBuildingId = newId;
-    map.setFeatureState({ source, id: newId }, { selected: true });
-    showPopupForFeature(feature, e.lngLat);
-  }
-}
-
-function clearSelection() {
-  if (selectedStreetId !== null && map.getSource("osm-streets")) {
-    map.setFeatureState(
-      { source: "osm-streets", id: selectedStreetId },
-      { selected: false }
-    );
-    selectedStreetId = null;
-  }
-  if (selectedBuildingId !== null && map.getSource("osm-buildings")) {
-    map.setFeatureState(
-      { source: "osm-buildings", id: selectedBuildingId },
-      { selected: false }
-    );
-    selectedBuildingId = null;
-  }
-}
-
-map.on("styledata", () => {
-  setTimeout(() => {
-    setupMapLayers();
-    applyLayerVisibility();
-    changeOpacity();
-  }, 50);
-});
-
-layerSelect.addEventListener("change", changeHistoricLayer);
-opacitySlider.addEventListener("input", changeOpacity);
-
-function showPopupForFeature(feature, lngLat) {
-  if (window.currentPopup) window.currentPopup.remove();
-  const contentHtml = createPopupHTML(feature.properties);
-  window.currentPopup = new maplibregl.Popup({
-    maxWidth: "340px",
-    closeButton: false,
-    anchor: "bottom",
-    offset: POPUP_OFFSET,
-  })
-    .setLngLat(lngLat)
-    .setHTML(contentHtml)
-    .addTo(map);
-  setTimeout(initPopupCarousel, 100);
-}
 
 function setupMapLayers() {
   symbolLayerIds = map
@@ -303,8 +172,6 @@ function setupMapLayers() {
     .layers.filter((layer) => layer.type === "symbol")
     .map((layer) => layer.id);
   modifyBaseStyle(map);
-  setupBuildingLayers();
-  setupStreetLayers();
 
   if (mapData.length > 0) {
     const selectedYear = layerSelect.value || mapData[0].year;
@@ -321,11 +188,14 @@ function loadHistoricLayer(year) {
     .layers.find((l) => l.type === "symbol")?.id;
   map.addSource(`historic-${data.year}`, {
     type: "raster",
-    tiles: [`/tiles/${data.year}/{z}/{x}/{y}.webp`],
+    // Restore Cloudflare R2 tiles URL
+    tiles: [
+      `https://pub-866936cf194140d79d9f7a415b98d490.r2.dev/tiles/${data.year}/{z}/{x}/{y}.png`,
+    ],
     scheme: "tms",
     tileSize: 256,
-    minzoom: data.minzoom || minZoomLevel,
-    maxzoom: data.maxzoom || 18,
+    minzoom: minZoomLevel,
+    maxzoom: 18,
     bounds: data.extent,
   });
   map.addLayer(
@@ -338,62 +208,6 @@ function loadHistoricLayer(year) {
     },
     firstSymbolId
   );
-}
-
-function setupBuildingLayers() {
-  if (!buildingData) return;
-  if (!map.getSource("osm-buildings"))
-    map.addSource("osm-buildings", { type: "geojson", data: buildingData });
-  else map.getSource("osm-buildings").setData(buildingData);
-  const firstSymbolId = map
-    .getStyle()
-    .layers.find((l) => l.type === "symbol")?.id;
-  const visibility = isStreetViewActive ? "visible" : "none";
-  if (!map.getLayer("buildings-fill")) {
-    map.addLayer(
-      {
-        id: "buildings-fill",
-        type: "fill",
-        source: "osm-buildings",
-        layout: { visibility },
-        paint: {
-          "fill-color": ["coalesce", ["get", "building:colour"], "#B9A973"],
-          "fill-opacity": [
-            "case",
-            ["boolean", ["feature-state", "selected"], false],
-            0.8,
-            0.55,
-          ],
-        },
-      },
-      firstSymbolId
-    );
-  }
-}
-
-function setupStreetLayers() {
-  if (!streetData) return;
-  if (!map.getSource("osm-streets"))
-    map.addSource("osm-streets", { type: "geojson", data: streetData });
-  const visibility = isStreetViewActive ? "visible" : "none";
-  if (!map.getLayer("streets-line")) {
-    map.addLayer({
-      id: "streets-line",
-      type: "line",
-      source: "osm-streets",
-      layout: { visibility, "line-cap": "round", "line-join": "round" },
-      paint: {
-        "line-color": [
-          "case",
-          ["boolean", ["feature-state", "selected"], false],
-          "#292991",
-          "#4d94ff",
-        ],
-        "line-width": ["interpolate", ["linear"], ["zoom"], 12, 2, 16, 6],
-        "line-opacity": 0.8,
-      },
-    });
-  }
 }
 
 function applyLayerVisibility() {
@@ -423,9 +237,20 @@ function changeOpacity() {
     if (map.getLayer(`historic-${data.year}`))
       map.setPaintProperty(`historic-${data.year}`, "raster-opacity", opacity);
   });
-  const symbolsVisible = opacity >= 0.85 ? "none" : "visible";
+  const symbolsVisible = opacity >= 0.8 ? "none" : "visible";
   symbolLayerIds.forEach((id) => {
     if (map.getLayer(id))
       map.setLayoutProperty(id, "visibility", symbolsVisible);
   });
 }
+
+layerSelect.addEventListener("change", changeHistoricLayer);
+opacitySlider.addEventListener("input", changeOpacity);
+
+// Populate dropdown
+mapData.forEach((data) => {
+  const option = document.createElement("option");
+  option.value = data.year;
+  option.textContent = data.title;
+  layerSelect.appendChild(option);
+});
