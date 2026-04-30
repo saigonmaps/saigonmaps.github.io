@@ -1,5 +1,5 @@
 add_id.js
 preprocess.js
 data.csv
-get_extent.js
+# get_extent.js
 tiles/
