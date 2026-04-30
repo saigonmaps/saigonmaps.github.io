@@ -85,10 +85,11 @@ export const SATELLITE_HYBRID_STYLE = {
 };
 
 export class StyleSwitcherControl {
-  constructor(styles) {
+  constructor(styles, onStyleLoad) {
     this._streets = styles.streets;
     this._satellite = styles.satellite;
     this._isSatellite = false;
+    this._onStyleLoad = onStyleLoad;
   }
 
   onAdd(map) {
@@ -145,8 +146,8 @@ export class StyleSwitcherControl {
     this.updateButton();
 
     const newStyleUrl = this._isSatellite ? this._satellite : this._streets;
-
     this._map.setStyle(newStyleUrl);
+    this._map.once("styledata", () => this._onStyleLoad?.());
   }
 
   onRemove() {
