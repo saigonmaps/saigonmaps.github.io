@@ -97,6 +97,7 @@ const mapData = [
     ],
   },
     { year: "1898", title: "1898", extent: [106.67486292097790, 10.75455970087413, 106.72512243898761, 10.79995555587477] },
+    { year: "1935", title: "1935", extent: [106.62654046003418, 10.71252416151775, 106.73007855949243, 10.81139969635581] },
 ];
 
 const minZoomLevel = 12;
@@ -253,8 +254,9 @@ function changeOpacity() {
 layerSelect.addEventListener("change", changeHistoricLayer);
 opacitySlider.addEventListener("input", changeOpacity);
 
-// Populate dropdown
-mapData.forEach((data) => {
+// Populate dropdown (sorted by year, smallest to largest)
+const sortedMapData = [...mapData].sort((a, b) => parseInt(a.year) - parseInt(b.year));
+sortedMapData.forEach((data) => {
   const option = document.createElement("option");
   option.value = data.year;
   option.textContent = data.title;
