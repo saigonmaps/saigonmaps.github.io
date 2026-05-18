@@ -221,7 +221,7 @@ export function setupKeyboardControls(
   map,
   layerSelect,
   opacitySlider,
-  styleSwitcher
+  styleSwitcher,
 ) {
   document.addEventListener("keydown", (event) => {
     const activeEl = document.activeElement;
@@ -230,6 +230,9 @@ export function setupKeyboardControls(
       (activeEl.tagName === "TEXTAREA" ||
         (activeEl.tagName === "INPUT" && activeEl.type === "text"))
     ) {
+      return;
+    }
+    if (event.metaKey || event.ctrlKey) {
       return;
     }
     const panAmount = 100;
@@ -248,7 +251,6 @@ export function setupKeyboardControls(
         } else {
           select.selectedIndex = select.options.length - 1;
         }
-        layerSelect.dispatchEvent(new Event("change"));
         break;
       }
 
@@ -260,6 +262,11 @@ export function setupKeyboardControls(
         } else {
           select.selectedIndex = 0;
         }
+        break;
+      }
+
+      case "Enter": {
+        event.preventDefault();
         layerSelect.dispatchEvent(new Event("change"));
         break;
       }
@@ -268,7 +275,7 @@ export function setupKeyboardControls(
         event.preventDefault();
         const slider = opacitySlider;
         let value = parseFloat(slider.value);
-        value = Math.min(1.0, value + 0.1);
+        value = Math.min(1.0, value + parseFloat(slider.step));
         slider.value = value.toFixed(1);
         slider.dispatchEvent(new Event("input"));
         break;
@@ -278,7 +285,7 @@ export function setupKeyboardControls(
         event.preventDefault();
         const slider = opacitySlider;
         let value = parseFloat(slider.value);
-        value = Math.max(0.0, value - 0.1);
+        value = Math.max(0.0, value - parseFloat(slider.step));
         slider.value = value.toFixed(1);
         slider.dispatchEvent(new Event("input"));
         break;
@@ -298,34 +305,43 @@ export function setupKeyboardControls(
       }
 
       case "i":
-      case "w": {
+      case "I":
+      case "w":
+      case "W": {
         event.preventDefault();
         map.panBy([0, -panAmount], { duration: 100 });
         break;
       }
 
       case "k":
-      case "s": {
+      case "K":
+      case "s":
+      case "S": {
         event.preventDefault();
         map.panBy([0, panAmount], { duration: 100 });
         break;
       }
 
       case "a":
-      case "j": {
+      case "A":
+      case "j":
+      case "J": {
         event.preventDefault();
         map.panBy([-panAmount, 0], { duration: 100 });
         break;
       }
 
       case "l":
-      case "d": {
+      case "L":
+      case "d":
+      case "D": {
         event.preventDefault();
         map.panBy([panAmount, 0], { duration: 100 });
         break;
       }
 
-      case "p": {
+      case "p":
+      case "P": {
         const streetBtn = document.getElementById("street-view-btn");
         if (streetBtn) {
           streetBtn.click();
@@ -335,213 +351,3 @@ export function setupKeyboardControls(
     }
   });
 }
-export const POPUP_OFFSET = [0, -10];
-export const FLY_TO_OFFSET = [0, 120];
-
-export function createPopupHTML(props) {
-  let mediaList =
-    props.media ||
-    props.all_media_urls ||
-    (props.media_url ? [props.media_url] : []);
-  if (typeof mediaList === "string") {
-    try {
-      mediaList = JSON.parse(mediaList);
-    } catch (e) {
-      if (mediaList.startsWith("media/"))
-        mediaList = [{ media_url: mediaList }];
-    }
-  }
-
-  mediaList = Array.isArray(mediaList)
-    ? mediaList.map((m) => (typeof m === "string" ? { media_url: m } : m))
-    : [];
-
-  const totalSlides = 1 + mediaList.length;
-
-  let headerHtml = "";
-  if (props.timestamp || props.text) {
-    const dateObject = props.timestamp ? new Date(props.timestamp) : new Date();
-    const dateString = `${String(dateObject.getDate()).padStart(
-      2,
-      "0"
-    )}/${String(dateObject.getMonth() + 1).padStart(
-      2,
-      "0"
-    )}/${dateObject.getFullYear()}`;
-    headerHtml = `
-      <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 10px;">
-        <div style="width: 36px; height: 36px; border-radius: 50%; overflow: hidden; background: #eee; flex-shrink: 0; border: 1px solid rgba(0,0,0,0.05);">
-          <!-- TODO: Update your avatar path -->
-          <img src="/ava.jpg" style="width: 100%; height: 100%; object-fit: cover;" onerror="this.src='https://ui-avatars.com/api/?name=S&background=random'">
-        </div>
-        <div style="overflow: hidden;">
-          <div class="popup-title" style="margin-bottom: 0; font-size: 15px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">@saigonmaps</div>
-          <div class="popup-subtitle" style="margin-bottom: 0; font-size: 12px; color: #999;">${dateString}</div>
-        </div>
-      </div>
-    `;
-  } else {
-    headerHtml = `
-      <div class="popup-title">${
-        props.french_name || props.address || props.name || "Unknown Location"
-      }</div>
-      ${
-        props.french_name || props.address
-          ? `<div class="popup-subtitle">${
-              props.name || props.french_address || ""
-            }</div>`
-          : ""
-      }
-    `;
-  }
-
-  const descriptionSlide = `
-    <div class="popup-carousel-slide" style="flex:0 0 100%;width:100%;height:100%;scroll-snap-align:start;overflow-y:auto;box-sizing:border-box;">
-      <div class="description-text">${(
-        props.description ||
-        props.text ||
-        "No description available."
-      ).replace(
-        /(<b>(?:Các lần đổi tên):<\/b>.*)/i,
-        '<span class="name-change">$1</span>'
-      )}</div>
-      ${
-        props.type
-          ? `<div style="font-size:12px; margin-top:8px; color:#666;">Nhóm: ${props.type}</div>`
-          : ""
-      }
-      ${
-        props.permalink
-          ? `<div style="margin-top:12px;"><a href="${props.permalink}" target="_blank" style="color:#0095f6; text-decoration:none; font-size:13px; font-weight:600;">Xem trên Threads &rarr;</a></div>`
-          : ""
-      }
-    </div>
-  `;
-
-  const imageSlides = mediaList
-    .map(
-      (m, index) => `
-    <div class="popup-carousel-slide image-slide">
-      <img src="${
-        m.media_url.startsWith("/") || m.media_url.startsWith("http") ? "" : "/"
-      }${m.media_url}" loading="lazy">
-      <div class="popup-img-tap-zone" onclick='openLightbox(${JSON.stringify(
-        mediaList.map((item) => item.media_url)
-      )}, ${index})'></div>
-    </div>`
-    )
-    .join("");
-
-  return `
-    <div class="popup-container">
-      <div class="popup-header">${headerHtml}</div>
-      <div class="popup-carousel-container">
-        <div class="popup-carousel-wrapper" onscroll="updateCarouselButtons(this)">
-          ${descriptionSlide}
-          ${imageSlides}
-        </div>
-        ${
-          totalSlides > 1
-            ? `
-          <button class="carousel-nav-btn prev" style="display:none;" onclick="moveCarousel(this,-1)">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M15 18l-6-6 6-6"/></svg>
-          </button>
-          <button class="carousel-nav-btn next" style="display:flex;" onclick="moveCarousel(this,1)">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M9 18l6-6-6-6"/></svg>
-          </button>
-        `
-            : ""
-        }
-      </div>
-    </div>
-  `;
-}
-
-export function initPopupCarousel() {
-  const wrapper = document.querySelector(".popup-carousel-wrapper");
-  if (wrapper) updateCarouselButtons(wrapper);
-}
-
-// --- LIGHTBOX LOGIC ---
-let currentLightboxImages = [];
-let currentLightboxIndex = 0;
-
-window.openLightbox = (images, index) => {
-  currentLightboxImages = images;
-  currentLightboxIndex = index;
-  const lightbox = document.getElementById("img-lightbox");
-  if (!lightbox) return;
-
-  lightbox.classList.add("open");
-  updateLightboxImage();
-  document.body.style.overflow = "hidden";
-};
-
-window.closeLightbox = () => {
-  const lightbox = document.getElementById("img-lightbox");
-  if (lightbox) lightbox.classList.remove("open");
-  document.body.style.overflow = "";
-};
-
-window.moveLightbox = (direction) => {
-  currentLightboxIndex =
-    (currentLightboxIndex + direction + currentLightboxImages.length) %
-    currentLightboxImages.length;
-  updateLightboxImage();
-};
-
-function updateLightboxImage() {
-  const img = document.getElementById("img-lightbox-img");
-  const prevBtn = document.getElementById("img-lightbox-prev");
-  const nextBtn = document.getElementById("img-lightbox-next");
-  if (!img) return;
-
-  const url = currentLightboxImages[currentLightboxIndex];
-  img.src = url.startsWith("/") || url.startsWith("http") ? url : "/" + url;
-
-  if (prevBtn && nextBtn) {
-    prevBtn.style.display = currentLightboxImages.length > 1 ? "flex" : "none";
-    nextBtn.style.display = currentLightboxImages.length > 1 ? "flex" : "none";
-  }
-}
-
-window.moveCarousel = (btn, direction) => {
-  const container = btn.parentElement.querySelector(".popup-carousel-wrapper");
-  if (container) {
-    const slideWidth = container.offsetWidth;
-    container.scrollBy({
-      left: direction * slideWidth,
-      behavior: "smooth",
-    });
-  }
-};
-
-window.updateCarouselButtons = (container) => {
-  const prevBtn = container.parentElement.querySelector(
-    ".carousel-nav-btn.prev"
-  );
-  const nextBtn = container.parentElement.querySelector(
-    ".carousel-nav-btn.next"
-  );
-  if (!prevBtn || !nextBtn) return;
-  const scrollLeft = container.scrollLeft;
-  const maxScroll = container.scrollWidth - container.offsetWidth;
-  prevBtn.style.display = scrollLeft <= 5 ? "none" : "flex";
-  nextBtn.style.display = scrollLeft >= maxScroll - 5 ? "none" : "flex";
-};
-
-document.addEventListener("DOMContentLoaded", () => {
-  const closeBtn = document.getElementById("img-lightbox-close");
-  const prevBtn = document.getElementById("img-lightbox-prev");
-  const nextBtn = document.getElementById("img-lightbox-next");
-  const lightbox = document.getElementById("img-lightbox");
-
-  if (closeBtn) closeBtn.onclick = window.closeLightbox;
-  if (prevBtn) prevBtn.onclick = () => window.moveLightbox(-1);
-  if (nextBtn) nextBtn.onclick = () => window.moveLightbox(1);
-  if (lightbox) {
-    lightbox.onclick = (e) => {
-      if (e.target === lightbox) window.closeLightbox();
-    };
-  }
-});
