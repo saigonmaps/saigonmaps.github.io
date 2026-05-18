@@ -4,22 +4,9 @@ import {
   StyleSwitcherControl,
   modifyBaseStyle,
   setupKeyboardControls,
-  // createPopupHTML,
-  // initPopupCarousel,
-  // POPUP_OFFSET,
-  // FLY_TO_OFFSET,
 } from "./shared.js";
 
 // --- 1. CONSTANTS ---
-// TODO: Update these paths when you have your GeoJSON files ready
-// const GEOJSON_PATH = "saigon_streets.geojson";
-// const BUILDINGS_GEOJSON_PATH = "saigon_buildings.geojson";
-
-let streetData = null;
-let buildingData = null;
-let isStreetViewActive = false;
-let selectedStreetId = null;
-let selectedBuildingId = null;
 
 const mapData = [
   {
@@ -49,7 +36,10 @@ const mapData = [
   {
     year: "1923",
     title: "1923",
-    extent: [106.60892762283467, 10.69890009927918, 106.73468874540568, 10.80690287815901],
+    extent: [
+      106.60892762283467, 10.69890009927918, 106.73468874540568,
+      10.80690287815901,
+    ],
   },
   {
     year: "1960",
@@ -62,7 +52,10 @@ const mapData = [
   {
     year: "1963",
     title: "1963",
-    extent: [106.62514593895938, 10.71911876657395, 106.72711331429993, 10.84730018915248],
+    extent: [
+      106.62514593895938, 10.71911876657395, 106.72711331429993,
+      10.84730018915248,
+    ],
   },
   {
     year: "1964",
@@ -96,15 +89,78 @@ const mapData = [
       10.84086140486104,
     ],
   },
-    { year: "1898", title: "1898", extent: [106.67486292097790, 10.75455970087413, 106.72512243898761, 10.79995555587477] },
-    { year: "1935", title: "1935", extent: [106.62654046003418, 10.71252416151775, 106.73007855949243, 10.81139969635581] },
-    { year: "1942", title: "1942", extent: [106.60585854117896, 10.70585963658603, 106.74599361955148, 10.79908630481296] },
-    { year: "1947", title: "1947", extent: [106.61390687259990, 10.70309779817302, 106.72984389269691, 10.80190754977686] },
-    { year: "1867", title: "1867", extent: [106.67712000180096, 10.75076052726249, 106.72026303464581, 10.80775625921822] },
-    { year: "1890", title: "1890", extent: [106.64444972024987, 10.73454741194546, 106.73586452277483, 10.82198577249812] },
-    { year: "1900", title: "1900", extent: [106.68128509796892, 10.75693129906108, 106.71984731892108, 10.80228566153856] },
-    { year: "1866", title: "1866", extent: [106.69132363202537, 10.75160139367789, 106.72504792762645, 10.79953991472363] },
-    { year: "1921", title: "1921", extent: [106.66622814020415, 10.74794110175467, 106.72501527035836, 10.80008496328281] },
+  {
+    year: "1898",
+    title: "1898",
+    extent: [
+      106.6748629209779, 10.75455970087413, 106.72512243898761,
+      10.79995555587477,
+    ],
+  },
+  {
+    year: "1935",
+    title: "1935",
+    extent: [
+      106.62654046003418, 10.71252416151775, 106.73007855949243,
+      10.81139969635581,
+    ],
+  },
+  {
+    year: "1942",
+    title: "1942",
+    extent: [
+      106.60585854117896, 10.70585963658603, 106.74599361955148,
+      10.79908630481296,
+    ],
+  },
+  {
+    year: "1947",
+    title: "1947",
+    extent: [
+      106.6139068725999, 10.70309779817302, 106.72984389269691,
+      10.80190754977686,
+    ],
+  },
+  {
+    year: "1867",
+    title: "1867",
+    extent: [
+      106.67712000180096, 10.75076052726249, 106.72026303464581,
+      10.80775625921822,
+    ],
+  },
+  {
+    year: "1890",
+    title: "1890",
+    extent: [
+      106.64444972024987, 10.73454741194546, 106.73586452277483,
+      10.82198577249812,
+    ],
+  },
+  {
+    year: "1900",
+    title: "1900",
+    extent: [
+      106.68128509796892, 10.75693129906108, 106.71984731892108,
+      10.80228566153856,
+    ],
+  },
+  {
+    year: "1866",
+    title: "1866",
+    extent: [
+      106.69132363202537, 10.75160139367789, 106.72504792762645,
+      10.79953991472363,
+    ],
+  },
+  {
+    year: "1921",
+    title: "1921",
+    extent: [
+      106.66622814020415, 10.74794110175467, 106.72501527035836,
+      10.80008496328281,
+    ],
+  },
 ];
 
 const minZoomLevel = 12;
@@ -141,7 +197,6 @@ map.on("load", () => {
     map.fitBounds(mapData[0].extent, { padding: 50, duration: 0 });
   }
 
-  // Restore NavigationControl with compass enabled (rotating maps icon)
   map.addControl(new maplibregl.NavigationControl(), "top-left");
 
   map.addControl(
@@ -202,7 +257,6 @@ function loadHistoricLayer(year) {
     .layers.find((l) => l.type === "symbol")?.id;
   map.addSource(`historic-${data.year}`, {
     type: "raster",
-    // Restore Cloudflare R2 tiles URL
     tiles: [
       `https://pub-866936cf194140d79d9f7a415b98d490.r2.dev/tiles/${data.year}/{z}/{x}/{y}.png`,
     ],
@@ -261,11 +315,19 @@ function changeOpacity() {
 layerSelect.addEventListener("change", changeHistoricLayer);
 opacitySlider.addEventListener("input", changeOpacity);
 
-// Populate dropdown (sorted by year, smallest to largest)
-const sortedMapData = [...mapData].sort((a, b) => parseInt(a.year) - parseInt(b.year));
+const sortedMapData = [...mapData].sort(
+  (a, b) => parseInt(a.year) - parseInt(b.year)
+);
 sortedMapData.forEach((data) => {
   const option = document.createElement("option");
   option.value = data.year;
   option.textContent = data.title;
   layerSelect.appendChild(option);
 });
+
+const setSelectWidth = () => {
+  const len = layerSelect.options[layerSelect.selectedIndex]?.text.length || 4;
+  layerSelect.style.width = `${(len + 1) * 10}px`;
+};
+setSelectWidth();
+layerSelect.addEventListener("change", setSelectWidth);
