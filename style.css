@@ -25,7 +25,7 @@ body {
   top: 10px;
   right: 10px;
   background: white;
-  padding: 5px;
+  padding: 6px 8px;
   border-radius: 8px;
   border: 1px solid #ccc;
   z-index: 1000;
@@ -41,6 +41,10 @@ body {
   outline: none;
   cursor: pointer;
   color: #000;
+  text-align: center;
+  text-align-last: center;
+  padding: 0 2px;
+  box-sizing: content-box;
 }
 
 #opacity-slider {
@@ -53,39 +57,6 @@ body {
   background: transparent;
   transform: translateY(-50%) rotate(-90deg);
   transform-origin: center;
-}
-
-/* Style Switcher Button */
-.maplibregl-ctrl-group .style-switcher-button,
-#street-view-btn {
-  width: 29px;
-  height: 29px;
-  background-color: #fff;
-  border: 1px solid #ccc;
-  cursor: pointer;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 0;
-  border-radius: 4px;
-}
-
-.maplibregl-ctrl-group .style-switcher-button .style-switcher-icon,
-#street-view-btn .style-switcher-icon {
-  width: 18px;
-  height: 18px;
-  filter: invert(0%);
-  transition: filter 0.3s ease;
-}
-
-.maplibregl-ctrl-group .style-switcher-button.is-satellite .style-switcher-icon,
-#street-view-btn.active .style-switcher-icon {
-  filter: invert(100%);
-}
-
-.maplibregl-ctrl-group .style-switcher-button.is-satellite,
-#street-view-btn.active {
-  background-color: rgba(30, 30, 30);
 }
 
 #top-right-controls {
