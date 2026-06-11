@@ -1,7 +1,9 @@
 import {
   STREETS_STYLE,
   SATELLITE_HYBRID_STYLE,
+  ExpandableMenuControl,
   StyleSwitcherControl,
+  createSiteNavPanel,
   modifyBaseStyle,
   setupKeyboardControls,
 } from "./shared.js";
@@ -197,7 +199,10 @@ map.on("load", () => {
     map.fitBounds(mapData[0].extent, { padding: 50, duration: 0 });
   }
 
-  map.addControl(new maplibregl.NavigationControl(), "top-left");
+  const topNavMenuControl = new ExpandableMenuControl(
+    createSiteNavPanel("maps")
+  );
+  map.addControl(topNavMenuControl, "top-left");
 
   map.addControl(
     new maplibregl.GeolocateControl({
@@ -233,6 +238,10 @@ map.on("load", () => {
   );
 
   setupKeyboardControls(map, layerSelect, opacitySlider, styleSwitcher);
+
+  map.on("click", () => {
+    topNavMenuControl.close();
+  });
 });
 
 function setupMapLayers() {
@@ -296,7 +305,9 @@ function changeHistoricLayer() {
   loadHistoricLayer(selectedYear);
   applyLayerVisibility();
   const selectedMap = mapData.find((data) => data.year === selectedYear);
-  if (selectedMap) map.fitBounds(selectedMap.extent, { padding: 50 });
+  if (selectedMap) {
+    map.fitBounds(selectedMap.extent, { padding: 50 });
+  }
 }
 
 function changeOpacity() {
@@ -311,14 +322,10 @@ function changeOpacity() {
       map.setLayoutProperty(id, "visibility", symbolsVisible);
   });
 }
-
 layerSelect.addEventListener("change", changeHistoricLayer);
 opacitySlider.addEventListener("input", changeOpacity);
 
-const sortedMapData = [...mapData].sort(
-  (a, b) => parseInt(a.year) - parseInt(b.year)
-);
-sortedMapData.forEach((data) => {
+mapData.forEach((data) => {
   const option = document.createElement("option");
   option.value = data.year;
   option.textContent = data.title;
