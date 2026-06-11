@@ -1,0 +1,57 @@
+a {
+  color: inherit;
+}
+
+.maplibregl-popup-content {
+  background-color: white;
+  color: #222;
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  padding: 12px;
+  gap: 4px;
+  max-width: 240px;
+}
+
+.maplibregl-popup-anchor-bottom .maplibregl-popup-tip {
+  border-top-color: white;
+}
+
+.villa-popup-addr {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.villa-popup-type {
+  color: #666;
+  font-size: 13px;
+  margin-bottom: 4px;
+  display: inline-block;
+}
+
+.villa-popup-link {
+  color: #0066cc;
+  font-size: 13px;
+  margin-top: 4px;
+  padding-top: 4px;
+  border-top: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+}
+
+.villa-popup-descriptions {
+  max-height: 150px;
+  overflow-y: auto;
+}
+
+.villa-popup-descriptions > div + div {
+  margin-top: 8px;
+  padding-top: 8px;
+  border-top: 1px dashed #ddd;
+}
+
+.villa-popup-link a {
+  color: inherit;
+  text-decoration: none;
+}

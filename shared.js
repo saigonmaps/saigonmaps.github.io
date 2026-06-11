@@ -157,6 +157,17 @@ export class StyleSwitcherControl {
   }
 }
 
+export function addCompassControl(map, position = "top-left") {
+  map.addControl(
+    new maplibregl.NavigationControl({
+      showZoom: false,
+      showCompass: true,
+      visualizePitch: true,
+    }),
+    position,
+  );
+}
+
 export function createSiteNavPanel(activeKey = "maps") {
   const items = [
     { key: "maps", href: "/", label: "Maps" },
@@ -324,12 +335,20 @@ export function localizeLabels(map, lang = "vi") {
   });
 }
 
-export function setupKeyboardControls(
-  map,
-  layerSelect,
-  opacitySlider,
-  styleSwitcher,
-) {
+export function setupMapKeyboardShortcuts(options = {}) {
+  const {
+    map,
+    layerSelect,
+    opacitySlider,
+    styleSwitcher,
+    enableStyleToggle = false,
+    enableYearSwitch = false,
+    enableOpacity = false,
+    enableStreetToggle = false,
+    enablePan = false,
+    enableZoom = false,
+  } = options;
+
   document.addEventListener("keydown", (event) => {
     const activeEl = document.activeElement;
     if (
@@ -346,11 +365,14 @@ export function setupKeyboardControls(
 
     switch (event.key) {
       case "0": {
-        styleSwitcher.toggleStyle();
+        if (enableStyleToggle && styleSwitcher) {
+          styleSwitcher.toggleStyle();
+        }
         break;
       }
 
       case "ArrowLeft": {
+        if (!enableYearSwitch || !layerSelect) break;
         event.preventDefault();
         const select = layerSelect;
         if (select.selectedIndex > 0) {
@@ -362,6 +384,7 @@ export function setupKeyboardControls(
       }
 
       case "ArrowRight": {
+        if (!enableYearSwitch || !layerSelect) break;
         event.preventDefault();
         const select = layerSelect;
         if (select.selectedIndex < select.options.length - 1) {
@@ -373,12 +396,14 @@ export function setupKeyboardControls(
       }
 
       case "Enter": {
+        if (!enableYearSwitch || !layerSelect) break;
         event.preventDefault();
         layerSelect.dispatchEvent(new Event("change"));
         break;
       }
 
       case "ArrowUp": {
+        if (!enableOpacity || !opacitySlider) break;
         event.preventDefault();
         const slider = opacitySlider;
         let value = parseFloat(slider.value);
@@ -389,6 +414,7 @@ export function setupKeyboardControls(
       }
 
       case "ArrowDown": {
+        if (!enableOpacity || !opacitySlider) break;
         event.preventDefault();
         const slider = opacitySlider;
         let value = parseFloat(slider.value);
@@ -400,12 +426,14 @@ export function setupKeyboardControls(
 
       case "+":
       case "=": {
+        if (!enableZoom || !map) break;
         event.preventDefault();
         map.zoomIn();
         break;
       }
 
       case "-": {
+        if (!enableZoom || !map) break;
         event.preventDefault();
         map.zoomOut();
         break;
@@ -415,6 +443,7 @@ export function setupKeyboardControls(
       case "I":
       case "w":
       case "W": {
+        if (!enablePan || !map) break;
         event.preventDefault();
         map.panBy([0, -panAmount], { duration: 100 });
         break;
@@ -424,6 +453,7 @@ export function setupKeyboardControls(
       case "K":
       case "s":
       case "S": {
+        if (!enablePan || !map) break;
         event.preventDefault();
         map.panBy([0, panAmount], { duration: 100 });
         break;
@@ -433,6 +463,7 @@ export function setupKeyboardControls(
       case "A":
       case "j":
       case "J": {
+        if (!enablePan || !map) break;
         event.preventDefault();
         map.panBy([-panAmount, 0], { duration: 100 });
         break;
@@ -442,6 +473,7 @@ export function setupKeyboardControls(
       case "L":
       case "d":
       case "D": {
+        if (!enablePan || !map) break;
         event.preventDefault();
         map.panBy([panAmount, 0], { duration: 100 });
         break;
@@ -449,6 +481,7 @@ export function setupKeyboardControls(
 
       case "p":
       case "P": {
+        if (!enableStreetToggle) break;
         const streetBtn = document.getElementById("street-view-btn");
         if (streetBtn) {
           streetBtn.click();
@@ -456,5 +489,27 @@ export function setupKeyboardControls(
         break;
       }
     }
+  });
+}
+
+export function setupKeyboardControls(map, layerSelect, opacitySlider, styleSwitcher) {
+  setupMapKeyboardShortcuts({
+    map,
+    layerSelect,
+    opacitySlider,
+    styleSwitcher,
+    enableStyleToggle: true,
+    enableYearSwitch: true,
+    enableOpacity: true,
+    enableStreetToggle: true,
+    enablePan: true,
+    enableZoom: true,
+  });
+}
+
+export function setupStyleSwitcherHotkey(styleSwitcher) {
+  setupMapKeyboardShortcuts({
+    styleSwitcher,
+    enableStyleToggle: true,
   });
 }
