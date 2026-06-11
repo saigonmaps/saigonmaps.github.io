@@ -10,42 +10,24 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="/shared.css" />
+    <link rel="stylesheet" href="/villas/villas.css" />
     <script src="https://unpkg.com/maplibre-gl@5.9.0/dist/maplibre-gl.js"></script>
-    <style>
-      html,
-      body,
-      #map {
-        height: 100%;
-        margin: 0;
-        padding: 0;
-        font-family: sans-serif;
-      }
-      a {
-        color: inherit;
-      }
-      .maplibregl-popup-content {
-        background: rgba(30, 30, 30, 0.85);
-        color: white;
-        border: 1px solid #555;
-        backdrop-filter: blur(5px);
-        padding: 10px 15px;
-      }
-      .maplibregl-popup-anchor-bottom .maplibregl-popup-tip {
-        border-top-color: rgba(30, 30, 30, 0.85);
-      }
-    </style>
   </head>
   <body>
     <div id="map"></div>
 
     <script type="module">
       import {
+        STREETS_STYLE,
+        SATELLITE_HYBRID_STYLE,
+        StyleSwitcherControl,
+        addCompassControl,
+        setupMapKeyboardShortcuts,
         ExpandableMenuControl,
         createSiteNavPanel,
       } from "../shared.js";
 
       // --- 1. CONSTANTS ---
-      const apiKey = "8fJUltqQeAw6r7G62Ptd";
       const DATA_URL = "data.json";
       const SOURCE_ID = "villa-points-source";
       const UNCLUSTERED_LAYER_ID = "unclustered-point";
@@ -53,11 +35,12 @@
       const siteMenuControl = new ExpandableMenuControl(
         createSiteNavPanel("villas")
       );
+      let globalGeojsonData = null;
 
       // --- 2. CONFIG ---
       const map = new maplibregl.Map({
         container: "map",
-        style: `https://api.maptiler.com/maps/streets-v2/style.json?key=${apiKey}`,
+        style: STREETS_STYLE,
         center: [106.7, 10.7769],
         zoom: 12,
         maxZoom: 24,
@@ -66,6 +49,12 @@
           [107.1, 11.1],
         ],
         attributionControl: false,
+      });
+
+      map.on("styledata", () => {
+        if (globalGeojsonData && !map.getSource(SOURCE_ID)) {
+          applyCustomStylesAndLayers(globalGeojsonData);
+        }
       });
 
       // 2.1: Use 'load' for utils
@@ -79,6 +68,20 @@
           }),
           "top-left"
         );
+
+        const styleSwitcher = new StyleSwitcherControl({
+          streets: STREETS_STYLE,
+          satellite: SATELLITE_HYBRID_STYLE,
+        });
+        map.addControl(styleSwitcher, "top-left");
+        addCompassControl(map, "top-left");
+        setupMapKeyboardShortcuts({
+          map,
+          styleSwitcher,
+          enableStyleToggle: true,
+          enablePan: true,
+          enableZoom: true,
+        });
 
         map.addControl(
           new maplibregl.AttributionControl({
@@ -120,13 +123,17 @@
       // --- 3. WORKFLOW ---
       async function mainWorkflow() {
         try {
-          modifyBaseStyle(map); // 3.1
-          const geojsonData = await loadAndParseData(DATA_URL); // 3.2
-          addDataLayer(map, geojsonData); // 3.3
-          addInteractivity(map); // 3.4
+          globalGeojsonData = await loadAndParseData(DATA_URL); // 3.2
+          applyCustomStylesAndLayers(globalGeojsonData);
         } catch (error) {
           console.error("Error:", error);
         }
+      }
+
+      function applyCustomStylesAndLayers(geojsonData) {
+        modifyBaseStyle(map); // 3.1
+        addDataLayer(map, geojsonData); // 3.3
+        addInteractivity(map); // 3.4
       }
 
       // 3.1: Map styling
@@ -281,23 +288,51 @@
           const markerId = props.id;
           console.log(markerId);
           if (props?.address && coords) {
-            map.flyTo({ center: coords, zoom: map.getZoom(), speed: 0.3 });
+            if (window.currentPopup) window.currentPopup.remove();
+
+            map.flyTo({
+              center: coords,
+              offset: [0, 120],
+              zoom: map.getZoom(),
+              duration: 900,
+              curve: 1.42,
+              essential: true,
+            });
             const googleMapsUrl = `https://www.google.com/maps/place/${encodeURIComponent(
               props.address
             )}`;
+            const descriptions = props.description ? [props.description] : [];
+            const descHTML =
+              descriptions.length > 1
+                ? `<div class="villa-popup-descriptions">${descriptions.map((d) => `<div>${d}</div>`).join("")}</div>`
+                : descriptions.length === 1
+                  ? `<div>${descriptions[0]}</div>`
+                  : "";
 
             const popupHTML = `
-                  <b>${props.address}</b>
-                  <br>
-                  <a href="${googleMapsUrl}" target="_blank">
-                    Google Maps
-                  </a>
-                `;
+              <div class="villa-popup-container">
+                <div class="villa-popup-addr">${props.address}</div>
+                <div class="villa-popup-type">${props.french_address || ""}
+                  <br/><br/>
+                  <span>${descHTML}</span>
+                </div>
+                <div class="villa-popup-link">
+                  <div class="villa-popup-type">Nhóm: ${props.type || "?"}</div>
+                  <a href="${googleMapsUrl}" target="_blank">Google Maps ↗</a>
+                </div>
+              </div>
+            `;
 
-            new maplibregl.Popup({ closeButton: false, focusAfterOpen: false })
-              .setLngLat(coords) // Use coords directly
-              .setHTML(popupHTML)
-              .addTo(map);
+            setTimeout(() => {
+              window.currentPopup = new maplibregl.Popup({
+                closeButton: false,
+                focusAfterOpen: false,
+                anchor: "bottom",
+              })
+                .setLngLat(coords)
+                .setHTML(popupHTML)
+                .addTo(map);
+            }, 600);
           }
         });
 
