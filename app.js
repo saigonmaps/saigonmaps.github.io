@@ -166,6 +166,8 @@ const mapData = [
   },
 ];
 
+mapData.sort((a, b) => parseInt(a.year, 10) - parseInt(b.year, 10));
+
 const minZoomLevel = 12;
 const layerSelect = document.getElementById("layer-select");
 const opacitySlider = document.getElementById("opacity-slider");
