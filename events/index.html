@@ -1,0 +1,1319 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="manifest" href="/events/manifest.json" />
+
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta
+      name="apple-mobile-web-app-status-bar-style"
+      content="black-translucent"
+    />
+    <meta name="apple-mobile-web-app-title" content="SG Events" />
+    <link rel="apple-touch-icon" href="/events/icon-192.png" />
+
+    <meta name="theme-color" content="#222222" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no,
+    viewport-fit=cover"
+    />
+    <script>
+      if (
+        navigator.standalone ||
+        matchMedia("(display-mode: standalone)").matches
+      ) {
+        document.documentElement.classList.add("is-standalone");
+      }
+    </script>
+    <title>Saigon Maps | Events</title>
+    <meta
+      name="description"
+      content="Khám phá lịch trình, sự kiện văn hóa nghệ thuật, workshop và âm nhạc tại Sài Gòn trên bản đồ tương tác."
+    />
+
+    <!-- Open Graph / link preview -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Saigon Maps" />
+    <meta property="og:title" content="Saigon Maps — SG Events" />
+    <meta
+      property="og:description"
+      content="Khám phá lịch trình, sự kiện văn hóa nghệ thuật, workshop và âm nhạc tại Sài Gòn trên bản đồ tương tác."
+    />
+    <meta property="og:url" content="https://saigonmaps.github.io/events/" />
+    <meta
+      property="og:image"
+      content="https://saigonmaps.github.io/events/og-image.png"
+    />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta
+      property="og:image:alt"
+      content="Bản đồ sự kiện văn hóa nghệ thuật tại Sài Gòn"
+    />
+
+    <!-- Twitter card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Saigon Maps — SG Events" />
+    <meta
+      name="twitter:description"
+      content="Khám phá lịch trình, sự kiện văn hóa nghệ thuật, workshop và âm nhạc tại Sài Gòn trên bản đồ tương tác."
+    />
+    <meta
+      name="twitter:image"
+      content="https://saigonmaps.github.io/events/og-image.png"
+    />
+
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="stylesheet" href="/shared.css" />
+    <!-- <link
+      href="https://unpkg.com/maplibre-gl@^5.9.0/dist/maplibre-gl.css"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/maplibre-gl@^5.9.0/dist/maplibre-gl.js"></script> -->
+    <link
+      href="https://api.mapbox.com/mapbox-gl-js/v3.9.4/mapbox-gl.css"
+      rel="stylesheet"
+    />
+    <script src="https://api.mapbox.com/mapbox-gl-js/v3.9.4/mapbox-gl.js"></script>
+    <style>
+      html,
+      body {
+        touch-action: manipulation;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          "Helvetica Neue", Arial, sans-serif;
+        overflow: hidden;
+        background-color: #222;
+        box-sizing: border-box;
+      }
+
+      #map {
+        width: 100%;
+        height: 100%;
+        min-height: 100dvh;
+        position: fixed;
+        top: 0;
+        left: 0;
+      }
+
+      /* MAP/LIST + MONTH FILTER */
+      #view-toggle,
+      #month-toggle {
+        position: fixed;
+        left: 50%;
+        transform: translateX(-50%);
+        display: flex;
+        padding: 3px;
+        background: rgba(255, 255, 255, 0.92);
+        border-radius: 999px;
+        box-shadow: 0 2px 12px rgba(0, 0, 0, 0.18);
+        z-index: 10;
+      }
+      #view-toggle {
+        top: 12px;
+      }
+      #month-toggle {
+        top: 64px;
+      }
+      #month-toggle[hidden],
+      #list-view[hidden] {
+        display: none;
+      }
+      #view-toggle button,
+      #month-toggle button {
+        border: 0;
+        background: transparent;
+        border-radius: 999px;
+        font: inherit;
+        font-weight: 600;
+        color: #555;
+        cursor: pointer;
+      }
+      #view-toggle button {
+        padding: 8px 18px;
+        font-size: 14px;
+      }
+      #month-toggle button {
+        padding: 7px 14px;
+        font-size: 13px;
+      }
+      #view-toggle button.active,
+      #month-toggle button.active {
+        background: #1a1a1a;
+        color: #fff;
+      }
+      #list-view {
+        position: fixed;
+        inset: 0;
+        overflow-y: auto;
+        background: #222;
+        z-index: 5;
+      }
+      #list-view::before,
+      #list-view::after {
+        content: "";
+        position: fixed;
+        left: 0;
+        right: 0;
+        z-index: 8;
+        pointer-events: none;
+        backdrop-filter: blur(7px);
+      }
+      #list-view::before {
+        top: 0;
+        height: 116px;
+        background: linear-gradient(
+          #222 28%,
+          rgba(34, 34, 34, 0.82) 68%,
+          transparent
+        );
+      }
+      #list-view::after {
+        bottom: 0;
+        height: 92px;
+        background: linear-gradient(
+          transparent,
+          rgba(34, 34, 34, 0.88) 70%,
+          #222
+        );
+      }
+      #list-container {
+        --card-gap: clamp(12px, 4vw, 20px);
+        width: min(460px, calc(100% - 8px));
+        margin: 0 auto;
+        padding: 148px 6px 180px;
+        box-sizing: border-box;
+        display: flex;
+        gap: var(--card-gap);
+        align-items: flex-start;
+      }
+      .event-column {
+        flex: 1 1 0;
+        min-width: 0;
+        display: flex;
+        flex-direction: column;
+        gap: var(--card-gap);
+      }
+      .event-card {
+        width: 100%;
+      }
+      .event-card > .popup {
+        width: auto;
+        padding: 0;
+        background: transparent;
+        box-shadow: none;
+      }
+      .event-card > .popup > .popup {
+        --card-pad-x: clamp(10px, 3vw, 14px);
+        --card-pad-y: clamp(10px, 2.5vw, 12px);
+        box-sizing: border-box;
+        width: 100%;
+        padding: var(--card-pad-y) var(--card-pad-x) clamp(14px, 3.5vw, 16px);
+        border-radius: clamp(12px, 3vw, 14px);
+        overflow: hidden;
+        background: #fff;
+        color: #1a1a1a;
+        box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+      }
+      .event-card .popup-title {
+        font-size: clamp(14px, 2.7vw, 15px);
+        margin-bottom: 6px;
+      }
+      .event-card .popup-host {
+        font-size: clamp(11px, 2.2vw, 12px);
+        margin-bottom: 10px;
+      }
+      .event-card .popup-time {
+        font-size: clamp(11px, 2.2vw, 12px);
+        margin-bottom: clamp(12px, 3vw, 14px);
+      }
+      .event-card .popup-actions {
+        gap: clamp(6px, 2vw, 8px);
+      }
+      .event-card .popup-map {
+        width: clamp(28px, 7vw, 30px);
+        height: clamp(28px, 7vw, 30px);
+      }
+      .event-card .popup .popup-detail {
+        height: clamp(28px, 7vw, 30px);
+        padding: 0 clamp(10px, 3vw, 12px);
+        font-size: clamp(11px, 2.2vw, 12px);
+      }
+      .event-card .popup-thumb {
+        margin: calc(0px - var(--card-pad-y)) calc(0px - var(--card-pad-x)) 8px;
+        width: calc(100% + var(--card-pad-x) + var(--card-pad-x));
+      }
+
+      /* POPUP */
+      /* .maplibregl-popup-content  */
+      .mapboxgl-popup-content {
+        font-family: inherit;
+        background-color: #ffffff;
+        color: #1a1a1a;
+        display: flex;
+        flex-direction: column;
+        border-radius: 16px;
+        padding: 16px 18px 22px;
+        gap: 4px;
+        width: 236px;
+        overflow-y: auto;
+        box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+      }
+      /* .maplibregl-popup-anchor-bottom .maplibregl-popup-tip  */
+      .mapboxgl-popup-anchor-bottom .mapboxgl-popup-tip {
+        border-top-color: #ffffff;
+      }
+      .popup-title {
+        font-family: inherit;
+        font-size: 18px;
+        font-weight: 700;
+        margin: 0 0 8px;
+        color: #222;
+      }
+      .popup {
+        display: flex;
+        flex-direction: column;
+      }
+      .popup-thumb {
+        display: block;
+        width: auto;
+        aspect-ratio: 16 / 9;
+        object-fit: cover;
+        margin: -16px -18px 10px;
+        background: #f2f2f2;
+      }
+      .popup-host {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        max-width: 100%;
+        color: #777;
+        font-size: 14px;
+        margin-bottom: 14px;
+        text-decoration: none;
+      }
+      .popup-host span {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+      .popup-host b {
+        font-size: 17px;
+        font-weight: 400;
+      }
+      .popup-time {
+        font-size: 14px;
+        margin-bottom: 22px;
+        color: #1a1a1a;
+      }
+      .popup-actions {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+      }
+      .popup-map {
+        flex: none;
+        width: 36px;
+        height: 36px;
+        border: 1px solid #d5d5d5;
+        border-radius: 50%;
+        display: grid;
+        place-items: center;
+        background: #fff;
+      }
+      .popup-map svg {
+        width: 18px;
+        height: 18px;
+        stroke: #707784;
+        fill: none;
+        stroke-width: 1.8;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+      .popup .popup-detail {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        height: 36px;
+        padding: 0 16px;
+        border: 1px solid #d5d5d5;
+        border-radius: 999px;
+        background: transparent;
+        color: #777;
+        font-size: 14px;
+        transition: 0.15s;
+      }
+      .popup a {
+        text-decoration: none;
+        transition: 0.15s;
+      }
+      .popup a:hover {
+        opacity: 0.75;
+      }
+
+      /* PAGINATION */
+      .popup-navigation {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 10px;
+        padding-top: 8px;
+        border-top: 1px solid rgba(0, 0, 0, 0.1);
+      }
+      .popup-navigation button {
+        font: inherit;
+        background: #f2f2f2;
+        color: #1a1a1a;
+        border: none;
+        padding: 4px 8px;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      .popup-navigation button:hover {
+        background: #e8e8e8;
+      }
+      .popup-navigation button:disabled {
+        background: #f7f7f7;
+        color: #bfbfbf;
+        cursor: not-allowed;
+      }
+      .popup-pagination-counter {
+        font-size: 13px;
+        font-weight: 600;
+        color: #6b7280;
+      }
+      /* SWITCH MAP */
+      .mapboxgl-ctrl-group .style-switcher-button {
+        width: 29px;
+        height: 29px;
+        background-color: #fff;
+        border: none;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        border-radius: 4px;
+      }
+      .mapboxgl-ctrl-group .style-switcher-button .style-switcher-icon {
+        width: 18px;
+        height: 18px;
+        filter: invert(0%);
+        transition: filter 0.3s ease;
+      }
+      .mapboxgl-ctrl-group .style-switcher-button.is-satellite {
+        background-color: rgba(30, 30, 30);
+      }
+      .mapboxgl-ctrl-group
+        .style-switcher-button.is-satellite
+        .style-switcher-icon {
+        filter: invert(100%);
+      }
+
+      /* CALENDAR */
+      #controls {
+        position: fixed;
+        bottom: 1.5rem;
+        left: 50%;
+        transform: translateX(-50%);
+        display: flex;
+        gap: 1rem;
+        z-index: 10;
+      }
+      #calendar-icon,
+      #reset-button {
+        padding: 12px;
+        border: none;
+        border-radius: 0.5rem;
+        cursor: pointer;
+        background-color: white;
+        color: #222;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      #reset-button[hidden] {
+        display: none;
+        opacity: 0;
+      }
+      #calendar-wrapper {
+        position: relative;
+      }
+      #calendar-popover {
+        position: absolute;
+        bottom: calc(100% + 12px);
+        left: 50%;
+        transform: translateX(-50%);
+        width: 260px;
+        padding: 12px;
+        background: white;
+        border-radius: 12px;
+        box-shadow: 0 4px 24px rgba(0, 0, 0, 0.35);
+        z-index: 20;
+        user-select: none;
+        font-family: inherit;
+      }
+      #calendar-popover[hidden] {
+        display: none;
+      }
+      .cal-head {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 8px;
+      }
+      .cal-head span {
+        font-weight: 600;
+        font-size: 14px;
+        color: #222;
+      }
+      .cal-grid {
+        display: grid;
+        grid-template-columns: repeat(7, 32px);
+        gap: 2px;
+        justify-content: space-between;
+      }
+      .cal-weekdays {
+        margin-bottom: 4px;
+      }
+      .cal-weekdays span {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 24px;
+        font-size: 11px;
+        color: #999;
+      }
+      .cal-head button,
+      .cal-days button {
+        border: none;
+        background: none;
+        cursor: pointer;
+        width: 32px;
+        height: 32px;
+        padding: 0;
+        border-radius: 8px;
+        font: inherit;
+        font-size: 13px;
+        color: #222;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .cal-head button {
+        font-size: 18px;
+        color: #666;
+      }
+      .cal-head button:hover,
+      .cal-days button:hover {
+        background: #f0f0f0;
+      }
+      .cal-days button {
+        position: relative;
+      }
+      .cal-days button.today {
+        background: #ececec;
+      }
+      .cal-days button.has-events::after {
+        content: "";
+        position: absolute;
+        bottom: 4px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 4px;
+        height: 4px;
+        border-radius: 50%;
+        background: #1a1a1a;
+      }
+      .cal-days button.selected {
+        background: #1a1a1a;
+        color: #fff;
+      }
+      .cal-days button.selected.has-events::after {
+        background: #fff;
+      }
+      #calendar-icon svg,
+      #reset-button svg {
+        width: 24px;
+        height: 24px;
+        fill: currentColor;
+      }
+      #calendar-wrapper {
+        position: relative;
+        display: block;
+      }
+
+      .is-standalone {
+        --safe-top: env(safe-area-inset-top, 0px);
+        --safe-bottom: env(safe-area-inset-bottom, 0px);
+        --controls-top: calc(12px + var(--safe-top));
+      }
+      .is-standalone,
+      .is-standalone body {
+        /* WebKit can report a shorter fixed viewport in Home Screen mode. */
+        height: 100vh;
+        overscroll-behavior: none;
+      }
+      .is-standalone #map {
+        position: relative;
+        min-height: 0;
+      }
+      .is-standalone #view-toggle {
+        top: var(--controls-top);
+      }
+      .is-standalone #month-toggle {
+        top: calc(64px + var(--safe-top));
+      }
+      .is-standalone
+        #map
+        :is(.mapboxgl-ctrl-top-left, .mapboxgl-ctrl-top-right) {
+        position: fixed;
+        top: var(--controls-top);
+      }
+      .is-standalone
+        #map
+        :is(.mapboxgl-ctrl-top-left, .mapboxgl-ctrl-top-right)
+        > .mapboxgl-ctrl:first-child {
+        margin-top: 0;
+      }
+      .is-standalone .mapboxgl-ctrl-top-left {
+        left: env(safe-area-inset-left, 0px);
+      }
+      .is-standalone .mapboxgl-ctrl-top-right {
+        right: env(safe-area-inset-right, 0px);
+      }
+      .is-standalone #controls {
+        bottom: calc(1.5rem + var(--safe-bottom));
+      }
+      .is-standalone #list-view::before {
+        height: calc(116px + var(--safe-top));
+      }
+      .is-standalone #list-view::after {
+        height: calc(92px + var(--safe-bottom));
+      }
+      .is-standalone #list-container {
+        padding-top: calc(148px + var(--safe-top));
+        padding-bottom: calc(180px + var(--safe-bottom));
+      }
+    </style>
+  </head>
+  <body>
+    <div id="map"></div>
+    <div id="month-toggle" hidden role="tablist" aria-label="Chọn tháng">
+      <button type="button" data-month="10" role="tab">October</button>
+      <button type="button" data-month="11" role="tab">November</button>
+      <button type="button" data-month="12" role="tab">December</button>
+    </div>
+    <div id="view-toggle" role="tablist" aria-label="Chế độ xem">
+      <button
+        type="button"
+        data-view="map"
+        class="active"
+        role="tab"
+        aria-selected="true"
+      >
+        Maps
+      </button>
+      <button type="button" data-view="list" role="tab" aria-selected="false">
+        List
+      </button>
+    </div>
+    <div id="list-view" hidden><div id="list-container"></div></div>
+    <div id="controls">
+      <div id="calendar-wrapper">
+        <button
+          id="calendar-icon"
+          type="button"
+          title="Chọn ngày"
+          aria-haspopup="dialog"
+          aria-expanded="false"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            fill="currentColor"
+            class="bi bi-calendar3"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M14 0H2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2M1 3.857C1 3.384 1.448 3 2 3h12c.552 0 1 .384 1 .857v10.286c0 .473-.448.857-1 .857H2c-.552 0-1-.384-1-.857z"
+            />
+            <path
+              d="M6.5 7a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2"
+            />
+          </svg>
+        </button>
+        <div id="calendar-popover" role="dialog" aria-label="Chọn ngày" hidden>
+          <div class="cal-head">
+            <button id="cal-prev" type="button" aria-label="Tháng trước">
+              ‹
+            </button>
+            <span id="cal-title"></span>
+            <button id="cal-next" type="button" aria-label="Tháng sau">
+              ›
+            </button>
+          </div>
+          <div class="cal-grid cal-weekdays">
+            <span>T2</span><span>T3</span><span>T4</span><span>T5</span
+            ><span>T6</span><span>T7</span><span>CN</span>
+          </div>
+          <div class="cal-grid cal-days" id="cal-days"></div>
+        </div>
+      </div>
+
+      <button id="reset-button" title="Hiện tất cả" hidden>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="16"
+          height="16"
+          fill="currentColor"
+          class="bi bi-arrow-counterclockwise"
+          viewBox="0 0 16 16"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M8 3a5 5 0 1 1-4.546 2.914.5.5 0 0 0-.908-.417A6 6 0 1 0 8 2z"
+          />
+          <path
+            d="M8 4.466V.534a.25.25 0 0 0-.41-.192L5.23 2.308a.25.25 0 0 0 0 .384l2.36 1.966A.25.25 0 0 0 8 4.466"
+          />
+        </svg>
+      </button>
+    </div>
+    <script src="calendar.js" defer></script>
+    <script type="module">
+      import {
+        // ExpandableMenuControl,
+        // addCompassControl,
+        // createSiteNavPanel,
+        // STREETS_STYLE,
+        // SATELLITE_HYBRID_STYLE,
+        StyleSwitcherControl,
+        // modifyBaseStyle,
+      } from "../shared.js";
+
+      mapboxgl.accessToken =
+        "pk.eyJ1IjoidG9tdHJhbjMxMDI1MSIsImEiOiJjbW4wYmw3NGowaDN0MnNzZmc5bm80aHRwIn0.tTxyq25x1rRMPVxO8RJjNg";
+      const STREETS_STYLE = "mapbox://styles/mapbox/streets-v12";
+      const SATELLITE_HYBRID_STYLE =
+        "mapbox://styles/mapbox/satellite-streets-v12";
+
+      class MapboxStyleSwitcher extends StyleSwitcherControl {
+        onAdd(map) {
+          const el = super.onAdd(map);
+          el.className = "mapboxgl-ctrl mapboxgl-ctrl-group map-control-group";
+          return el;
+        }
+      }
+
+      function addCompassControl(map, position = "top-left") {
+        map.addControl(
+          new mapboxgl.NavigationControl({
+            showZoom: false,
+            showCompass: true,
+            visualizePitch: true,
+          }),
+          position
+        );
+      }
+
+      // const siteMenuControl = new ExpandableMenuControl(
+      //   createSiteNavPanel("events")
+      // );
+
+      // --- 0. CORE FLOW ---
+      window.onload = async function () {
+        const isDataLoaded = await loadEvents("events.json");
+        if (isDataLoaded) {
+          initializeMap();
+          setupEventListeners();
+          renderList();
+          // Shareable filter: ?date=YYYY-MM-DD opens the map pre-filtered
+          const shared = new URLSearchParams(location.search).get("date");
+          if (/^\d{4}-\d{2}-\d{2}$/.test(shared || "")) {
+            selectedDate = shared;
+            filterByDate(shared);
+          }
+        } else {
+          document.getElementById("map").innerHTML =
+            '<h1 style="text-align: center;">Không tìm thấy dữ liệu.</h1>';
+        }
+      };
+
+      // --- 1. CONSTANTS ---
+      let map;
+      let geojsonData = null;
+      let selectedMonth = String(new Date().getMonth() + 1).padStart(2, "0");
+      if (!["10", "11", "12"].includes(selectedMonth)) selectedMonth = "10";
+      const DATA_SOURCE_ID = "event-points-source";
+      const EVENT_LAYER_ID = "event-circles";
+      const isStandalone =
+        document.documentElement.classList.contains("is-standalone");
+      const popup = new mapboxgl.Popup({
+        closeButton: false,
+        closeOnClick: true,
+        closeOnMove: isStandalone,
+        offset: 15,
+        anchor: isStandalone ? undefined : "bottom",
+      });
+      // ponytail: styles/switcher/labels come from ../shared.js (also used by tomey, villas)
+      function initializeMap() {
+        map = new mapboxgl.Map({
+          container: "map",
+          style: STREETS_STYLE,
+          center: [106.6953, 10.7769],
+          zoom: 12.5,
+          maxBounds: [
+            [106.3, 10.35],
+            [107.1, 11.2],
+          ],
+          language: "vi",
+          attributionControl: false,
+          doubleClickZoom: !isStandalone,
+        });
+        // Menu icon intentionally disabled on the events page.
+        // map.addControl(siteMenuControl, "top-left");
+        // map.on("click", () => siteMenuControl.close());
+        map.addControl(
+          new mapboxgl.GeolocateControl({
+            positionOptions: { enableHighAccuracy: true },
+            trackUserLocation: true,
+          }),
+          "top-left"
+        );
+        map.addControl(
+          new MapboxStyleSwitcher({
+            streets: STREETS_STYLE,
+            satellite: SATELLITE_HYBRID_STYLE,
+          }),
+          "top-left"
+        );
+        addCompassControl(map, "top-left");
+        map.on("load", () => {
+          // modifyBaseStyle(map);
+          addDataLayer(map, geojsonData);
+          addInteractivityForLayer(map);
+          // ponytail: styledata fires mid-load too; style.load only when a style is ready
+          map.on("style.load", () => {
+            // modifyBaseStyle(map);
+            addDataLayer(map, geojsonData);
+            if (selectedDate) filterByDate(selectedDate);
+          });
+          // Shared-link / reload path: filterByDate ran before the style was
+          // ready, so (re)apply the pending date filter now that it can stick.
+          if (selectedDate) filterByDate(selectedDate);
+        });
+      }
+
+      async function loadEvents(geoJsonUrl) {
+        try {
+          // no-cache = always revalidate (304 if unchanged): fresh events, one cheap request
+          const response = await fetch(geoJsonUrl, { cache: "no-cache" });
+          if (!response.ok)
+            throw new Error(`HTTP error! status: ${response.status}`);
+          geojsonData = await response.json();
+          setCalendarEvents(geojsonData.features);
+          return geojsonData.features.length > 0;
+        } catch (error) {
+          console.error("Error loading GeoJSON data:", error);
+          return false;
+        }
+      }
+
+      function addDataLayer(map, geojsonData) {
+        if (map.getLayer(EVENT_LAYER_ID)) map.removeLayer(EVENT_LAYER_ID);
+        if (map.getSource(DATA_SOURCE_ID)) map.removeSource(DATA_SOURCE_ID);
+        map.addSource(DATA_SOURCE_ID, { type: "geojson", data: geojsonData });
+        map.addLayer({
+          id: EVENT_LAYER_ID,
+          type: "circle",
+          source: DATA_SOURCE_ID,
+          paint: {
+            "circle-color": ["literal", "#3b1753"],
+            "circle-radius": [
+              "interpolate",
+              ["linear"],
+              ["zoom"],
+              12,
+              7,
+              16,
+              16,
+            ],
+            "circle-stroke-width": 1.5,
+            "circle-stroke-color": "#fff",
+            "circle-opacity": 0.8,
+          },
+        });
+      }
+
+      function addInteractivityForLayer(map) {
+        function openEventPopup(features, lngLat) {
+          const coords = features[0].geometry.coordinates.slice();
+          // ponytail: map order isn't guaranteed; YYYY-MM-DD sorts lexicographically
+          features = features
+            .slice()
+            .sort((a, b) =>
+              (a.properties.from_date || "").localeCompare(
+                b.properties.from_date || ""
+              )
+            );
+          while (Math.abs(lngLat.lng - coords[0]) > 180) {
+            coords[0] += lngLat.lng > coords[0] ? 360 : -360;
+          }
+
+          let currentEventIndex = 0;
+
+          function updatePopupContent() {
+            const html = generatePaginatedPopupContent(
+              features,
+              currentEventIndex
+            );
+            popup.setHTML(html);
+            // Cần một độ trễ nhỏ để DOM cập nhật trước khi gắn listener
+            setTimeout(attachPopupListeners, 0);
+          }
+          function attachPopupListeners() {
+            // Lấy các nút từ bên trong đối tượng popup
+            const prevButton = popup.getElement().querySelector("#popup-prev");
+            const nextButton = popup.getElement().querySelector("#popup-next");
+
+            if (prevButton) {
+              prevButton.addEventListener("click", (e) => {
+                e.stopPropagation(); // Ngăn click lan ra bản đồ
+                if (currentEventIndex > 0) {
+                  currentEventIndex--;
+                  updatePopupContent();
+                }
+              });
+            }
+
+            if (nextButton) {
+              nextButton.addEventListener("click", (e) => {
+                e.stopPropagation(); // Ngăn click lan ra bản đồ
+                if (currentEventIndex < features.length - 1) {
+                  currentEventIndex++;
+                  updatePopupContent();
+                }
+              });
+            }
+          }
+
+          //   let itemsHtml = "";
+          //   features.forEach((feature, index) => {
+          //     const props = feature.properties;
+
+          //     if (index > 0) {
+          //       itemsHtml +=
+          //         '<hr style="border: 0; border-top: 1px solid rgba(255,255,255,0.3); margin: 10px 0;">';
+          //     }
+
+          //     itemsHtml += `
+          //       <div>
+          //           <h3 class="popup-title">${props.number}. ${props.name_vn}</h3>
+          //           <p style="margin: 2px 0; font-size: 13px;">Từ ${
+          //             props.from_date
+          //           }</p>
+          //           <p style="margin: 2px 0; font-size: 13px;">Đến ${
+          //             props.to_date
+          //           }</p>
+          //           <strong>Khai mạc:</strong> ${props.start_date}
+          //             (lúc ${props.start_time})
+          //           <br>
+          //           ${
+          //             props.address_url
+          //               ? `<a
+          //                       href="${props.address_url}"
+          //                       target="_blank"
+          //                       rel="noopener noreferrer"
+          //                       class="marker-btn">
+          //                       ${props.address}
+          //                   </a>`
+          //               : `<span style="font-size: 13px;">${props.address}</span>` // Fallback nếu không có address_url
+          //           }
+          //       </div>
+          //     `;
+          //   });
+          //   const popupHTML = `<div class="popup">${itemsHtml}</div>`;
+
+          function showPopup() {
+            const initialHtml = generatePaginatedPopupContent(
+              features,
+              currentEventIndex
+            );
+            popup.setLngLat(coords).setHTML(initialHtml).addTo(map);
+
+            attachPopupListeners();
+          }
+          if (isStandalone) {
+            showPopup();
+            return;
+          }
+
+          map.flyTo({
+            center: coords,
+            zoom: map.getZoom(),
+            duration: 900,
+            curve: 1.42,
+            essential: true,
+            offset: [0, 160],
+          });
+          setTimeout(showPopup, 600);
+        }
+
+        map.on("click", EVENT_LAYER_ID, (e) => {
+          openEventPopup(e.features, e.lngLat);
+        });
+
+        if (isStandalone) {
+          let tapStart = null;
+          map.on("touchstart", (e) => {
+            tapStart = e.points.length === 1 ? e.point : null;
+          });
+          map.on("movestart", () => {
+            tapStart = null;
+          });
+          map.on("touchcancel", () => {
+            tapStart = null;
+          });
+          map.on("touchend", (e) => {
+            const start = tapStart;
+            tapStart = null;
+            const touch = e.originalEvent;
+            if (
+              !start ||
+              touch.touches.length ||
+              !touch.cancelable ||
+              start.dist(e.point) > 10
+            )
+              return;
+
+            // Handle the finger release once, even if Safari synthesizes a click.
+            touch.preventDefault();
+            popup.remove();
+            if (!map.getLayer(EVENT_LAYER_ID)) return;
+            const options = { layers: [EVENT_LAYER_ID] };
+            const { x, y } = e.point;
+            let features = map.queryRenderedFeatures(e.point, options);
+            if (!features.length) {
+              const nearby = map.queryRenderedFeatures(
+                [
+                  [x - 10, y - 10],
+                  [x + 10, y + 10],
+                ],
+                options
+              );
+              const closest = nearby.sort(
+                (a, b) =>
+                  map.project(a.geometry.coordinates).dist(e.point) -
+                  map.project(b.geometry.coordinates).dist(e.point)
+              )[0];
+              if (closest) {
+                const [lng, lat] = closest.geometry.coordinates;
+                features = nearby.filter(
+                  ({ geometry }) =>
+                    geometry.coordinates[0] === lng &&
+                    geometry.coordinates[1] === lat
+                );
+              }
+            }
+            if (features.length) openEventPopup(features, e.lngLat);
+          });
+        }
+
+        map.on("mouseenter", EVENT_LAYER_ID, () => {
+          map.getCanvas().style.cursor = "pointer";
+        });
+
+        map.on("mouseleave", EVENT_LAYER_ID, () => {
+          map.getCanvas().style.cursor = "";
+        });
+      }
+
+      // ponytail: single source of truth — every filter change syncs the ?date= param
+      function syncDateParam(iso) {
+        const u = new URL(location.href);
+        if (iso) u.searchParams.set("date", iso);
+        else u.searchParams.delete("date");
+        history.replaceState(null, "", u);
+      }
+      function filterByDate(selectedDate) {
+        const resetButton = document.getElementById("reset-button");
+        syncDateParam(selectedDate);
+        resetButton.hidden = !selectedDate; // UI state first — map may not be styled yet
+        try {
+          if (!selectedDate) {
+            map.setFilter(EVENT_LAYER_ID, null);
+          } else {
+            map.setFilter(EVENT_LAYER_ID, [
+              "all",
+              ["<=", ["get", "from_date"], selectedDate],
+              [">=", ["get", "to_date"], selectedDate],
+            ]);
+          }
+        } catch {
+          /* style still loading — layer filter applies on next load */
+        }
+        renderList();
+      }
+
+      function setView(view) {
+        const list = view === "list";
+        document.querySelectorAll("#view-toggle button").forEach((button) => {
+          const active = button.dataset.view === view;
+          button.classList.toggle("active", active);
+          button.setAttribute("aria-selected", active);
+        });
+        document.getElementById("list-view").hidden = !list;
+        document.getElementById("month-toggle").hidden = !list;
+        document.getElementById("map").style.display = list ? "none" : "";
+        if (!list && map) map.resize();
+        else renderList();
+      }
+
+      function renderList() {
+        const box = document.getElementById("list-container");
+        if (!box || !geojsonData) return;
+        const year = new Date().getFullYear();
+        const start = `${year}-${selectedMonth}-01`;
+        const end = new Date(year, Number(selectedMonth), 0)
+          .toISOString()
+          .slice(0, 10);
+        const features = (geojsonData.features || [])
+          .filter(
+            (f) =>
+              !selectedDate ||
+              (f.properties.from_date <= selectedDate &&
+                selectedDate <= f.properties.to_date)
+          )
+          .filter(
+            (f) =>
+              f.properties.from_date <= end && f.properties.to_date >= start
+          )
+          .sort(compareListEvents);
+        if (!features.length) {
+          box.innerHTML = '<div class="list-empty">Không có sự kiện.</div>';
+          return;
+        }
+        const columns = [[], []];
+        features.forEach((feature, index) =>
+          columns[index % 2].push(
+            `<article class="event-card">${generatePaginatedPopupContent(
+              [feature],
+              0
+            )}</article>`
+          )
+        );
+        box.innerHTML = columns
+          .map((cards) => `<div class="event-column">${cards.join("")}</div>`)
+          .join("");
+      }
+
+      function compareListEvents(a, b) {
+        const now = new Date();
+        const today = `${now.getFullYear()}-${String(
+          now.getMonth() + 1
+        ).padStart(2, "0")}-${String(now.getDate()).padStart(2, "0")}`;
+        const ap = a.properties;
+        const bp = b.properties;
+        const status = (p) =>
+          p.from_date <= today && today <= p.to_date
+            ? 0
+            : p.from_date > today
+            ? 1
+            : 2;
+        const statusDiff = status(ap) - status(bp);
+        if (statusDiff) return statusDiff;
+
+        const aDate = status(ap) === 2 ? ap.to_date : ap.from_date;
+        const bDate = status(bp) === 2 ? bp.to_date : bp.from_date;
+        const dateDiff = aDate.localeCompare(bDate);
+        if (dateDiff) return status(ap) === 2 ? -dateDiff : dateDiff;
+
+        return (ap.start_time || "").localeCompare(bp.start_time || "");
+      }
+      window.filterByDate = filterByDate;
+      window.popup = popup;
+
+      // DD/MM, or DD/MM/YYYY only when the year is not the current one
+      function formatDate(dateString) {
+        if (!dateString || dateString.length < 10) return "";
+        const parts = dateString.split("-");
+        const dm = `${+parts[2]}/${+parts[1]}`; // + strips leading zeros: 04/10 -> 4/10
+        return parts[0] === String(new Date().getFullYear())
+          ? dm
+          : `${dm}/${parts[0]}`;
+      }
+
+      // "90'" / "1h30" -> "90 phút" / "1 giờ 30 phút"
+      function fmtDuration(t) {
+        const nums = ((t || "").match(/\d+/g) || []).map(Number);
+        if (!nums.length) return t;
+        const [h, m] = nums.length > 1 ? nums : [0, nums[0]];
+        const parts = [];
+        if (h) parts.push(`${h} giờ`);
+        if (m) parts.push(`${m} phút`);
+        return parts.join(" ") || t;
+      }
+
+      // Readable owner label when host_name is missing: fb slug or domain
+      function hostLabelFromUrl(hostUrl) {
+        try {
+          const u = new URL(hostUrl);
+          if (u.hostname.includes("facebook.com")) {
+            const skip = new Set([
+              "events",
+              "posts",
+              "photos",
+              "videos",
+              "photo",
+              "reel",
+            ]);
+            const slug = u.pathname
+              .split("/")
+              .filter((s) => s && !skip.has(s))[0];
+            if (slug) return decodeURIComponent(slug);
+          }
+          return u.hostname.replace(/^www\./, "");
+        } catch {
+          return hostUrl;
+        }
+      }
+
+      // Pascal/title case for display: "TRIỂN LÃM ABC" -> "Triển Lãm Abc"
+      function toTitleCase(s) {
+        return (s || "")
+          .toLowerCase()
+          .replace(
+            /(^[\s\-–—/("']*)([a-zà-ỹ])/gu,
+            (m, pre, ch) => pre + ch.toUpperCase()
+          )
+          .replace(
+            /([\s\-–—/("']+)([a-zà-ỹ])/gu,
+            (m, pre, ch) => pre + ch.toUpperCase()
+          );
+      }
+
+      function generatePaginatedPopupContent(features, index) {
+        const props = features[index].properties;
+        const total = features.length;
+        const current = index + 1;
+
+        // Vô hiệu hóa nút nếu ở đầu hoặc cuối danh sách
+        const prevDisabled = index === 0 ? "disabled" : "";
+        const nextDisabled = index === total - 1 ? "disabled" : "";
+
+        const ICON = {
+          pin: '<svg viewBox="0 0 24 24"><path d="M12 21s-7-5.5-7-11a7 7 0 0 1 14 0c0 5.5-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg>',
+        };
+
+        const fromDateFormatted = formatDate(props.from_date);
+        const toDateFormatted = formatDate(props.to_date);
+        const dText =
+          props.from_date === props.to_date
+            ? fromDateFormatted
+            : `${fromDateFormatted}-${toDateFormatted}`;
+        const bits = [];
+        if (props.start_time && props.start_time !== "N/A")
+          bits.push(`lúc ${props.start_time}`);
+        if (props.time && props.time !== "N/A")
+          bits.push(fmtDuration(props.time));
+        const dateHtml = `<div class="popup-time">${dText}${
+          bits.length ? ` (${bits.join(", ")})` : ""
+        }</div>`;
+
+        const thumbHtml =
+          props.image_url && props.image_url !== "N/A"
+            ? `<img class="popup-thumb" src="${props.image_url}" alt="" loading="lazy" onerror="this.remove()">`
+            : "";
+
+        const hasEventUrl = props.event_url && props.event_url !== "N/A";
+        const hasHostUrl = props.host_url && props.host_url !== "N/A";
+        const hasHostName = props.host_name && props.host_name !== "N/A";
+        const hostLabel = hasHostName
+          ? props.host_name
+          : hostLabelFromUrl(props.host_url);
+        const hostHtml = hasHostUrl
+          ? `<a class="popup-host" href="${props.host_url}" target="_blank" rel="noopener noreferrer"><span>${hostLabel}</span><b>›</b></a>`
+          : hasHostName
+          ? `<div class="popup-host"><span>${hostLabel}</span></div>`
+          : "";
+        const mapHtml =
+          props.address_url && props.address_url !== "N/A"
+            ? `<a class="popup-map" href="${props.address_url}" target="_blank" rel="noopener noreferrer" aria-label="Google Maps">${ICON.pin}</a>`
+            : "";
+        const detailHtml = hasEventUrl
+          ? `<a class="popup-detail" href="${props.event_url}" target="_blank" rel="noopener noreferrer">Xem chi tiết</a>`
+          : "";
+        const eventHtml = `
+          <div class="popup">
+              ${thumbHtml}
+              <h3 class="popup-title">${toTitleCase(props.name_vn)}</h3>
+              ${hostHtml}
+              ${dateHtml}
+              <div class="popup-actions">${mapHtml}${detailHtml}</div>
+          </div>
+        `;
+
+        // 2. HTML cho các nút điều hướng
+        const navHtml = `
+          <div class="popup-navigation">
+              <button id="popup-prev" ${prevDisabled}>&lt; Trước</button>
+              <span class="popup-pagination-counter">${current} / ${total}</span>
+              <button id="popup-next" ${nextDisabled}>Tiếp &gt;</button>
+          </div>
+        `;
+
+        // Chỉ hiển thị điều hướng nếu có nhiều hơn 1 sự kiện
+        return `<div class="popup">${eventHtml}${
+          total > 1 ? navHtml : ""
+        }</div>`;
+      }
+
+      function setupEventListeners() {
+        document
+          .querySelectorAll("#view-toggle button")
+          .forEach((button) =>
+            button.addEventListener("click", () => setView(button.dataset.view))
+          );
+        document.querySelectorAll("#month-toggle button").forEach((button) => {
+          const active = button.dataset.month === selectedMonth;
+          button.classList.toggle("active", active);
+          button.setAttribute("aria-selected", active);
+          button.addEventListener("click", () => {
+            selectedMonth = button.dataset.month;
+            document.querySelectorAll("#month-toggle button").forEach((tab) => {
+              const selected = tab.dataset.month === selectedMonth;
+              tab.classList.toggle("active", selected);
+              tab.setAttribute("aria-selected", selected);
+            });
+            renderList();
+          });
+        });
+        const resetButton = document.getElementById("reset-button");
+        resetButton.addEventListener("click", () => {
+          clearCalendar();
+          filterByDate("");
+        });
+      }
+    </script>
+    <script>
+      if ("serviceWorker" in navigator) {
+        window.addEventListener("load", () => {
+          navigator.serviceWorker
+            .register("/service-worker.js")
+            .then((registration) => {
+              console.log("Service Worker registered for caching.");
+            })
+            .catch((error) => {
+              console.error("Service Worker registration failed:", error);
+            });
+        });
+      }
+    </script>
+  </body>
+</html>

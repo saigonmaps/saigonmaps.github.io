@@ -1,0 +1,2183 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.70769, 10.79741]
+      },
+      "properties": {
+        "name_vn": "Sake Mahjong Night",
+        "from_date": "2026-11-21",
+        "to_date": "2026-11-21",
+        "start_time": "19:00",
+        "time": "N/A",
+        "isRegister": "Yes",
+        "event_url": "https://luma.com/a1swbrsj",
+        "address": "DingDong - Sake Bar, 236/43/2, Điện Biên Phủ, Gia Định, Hồ Chí Minh, Việt Nam",
+        "address_url": "https://www.google.com/maps/place/DingDong+-+Sake+Bar/@10.7974106,106.7076871,17z/data=!3m1!4b1!4m6!3m5!1s0x317529005790c0a9:0x47f71e9f1d418a1b!8m2!3d10.7974106!4d106.7076871!16s%2Fg%2F11nvmmv2g8",
+        "image_url": "thumbs/1.jpg",
+        "host_name": "The Circle Saigon",
+        "host_url": "https://luma.com/user/thecircle"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "2",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.69165, 10.78964]
+      },
+      "properties": {
+        "name_vn": "Focus Art",
+        "from_date": "2026-11-22",
+        "to_date": "2026-11-22",
+        "start_time": "15:00",
+        "time": "N/A",
+        "isRegister": "Yes",
+        "event_url": "https://luma.com/c21ukkql",
+        "address": "Tiệm Lưu Coffee, Lầu 6A, toà nhà Halo, 39 Đinh Công Tráng, Tân Định, Hồ Chí Minh 70000, Việt Nam",
+        "address_url": "https://www.google.com/maps/place/Ti%E1%BB%87m+L%C6%B0u+Coffee/@10.7896435,106.6916533,17z/data=!3m1!4b1!4m6!3m5!1s0x31752974f39a2031:0x1f475418ce5cb32b!8m2!3d10.7896435!4d106.6916533!16s%2Fg%2F11txnyht_s",
+        "image_url": "thumbs/2.jpg",
+        "host_name": "Kindred Soul",
+        "host_url": "https://luma.com/kindredsoul"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "3",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.7253, 10.76792]
+      },
+      "properties": {
+        "name_vn": "Build with Celesnity",
+        "from_date": "2026-11-25",
+        "to_date": "2026-11-25",
+        "start_time": "09:00",
+        "time": "N/A",
+        "isRegister": "Yes",
+        "event_url": "https://luma.com/ddg8fwg9",
+        "address": "Genesia Orbit HCMC, 53 Nguyễn Cơ Thạch, An Khánh, Hồ Chí Minh 700000, Việt Nam",
+        "address_url": "https://www.google.com/maps/place/Genesia+Orbit+HCMC/@10.7679175,106.7252982,17z/data=!3m1!4b1!4m6!3m5!1s0x317525001c193165:0xffee99c01bece608!8m2!3d10.7679175!4d106.7252982!16s%2Fg%2F11v_174y8d",
+        "image_url": "thumbs/3.jpg",
+        "host_name": "Eric - Celesnity - AI World Model for Industrials",
+        "host_url": "https://luma.com/ddg8fwg9"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "4",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.73337, 10.80427]
+      },
+      "properties": {
+        "name_vn": "Lenny's Newsletter Meetup in Ho Chi Minh City (with free drinks courtesy of PostHog)",
+        "from_date": "2026-11-29",
+        "to_date": "2026-11-29",
+        "start_time": "18:00",
+        "time": "N/A",
+        "isRegister": "Yes",
+        "event_url": "https://luma.com/5gziy00e",
+        "address": "SUNDAYS Cafe, 19B Ngô Quang Huy, An Khánh, Hồ Chí Minh, Việt Nam",
+        "address_url": "https://www.google.com/maps/place/SUNDAYS+Cafe/@10.8042676,106.7333693,17z/data=!3m1!4b1!4m6!3m5!1s0x3175270058b754ef:0x17872b780765dc77!8m2!3d10.8042676!4d106.7333693!16s%2Fg%2F11nqfn8gdv",
+        "image_url": "thumbs/4.jpg",
+        "host_name": "Lenny's Newsletter Meetups",
+        "host_url": "https://luma.com/lennysnewsletter"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "5",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.68363, 10.76782]
+      },
+      "properties": {
+        "name_vn": "[OFFLINE HCM #4] CHUYỆN NGƯỜI LÀM DATA: TỪ BUSINESS ĐẾN TECH, RỒI ĐẾN AI",
+        "from_date": "2026-12-05",
+        "to_date": "2026-12-05",
+        "start_time": "18:00",
+        "time": "N/A",
+        "isRegister": "Yes",
+        "event_url": "https://luma.com/qt2chyg7",
+        "address": "Dooing Coffee Lab Nguyễn Thị Minh Khai, 464 Nguyễn Thị Minh Khai, Bàn Cờ, Hồ Chí Minh 10000, Việt Nam",
+        "address_url": "https://www.google.com/maps/place/Dooing+Coffee+Lab/@10.7678233,106.6836331,17z/data=!3m1!4b1!4m6!3m5!1s0x31752f0053271d5f:0x61aa23c1a7a5c458!8m2!3d10.7678233!4d106.6836331!16s%2Fg%2F11y91m32d_",
+        "image_url": "thumbs/5.jpg",
+        "host_name": "Thao Phan",
+        "host_url": "https://luma.com/qt2chyg7"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "6",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.74563, 10.84373]
+      },
+      "properties": {
+        "name_vn": "Triển lãm Đa giác quan Van Gogh",
+        "from_date": "2025-03-31",
+        "to_date": "2026-12-31",
+        "start_time": "12:00",
+        "time": "N/A",
+        "isRegister": "Yes",
+        "event_url": "https://jp-expo.com.vn/collections/mua-ve-van-gogh-monet-expo",
+        "address": "Tầng 8, TTTM Gigamall, 240-242 Phạm Văn Đồng, TP. Thủ Đức, TP. HCM.",
+        "address_url": "https://www.google.com/maps/place/T%E1%BA%A7ng%208%2C%20TTTM%20Gigamall%2C%20240-242%20Ph%E1%BA%A1m%20V%C4%83n%20%C4%90%E1%BB%93ng%2C%20TP.%20Th%E1%BB%A7%20%C4%90%E1%BB%A9c%2C%20TP.%20HCM./@10.8437282,106.7456343,17z",
+        "image_url": "thumbs/6.jpg",
+        "host_name": "JP-Expo",
+        "host_url": "https://jp-expo.com.vn"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "7",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.72835, 10.80344]
+      },
+      "properties": {
+        "name_vn": "left on read",
+        "from_date": "2026-10-16",
+        "to_date": "2027-02-28",
+        "start_time": "18:00",
+        "time": "N/A",
+        "isRegister": "Yes",
+        "event_url": "https://dogmacollection.com/exhibitions/21-left-on-read-an-exhibition-a-library-a-pop-up-bookstore/",
+        "address": "Dogma Collection, 27A Nguyễn Cừ, Thảo Điền, Quận 2",
+        "address_url": "https://www.google.com/maps/place/Dogma+Collection/@10.803435,106.728349,17z/data=!3m1!4b1!4m6!3m5!1s0x317527002f305e3f:0x49c27d0322810f75!8m2!3d10.803435!4d106.728349!16s%2Fg%2F11y3xprk0p",
+        "image_url": "thumbs/7.jpg",
+        "host_name": "Dogma",
+        "host_url": "https://dogmacollection.com"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "8",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.69766, 10.7696]
+      },
+      "properties": {
+        "name_vn": "Hey! To My Undisclosed Heart, the Rhyme",
+        "from_date": "2026-10-17",
+        "to_date": "2026-11-29",
+        "start_time": "10:00",
+        "time": "N/A",
+        "isRegister": "No",
+        "event_url": "https://raresea.vn/exhibitions/hey-to-my-undisclosed-heart-the-rhyme/",
+        "address": "Rare Sea, 3 Đặng Thị Nhu, phường Bến Thành, TP.HCM",
+        "address_url": "https://www.google.com/maps/place/Rare+Sea/@10.7695978,106.6976619,17z/data=!3m1!4b1!4m6!3m5!1s0x31752f26d57a067d:0x7401d7c03f6e5119!8m2!3d10.7695978!4d106.6976619!16s%2Fg%2F11yq7qxxpg",
+        "image_url": "thumbs/8.jpg",
+        "host_name": "Rare Sea",
+        "host_url": "https://raresea.vn"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "9",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.73007, 10.81807]
+      },
+      "properties": {
+        "name_vn": "Mạch Thổ",
+        "from_date": "2026-10-23",
+        "to_date": "2026-11-29",
+        "start_time": "09:00",
+        "time": "N/A",
+        "isRegister": "No",
+        "event_url": "https://quangsan.museum/en/programs/undercurrents/",
+        "address": "QS Art Space (Bảo tàng Nghệ thuật Quang San), 189B/3 Nguyễn Văn Hưởng, phường An Khánh (Thảo Điền cũ), TP.HCM",
+        "address_url": "https://www.google.com/maps/place/Quang+San+Art+Museum/@10.818018,106.7301506,17z/data=!3m1!4b1!4m6!3m5!1s0x317527e7b4979a8b:0x74afeee95b0eae85!8m2!3d10.818018!4d106.7301506!16s%2Fg%2F11t81ccg40",
+        "image_url": "thumbs/9.jpg",
+        "host_name": "Bảo tàng Nghệ thuật Quang San",
+        "host_url": "https://quangsan.museum"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "10",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.72177, 10.77206]
+      },
+      "properties": {
+        "name_vn": "Metashow",
+        "from_date": "2026-10-23",
+        "to_date": "2027-04-23",
+        "start_time": "10:00",
+        "time": "N/A",
+        "isRegister": "Yes",
+        "event_url": "https://www.metashow.vn/",
+        "address": "Metashow, tầng 4 Thiso Mall Sala, Tầng 4, Thiso Mall Sala, 10 Mai Chí Thọ, phường An Khánh, TP.HCM",
+        "address_url": "https://www.google.com/maps/place/Meta+Show+-+Thiso+Mall/@10.7723146,106.722442,17z/data=!3m1!4b1!4m6!3m5!1s0x31752f0007b7da9d:0x5db0e13432d4f08f!8m2!3d10.7723146!4d106.722442!16s%2Fg%2F11y411s56g",
+        "image_url": "thumbs/10.jpg",
+        "host_name": "Metashow",
+        "host_url": "https://www.metashow.vn"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "11",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.69157, 10.78589]
+      },
+      "properties": {
+        "name_vn": "Never Been Here",
+        "from_date": "2026-10-25",
+        "to_date": "2026-11-29",
+        "start_time": "10:00",
+        "time": "N/A",
+        "isRegister": "No",
+        "event_url": "https://www.judooo.art/events/never-been-here-945679f3",
+        "address": "Gate Gate Gallery, 230/18 Pasteur, phường Xuân Hòa, TP.HCM",
+        "address_url": "https://www.google.com/maps/place/Gate+Gate+Gallery/@10.7858949,106.6915706,17z/data=!3m1!4b1!4m6!3m5!1s0x31752f004af3066b:0x55545774948d3fa8!8m2!3d10.7858949!4d106.6915706!16s%2Fg%2F11x80r4jn2",
+        "image_url": "thumbs/11.jpg",
+        "host_name": "Gate Gate Gallery & MakerLab VN",
+        "host_url": "https://www.judooo.art"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "12",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.71902, 10.7339]
+      },
+      "properties": {
+        "name_vn": "Hào Khí Nam Kỳ Khởi Nghĩa – Âm Vang Lịch Sử, Khát Vọng Vươn Xa",
+        "from_date": "2026-11-05",
+        "to_date": "2026-11-30",
+        "start_time": "09:00",
+        "time": "N/A",
+        "isRegister": "No",
+        "event_url": "https://nvhphunu.vn/trien-lam-anh-hao-khi-nam-ky-khoi-nghia-am-vang-lich-su-khat-vong-vuon-xa-co-so-2/",
+        "address": "Nhà Văn hóa Phụ nữ TP.HCM (Cơ sở 2), Cơ sở 2 Nhà Văn hóa Phụ nữ TP.HCM, 02 Nguyễn Đổng Chi, phường Tân Mỹ, TP.HCM",
+        "address_url": "https://www.google.com/maps/place/Women's+Cultural+House+-+Branch+2/@10.7343012,106.7192833,17z/data=!3m1!4b1!4m6!3m5!1s0x31752f86185cf5dd:0xc227e50fa03c3824!8m2!3d10.7343012!4d106.7192833!16s%2Fg%2F11bbrjlbc4",
+        "image_url": "thumbs/12.jpg",
+        "host_name": "Nhà Văn hóa Phụ nữ TP.HCM",
+        "host_url": "https://nvhphunu.vn"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "13",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.726, 10.748]
+      },
+      "properties": {
+        "name_vn": "Trâu Ơi Ta Bảo Trâu Này",
+        "from_date": "2026-11-05",
+        "to_date": "2026-12-13",
+        "start_time": "09:00",
+        "time": "N/A",
+        "isRegister": "Yes",
+        "event_url": "https://www.facebook.com/lotusgalleryhcm",
+        "address": "Lotus Gallery, 12-13 đường N1, KCX Tân Thuận, phường Tân Thuận, TP.HCM",
+        "address_url": "https://www.google.com/maps/place/Lotus%20Gallery%2C%2012-13%20%C4%91%C6%B0%E1%BB%9Dng%20N1%2C%20KCX%20T%C3%A2n%20Thu%E1%BA%ADn%2C%20ph%C6%B0%E1%BB%9Dng%20T%C3%A2n%20Thu%E1%BA%ADn%2C%20TP.HCM/@10.748,106.726,17z",
+        "image_url": "thumbs/13.jpg",
+        "host_name": "Lotus Gallery",
+        "host_url": "https://www.facebook.com/lotusgalleryhcm"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "14",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.72068, 10.781]
+      },
+      "properties": {
+        "name_vn": "Triển lãm Accidentally Wes Anderson",
+        "from_date": "2026-11-06",
+        "to_date": "2027-05-05",
+        "start_time": "10:00",
+        "time": "N/A",
+        "isRegister": "Yes",
+        "event_url": "https://cticket.vn/event/awa-exhibition",
+        "address": "MO:MENT Thủ Thiêm, 175 Nguyễn Cơ Thạch, phường An Khánh, TP.HCM",
+        "address_url": "https://www.google.com/maps/place/175+Nguy%E1%BB%85n+C%C6%A1+Th%E1%BA%A1ch,+An+Kh%C3%A1nh,+H%E1%BB%93+Ch%C3%AD+Minh+10000,+Vietnam/@10.7813143,106.7199083,17z/data=!3m1!4b1!4m6!3m5!1s0x31752f568d3b64ed:0x26fe35d3c24781bc!8m2!3d10.7813143!4d106.7199083!16s%2Fg%2F11xvmqrk9r",
+        "image_url": "thumbs/14.jpg",
+        "host_name": "Accidentally Wes Anderson",
+        "host_url": "https://cticket.vn/event/awa-exhibition"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "15",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.69064, 10.7855]
+      },
+      "properties": {
+        "name_vn": "Inherited Lights",
+        "from_date": "2026-11-07",
+        "to_date": "2027-01-29",
+        "start_time": "10:00",
+        "time": "N/A",
+        "isRegister": "No",
+        "event_url": "https://www.instagram.com/p/DfCR_3wJ5WD/",
+        "address": "Gallery Medium, 240B Pasteur, phường Xuân Hòa, TP.HCM",
+        "address_url": "https://www.google.com/maps/place/Gallery+Medium/@10.7856055,106.6907327,17z/data=!3m1!4b1!4m6!3m5!1s0x31752f2dc3375361:0x6647b256cb8bb4e8!8m2!3d10.7856055!4d106.6907327!16s%2Fg%2F11jzkry4pk",
+        "image_url": "thumbs/15.jpg",
+        "host_name": "Gallery Medium",
+        "host_url": "https://www.instagram.com/p/DfCR_3wJ5WD/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "16",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.73428, 10.80394]
+      },
+      "properties": {
+        "name_vn": "Lại Gặp Người Tốt & Lại Thế Nữa Rồi",
+        "from_date": "2026-11-09",
+        "to_date": "2026-11-30",
+        "start_time": "11:00",
+        "time": "N/A",
+        "isRegister": "Yes",
+        "event_url": "https://ticketbox.vn/entaku-exhibition-26787",
+        "address": "CHILALA - House of Art, tầng 2, 75 Xuân Thủy, phường An Khánh, TP.HCM",
+        "address_url": "https://www.google.com/maps/place/CHILLALA+-+House+of+Art/@10.8039357,106.7342845,17z/data=!3m1!4b1!4m6!3m5!1s0x31752752894b29a5:0xd42d95c65b331d4a!8m2!3d10.8039357!4d106.7342845!16s%2Fg%2F11md0jml2y",
+        "image_url": "thumbs/16.jpg",
+        "host_name": "entaku",
+        "host_url": "https://ticketbox.vn/entaku-exhibition-26787"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "17",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.68853, 10.78968]
+      },
+      "properties": {
+        "name_vn": "Trong Cõi Người Ta",
+        "from_date": "2026-11-14",
+        "to_date": "2026-12-06",
+        "start_time": "09:00",
+        "time": "N/A",
+        "isRegister": "Yes",
+        "event_url": "https://annamgallery.com/show-item/trong-coi-nguoi-ta/",
+        "address": "Annam Gallery, 371/4 Hai Bà Trưng, phường Xuân Hòa, TP.HCM",
+        "address_url": "https://www.google.com/maps/place/Annam+Gallery/@10.7898957,106.6888086,17z/data=!3m1!4b1!4m6!3m5!1s0x317529d7594bd015:0xe701fda6e9d17e66!8m2!3d10.7898957!4d106.6888086!16s%2Fg%2F11rc6ypq9y",
+        "image_url": "thumbs/17.jpg",
+        "host_name": "Annam Gallery",
+        "host_url": "https://annamgallery.com"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "18",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.67993, 10.76365]
+      },
+      "properties": {
+        "name_vn": "Thể Không",
+        "from_date": "2026-11-14",
+        "to_date": "2026-11-22",
+        "start_time": "18:00",
+        "time": "N/A",
+        "isRegister": "No",
+        "event_url": "https://tapchimythuat.vn/huynh-quang-cuong-hoi-hoa-truu-tuong-the-khong/",
+        "address": "Gallery Phương Mai, 06 Trần Phú, phường Chợ Quán, TP.HCM",
+        "address_url": "https://www.google.com/maps/place/Phuong+Mai+Gallery/@10.7637183,106.6798981,17z/data=!3m1!4b1!4m6!3m5!1s0x31752f47e77ae029:0x15f018fea7251d1f!8m2!3d10.7637183!4d106.6798981!16s%2Fg%2F11btrrkkx0",
+        "image_url": "thumbs/18.jpg",
+        "host_name": "Gallery Phương Mai",
+        "host_url": "https://tapchimythuat.vn"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "19",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.70675, 10.76807]
+      },
+      "properties": {
+        "name_vn": "Toàn Dân Tiến",
+        "from_date": "2026-11-14",
+        "to_date": "2026-11-24",
+        "start_time": "18:00",
+        "time": "N/A",
+        "isRegister": "No",
+        "event_url": "https://www.instagram.com/quangtien.dag/p/DfcAPS-pXBO/",
+        "address": "Cảng Sài Gòn (kho F), 5 Nguyễn Tất Thành, phường Xóm Chiếu, TP.HCM (cạnh Bến Nhà Rồng)",
+        "address_url": "https://www.google.com/maps/place/C%E1%BA%A3ng%20S%C3%A0i%20G%C3%B2n%20%28kho%20F%29%2C%205%20Nguy%E1%BB%85n%20T%E1%BA%A5t%20Th%C3%A0nh%2C%20ph%C6%B0%E1%BB%9Dng%20X%C3%B3m%20Chi%E1%BA%BFu%2C%20TP.HCM%20%28c%E1%BA%A1nh%20B%E1%BA%BFn%20Nh%C3%A0%20R%E1%BB%93ng%29/@10.7680716,106.7067484,17z",
+        "image_url": "thumbs/19.jpg",
+        "host_name": "Phạm Thanh Toàn, Nguyễn Ngọc Dân và Đặng Quang Tiến",
+        "host_url": "https://www.instagram.com/quangtien.dag"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "20",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.6913, 10.78]
+      },
+      "properties": {
+        "name_vn": "Bây giờ. Ở đây – Here. Now. — triển lãm ảnh của các bạn trẻ Điếc/Khiếm thính tại Toong",
+        "from_date": "2026-11-16",
+        "to_date": "2026-11-25",
+        "start_time": "08:00",
+        "time": "N/A",
+        "isRegister": "Yes",
+        "event_url": "https://www.facebook.com/events/1791402508810688/",
+        "address": "Toong (tầng 2, Itaxa), Toong, tầng 2 toà nhà Itaxa, 126 Nguyễn Thị Minh Khai, phường Xuân Hòa, TP.HCM",
+        "address_url": "https://www.google.com/maps/place/Toong%20%28t%E1%BA%A7ng%202%2C%20Itaxa%29%2C%20Toong%2C%20t%E1%BA%A7ng%202%20to%C3%A0%20nh%C3%A0%20Itaxa%2C%20126%20Nguy%E1%BB%85n%20Th%E1%BB%8B%20Minh%20Khai%2C%20ph%C6%B0%E1%BB%9Dng%20Xu%C3%A2n%20H%C3%B2a%2C%20TP.HCM/@10.78,106.6913,17z",
+        "image_url": "thumbs/20.jpg",
+        "host_name": "Pháo Hoa × Toong × Viện Goethe",
+        "host_url": "https://www.facebook.com/events/1791402508810688/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "21",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.74744, 10.80432]
+      },
+      "properties": {
+        "name_vn": "Festive Bazaar 2026",
+        "from_date": "2026-11-20",
+        "to_date": "2026-11-22",
+        "start_time": "09:00",
+        "time": "N/A",
+        "isRegister": "Yes",
+        "event_url": "https://www.facebook.com/events/200030951785458/",
+        "address": "Q2Terrace, 21 Võ Trường Toản, phường An Khánh, TP.HCM",
+        "address_url": "https://www.google.com/maps/place/21+V%C3%B5+Tr%C6%B0%E1%BB%9Dng+To%E1%BA%A3n,+An+Kh%C3%A1nh,+H%E1%BB%93+Ch%C3%AD+Minh,+Vietnam/@10.8043172,106.7474408,17z/data=!3m1!4b1!4m6!3m5!1s0x3175266b35a12f31:0xe0aa41941ad13dae!8m2!3d10.8043172!4d106.7474408!16s%2Fg%2F11thqzwc58",
+        "image_url": "thumbs/21.jpg",
+        "host_name": "Weekend.Hub Thảo Điền",
+        "host_url": "https://www.facebook.com/events/200030951785458/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "22",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.69376, 10.78819]
+      },
+      "properties": {
+        "name_vn": "Lễ hội Nhiếp ảnh Quốc tế TP.HCM 2026",
+        "from_date": "2026-11-20",
+        "to_date": "2026-11-24",
+        "start_time": "09:00",
+        "time": "N/A",
+        "isRegister": "No",
+        "event_url": "https://tuoitre.vn/co-gi-tai-le-hoi-nhiep-anh-quoc-te-tphcm-2026-keo-dai-6-ngay-100261030144032622.htm",
+        "address": "Công viên Lê Văn Tám, phường Tân Định, TP.HCM",
+        "address_url": "https://www.google.com/maps/place/Le+Van+Tam+Park/@10.7881609,106.693773,17z/data=!3m1!4b1!4m6!3m5!1s0x31752fcad86be0c1:0x6a64d9be45c56f61!8m2!3d10.7881609!4d106.693773!16s%2Fg%2F122ybg70",
+        "image_url": "thumbs/22.jpg",
+        "host_name": "Ban tổ chức Lễ hội Nhiếp ảnh Quốc tế TP.HCM",
+        "host_url": "https://tuoitre.vn"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "23",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.69972, 10.77611]
+      },
+      "properties": {
+        "name_vn": "Khai hội Văn hóa – Khởi sắc tinh hoa — Bảo tàng TP.HCM",
+        "from_date": "2026-11-20",
+        "to_date": "2026-12-13",
+        "start_time": "14:00",
+        "time": "N/A",
+        "isRegister": "Yes",
+        "event_url": "https://www.facebook.com/museumofhcmc",
+        "address": "Bảo tàng Thành phố Hồ Chí Minh, 65 Lý Tự Trọng, phường Sài Gòn, TP.HCM",
+        "address_url": "https://www.google.com/maps/place/Museum+of+Ho+Chi+Minh+City/@10.7759182,106.6996319,17z/data=!3m1!4b1!4m6!3m5!1s0x31752f7e127ee995:0x2dcb5bd0282bae73!8m2!3d10.7759182!4d106.6996319!16s%2Fm%2F02pxf_c",
+        "image_url": "thumbs/23.jpg",
+        "host_name": "Bảo tàng Thành phố Hồ Chí Minh",
+        "host_url": "https://www.facebook.com/museumofhcmc"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "24",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.69297, 10.77323]
+      },
+      "properties": {
+        "name_vn": "Euro Film Fest 2026: phim châu Âu mỗi tối ở Galaxy Nguyễn Du",
+        "from_date": "2026-11-20",
+        "to_date": "2026-12-07",
+        "start_time": "19:30",
+        "time": "N/A",
+        "isRegister": "Yes",
+        "event_url": "https://www.eeas.europa.eu/euffvn2026_vi",
+        "address": "Galaxy Cinema Nguyễn Du, Rạp Galaxy, 116 Nguyễn Du, phường Bến Thành, TP.HCM",
+        "address_url": "https://www.google.com/maps/place/Galaxy+Cinema+Nguy%E1%BB%85n+Du/@10.7731281,106.6931875,17z/data=!3m1!4b1!4m6!3m5!1s0x31752f3c0189fa2b:0x6e75dc36d4dba07d!8m2!3d10.7731281!4d106.6931875!16s%2Fg%2F1q5bp6_2g",
+        "image_url": "thumbs/24.jpg",
+        "host_name": "Phái đoàn Liên minh châu Âu tại Việt Nam",
+        "host_url": "https://www.eeas.europa.eu"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "25",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.69515, 10.78947]
+      },
+      "properties": {
+        "name_vn": "Odd Market",
+        "from_date": "2026-11-21",
+        "to_date": "2026-11-22",
+        "start_time": "08:00",
+        "time": "N/A",
+        "isRegister": "No",
+        "event_url": "https://www.threads.com/@drstudio2015",
+        "address": "The Odd Father, 12 Phan Liêm, phường Tân Định, TP.HCM",
+        "address_url": "https://www.google.com/maps/place/The+Odd+Father+coffee+%26+wine/@10.7894482,106.6953729,17z/data=!3m1!4b1!4m6!3m5!1s0x31752900755b4e53:0x4c97f2efcc6ce059!8m2!3d10.7894482!4d106.6953729!16s%2Fg%2F11ysb0cx1x",
+        "image_url": "thumbs/25.jpg",
+        "host_name": "The Odd Father",
+        "host_url": "https://www.threads.com"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "26",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.74661, 10.77888]
+      },
+      "properties": {
+        "name_vn": "Những Bức Tranh Tự Nó Đặt Tên — Bùi Chát",
+        "from_date": "2026-11-21",
+        "to_date": "2026-12-31",
+        "start_time": "08:00",
+        "time": "N/A",
+        "isRegister": "No",
+        "event_url": "https://conart.vn/exhibition-paintings-that-name-themselves-bui-chat/",
+        "address": "CON Art Station, Bến Du Thuyền, Tháp Hawaii, Đảo Kim Cương, phường Bình Trưng, TP.HCM",
+        "address_url": "https://www.google.com/maps/place/CON+Art+Station/@10.7796511,106.7463449,17z/data=!3m1!4b1!4m6!3m5!1s0x317525007f18b90b:0xe223ca0039c31b2e!8m2!3d10.7796511!4d106.7463449!16s%2Fg%2F11yzn3z6k_",
+        "image_url": "thumbs/26.jpg",
+        "host_name": "CON Art Gallery",
+        "host_url": "https://conart.vn"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "27",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.69689, 10.78179]
+      },
+      "properties": {
+        "name_vn": "Dấu Sắc Việt 2026 — lễ hội văn hóa Việt bốn ngày tại Nhà Văn hóa Thanh niên",
+        "from_date": "2026-11-21",
+        "to_date": "2026-11-24",
+        "start_time": "08:00",
+        "time": "N/A",
+        "isRegister": "No",
+        "event_url": "https://tuoitre.vn/le-hoi-dau-sac-viet-2026-7-khong-gian-trai-nghiem-van-hoa-xem-phim-mien-phi-100261117021944094.htm",
+        "address": "Nhà Văn hóa Thanh niên TP.HCM, 21 Phạm Ngọc Thạch, phường Xuân Hòa, TP.HCM",
+        "address_url": "https://www.google.com/maps/place/Ho+Chi+Minh+City+Youth+Cultural+House/@10.7838478,106.6943403,17z/data=!3m1!4b1!4m6!3m5!1s0x31752f3658915da5:0x7d08899395d00274!8m2!3d10.7838478!4d106.6943403!16s%2Fg%2F120mt77m",
+        "image_url": "thumbs/27.jpg",
+        "host_name": "Nhà Văn hóa Thanh niên TP.HCM",
+        "host_url": "https://tuoitre.vn"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "28",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.69754, 10.78839]
+      },
+      "properties": {
+        "name_vn": "PSYPER LAB: Xã hội diễn cảnh",
+        "from_date": "2026-11-21",
+        "to_date": "2027-01-23",
+        "start_time": "10:00",
+        "time": "N/A",
+        "isRegister": "No",
+        "event_url": "https://www.galeriequynh.com/exhibitions/150-psyper-lab-the-society-of-the-spectacle-lai-dieu-ha/",
+        "address": "Galerie Quynh, 118 Nguyễn Văn Thủ, phường Tân Định, TP.HCM",
+        "address_url": "https://www.google.com/maps/place/GALERIE+QUYNH+CONTEMPORARY+ART/@10.7884646,106.6975431,17z/data=!3m1!4b1!4m6!3m5!1s0x31752f143a284e07:0x5da2df4686611fd9!8m2!3d10.7884646!4d106.6975431!16s%2Fg%2F1td1ryxf",
+        "image_url": "thumbs/28.jpg",
+        "host_name": "Galerie Quynh",
+        "host_url": "https://www.galeriequynh.com"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "29",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.73361, 10.80919]
+      },
+      "properties": {
+        "name_vn": "Holiday Shopping with a Taste of Mulled Wine",
+        "from_date": "2026-11-21",
+        "to_date": "2026-11-21",
+        "start_time": "13:00",
+        "time": "N/A",
+        "isRegister": "Yes",
+        "event_url": "https://www.facebook.com/events/3050464268494510/",
+        "address": "ByNature, 18 Trúc Đường, phường An Khánh, TP.HCM",
+        "address_url": "https://www.google.com/maps/place/ByNature+Company/@10.8091918,106.7336058,17z/data=!3m1!4b1!4m6!3m5!1s0x317527849d3478a3:0x5e3a17deea92da27!8m2!3d10.8091918!4d106.7336058!16s%2Fg%2F11fhv7_jld",
+        "image_url": "thumbs/29.jpg",
+        "host_name": "ByNature",
+        "host_url": "https://www.facebook.com/events/3050464268494510/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "30",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.75009, 10.80893]
+      },
+      "properties": {
+        "name_vn": "Art Speed Date",
+        "from_date": "2026-11-21",
+        "to_date": "2026-11-21",
+        "start_time": "14:00",
+        "time": "N/A",
+        "isRegister": "Yes",
+        "event_url": "https://docs.google.com/forms/d/e/1FAIpQLSdu-yA32eIDYF6zXYyW6grdxn1fsafMJLECuPBQQSjbDygidQ/viewform",
+        "address": "Bella Riva, 55 An Phú, phường An Khánh (Thảo Điền), TP.HCM",
+        "address_url": "https://www.google.com/maps/place/Bella+Riva+Restaurant+-+Nh%C3%A0+h%C3%A0ng+view+s%C3%B4ng/@10.8088952,106.7504857,17z/data=!3m1!4b1!4m6!3m5!1s0x317527e0c6408683:0x5b76abe2fa12cd22!8m2!3d10.8088952!4d106.7504857!16s%2Fg%2F11xktlz3lh",
+        "image_url": "thumbs/30.jpg",
+        "host_name": "Anjoy Trần — Vẽ Thiền Thiền Vẽ",
+        "host_url": "https://docs.google.com/forms/d/e/1FAIpQLSdu-yA32eIDYF6zXYyW6grdxn1fsafMJLECuPBQQSjbDygidQ/viewform"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "31",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.72907, 10.80405]
+      },
+      "properties": {
+        "name_vn": "ViCo Hands-on: Pottery Workshop",
+        "from_date": "2026-11-21",
+        "to_date": "2026-11-21",
+        "start_time": "14:00",
+        "time": "N/A",
+        "isRegister": "Yes",
+        "event_url": "https://ticketbox.vn/vico-hands-on-potter-workshop-at-atelier-de-zeynep-26791",
+        "address": "Atelier de Zeynep — Ceramic Studio & Café, 61 Nguyễn Bá Huân, phường An Khánh, TP.HCM",
+        "address_url": "https://www.google.com/maps/place/Atelier+de+Zeynep+-+Ceramic+Studio+%26+Caf%C3%A9/@10.8051473,106.7285399,17z/data=!3m1!4b1!4m6!3m5!1s0x3175277a3aad1f57:0x1f0bd70d3d80d0bf!8m2!3d10.8051473!4d106.7285399!16s%2Fg%2F11s2m07mxt",
+        "image_url": "thumbs/31.jpg",
+        "host_name": "ViCo Community & Atelier de Zeynep",
+        "host_url": "https://ticketbox.vn/vico-hands-on-potter-workshop-at-atelier-de-zeynep-26791"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "32",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.64025, 10.79379]
+      },
+      "properties": {
+        "name_vn": "Workshop GROW",
+        "from_date": "2026-11-21",
+        "to_date": "2026-11-21",
+        "start_time": "15:00",
+        "time": "N/A",
+        "isRegister": "Yes",
+        "event_url": "https://docs.google.com/forms/d/e/1FAIpQLSf2EXyHhoEZdffEM5-_-OkQw0aO8G_wDDhKDYd3PJK0vjBZUQ/viewform",
+        "address": "NOW Coffee & Tea, 190 Trương Công Định, phường Tân Bình, TP.HCM",
+        "address_url": "https://www.google.com/maps/place/NOW+Coffee+%26+Tea/@10.7937267,106.6400676,17z/data=!3m1!4b1!4m6!3m5!1s0x3175296c98a0c9d9:0x4663c1a5c33dfd3!8m2!3d10.7937267!4d106.6400676!16s%2Fg%2F11h5ls9g81",
+        "image_url": "thumbs/32.jpg",
+        "host_name": "GAUC",
+        "host_url": "https://docs.google.com/forms/d/e/1FAIpQLSf2EXyHhoEZdffEM5-_-OkQw0aO8G_wDDhKDYd3PJK0vjBZUQ/viewform"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "33",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.66948, 10.77293]
+      },
+      "properties": {
+        "name_vn": "TASTE by Love Unfolds",
+        "from_date": "2026-11-21",
+        "to_date": "2026-11-26",
+        "start_time": "18:00",
+        "time": "N/A",
+        "isRegister": "Yes",
+        "event_url": "https://eventspiano.com/taste/",
+        "address": "Maison de Piano, 766/1 Sư Vạn Hạnh, phường Hòa Hưng, TP.HCM",
+        "address_url": "https://www.google.com/maps/place/Maison+De+Piano+%7C+The+Art+of+Sound/@10.7736488,106.6691369,17z/data=!3m1!4b1!4m6!3m5!1s0x31752f91d52df2d5:0xd9e3af3c361321c2!8m2!3d10.7736488!4d106.6691369!16s%2Fg%2F11nttp4y2n",
+        "image_url": "thumbs/33.jpg",
+        "host_name": "Love Unfolds (Events Piano)",
+        "host_url": "https://eventspiano.com"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "34",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.69011, 10.78075]
+      },
+      "properties": {
+        "name_vn": "The Colors of Time",
+        "from_date": "2026-11-21",
+        "to_date": "2026-11-21",
+        "start_time": "19:00",
+        "time": "N/A",
+        "isRegister": "Yes",
+        "event_url": "https://ticketbox.vn/concert-the-colors-of-time-26775",
+        "address": "Bình Minh Art Gallery, 29A Ngô Thời Nhiệm, phường Xuân Hòa, TP.HCM",
+        "address_url": "https://www.google.com/maps/place/B%C3%ACnh+Minh+Art+Gallery/@10.7806157,106.69018,17z/data=!3m1!4b1!4m6!3m5!1s0x31752ff8bfc0adf5:0x7e80317fd50411d0!8m2!3d10.7806157!4d106.69018!16s%2Fg%2F11rfsw6z3t",
+        "image_url": "thumbs/34.jpg",
+        "host_name": "PiaNhissimo",
+        "host_url": "https://ticketbox.vn/concert-the-colors-of-time-26775"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "35",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.69396, 10.78476]
+      },
+      "properties": {
+        "name_vn": "Thuỳ Dung — đêm nhạc Pháp \"Toi Jamais\" tại Cat&Mouse",
+        "from_date": "2026-11-21",
+        "to_date": "2026-11-21",
+        "start_time": "20:30",
+        "time": "N/A",
+        "isRegister": "Yes",
+        "event_url": "https://catmouse.vn/events/catmouse-thuy-dung-km-samuel-an",
+        "address": "Cat&Mouse, 37B Phạm Ngọc Thạch, phường Xuân Hòa, TP.HCM",
+        "address_url": "https://www.google.com/maps/place/Cat%26Mouse+Live+Music/@10.7844732,106.6937154,17z/data=!3m1!4b1!4m6!3m5!1s0x31752fa922ae3783:0x21cbb21dc5175da4!8m2!3d10.7844732!4d106.6937154!16s%2Fg%2F11xv01jdsf",
+        "image_url": "thumbs/35.jpg",
+        "host_name": "Cat&Mouse",
+        "host_url": "https://catmouse.vn"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "36",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.70086, 10.78398]
+      },
+      "properties": {
+        "name_vn": "Kịch Đoàn Thành Lộc: Ngũ Quý Tương Phùng",
+        "from_date": "2026-11-22",
+        "to_date": "2026-11-22",
+        "start_time": "19:00",
+        "time": "N/A",
+        "isRegister": "Yes",
+        "event_url": "https://ticketbox.vn/kichdoanthanhloc-nguquytuongphung-26628",
+        "address": "Nhà hát Bến Thành, 6 Mạc Đĩnh Chi, phường Sài Gòn, TP.HCM",
+        "address_url": "https://www.google.com/maps/place/Ben+Thanh+Theater/@10.7840882,106.7008902,17z/data=!3m1!4b1!4m6!3m5!1s0x31752f2bd90910bb:0x353c8a24656ad204!8m2!3d10.7840882!4d106.7008902!16s%2Fg%2F120n39kx",
+        "image_url": "thumbs/36.jpg",
+        "host_name": "Kịch đoàn Thành Lộc",
+        "host_url": "https://ticketbox.vn/kichdoanthanhloc-nguquytuongphung-26628"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "37",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.66262, 10.78751]
+      },
+      "properties": {
+        "name_vn": "Độc Lập × Hoan Hô",
+        "from_date": "2026-11-22",
+        "to_date": "2026-12-06",
+        "start_time": "19:30",
+        "time": "N/A",
+        "isRegister": "Yes",
+        "event_url": "https://www.instagram.com/p/DfsOs16phAK/",
+        "address": "Hoan, 737/4 Cách Mạng Tháng Tám, Tân Bình, TP.HCM",
+        "address_url": "https://www.google.com/maps/place/Hoan/@10.7875079,106.6626231,17z/data=!3m1!4b1!4m6!3m5!1s0x31752f4f3b6f11a1:0x8c4c5c5411981f72!8m2!3d10.7875079!4d106.6626231!16s%2Fg%2F11x1g86t8s",
+        "image_url": "thumbs/37.jpg",
+        "host_name": "Hoan",
+        "host_url": "https://www.instagram.com/p/DfsOs16phAK/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "38",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.69057, 10.78898]
+      },
+      "properties": {
+        "name_vn": "Almost Hilarious: 1 Yearold Megashow",
+        "from_date": "2026-11-22",
+        "to_date": "2026-11-22",
+        "start_time": "19:30",
+        "time": "N/A",
+        "isRegister": "Yes",
+        "event_url": "https://megatix.vn/events/almost-hilarious-1-yearold-megashow",
+        "address": "NEO, 393/7 Hai Bà Trưng, phường Xuân Hòa, TP.HCM",
+        "address_url": "https://www.google.com/maps/place/NEO-/@10.790098,106.68838,17z/data=!3m1!4b1!4m6!3m5!1s0x31752951ad8154a1:0x688bb84bdb6086f5!8m2!3d10.790098!4d106.68838!16s%2Fg%2F11q58zymwv",
+        "image_url": "thumbs/38.jpg",
+        "host_name": "Almost Hilarious",
+        "host_url": "https://megatix.vn/events/almost-hilarious-1-yearold-megashow"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "39",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.70305, 10.77653]
+      },
+      "properties": {
+        "name_vn": "HBSO: Rare Masterpieces by Great Romantic Composers",
+        "from_date": "2026-11-22",
+        "to_date": "2026-11-22",
+        "start_time": "20:00",
+        "time": "N/A",
+        "isRegister": "Yes",
+        "event_url": "https://ticketbox.vn/rare-masterpieces-26769",
+        "address": "Nhà hát Thành phố, 7 Công Trường Lam Sơn, phường Sài Gòn, TP.HCM",
+        "address_url": "https://www.google.com/maps/place/Saigon+Opera+House/@10.7766128,106.7031715,17z/data=!3m1!4b1!4m6!3m5!1s0x31752f4649e7ca29:0x55f531b6120cae3b!8m2!3d10.7766128!4d106.7031715!16s%2Fm%2F027_v_t",
+        "image_url": "thumbs/39.jpg",
+        "host_name": "Nhà hát Giao hưởng Nhạc Vũ kịch TP.HCM (HBSO)",
+        "host_url": "https://ticketbox.vn/rare-masterpieces-26769"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "40",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.69229, 10.76509]
+      },
+      "properties": {
+        "name_vn": "Đức Tả Quân Lê Văn Duyệt – Người Mang 9 Án Tử",
+        "from_date": "2026-11-22",
+        "to_date": "2026-11-22",
+        "start_time": "20:00",
+        "time": "N/A",
+        "isRegister": "Yes",
+        "event_url": "https://ticketbox.vn/vo-cai-luong-duc-ta-quan-le-van-duyet-nguoi-mang-9-an-tu-25788",
+        "address": "Nhà hát cải lương Trần Hữu Trang, 136 Trần Hưng Đạo, phường Bến Thành, TP.HCM",
+        "address_url": "https://www.google.com/maps/place/Tran+Huu+Trang+Cailuong+Theater/@10.7648764,106.6923116,17z/data=!3m1!4b1!4m6!3m5!1s0x31752f165f7cfd6f:0x250fe38b35da9699!8m2!3d10.7648764!4d106.6923116!16s%2Fg%2F122vxygq",
+        "image_url": "thumbs/40.jpg",
+        "host_name": "Sân khấu cải lương mới Đại Việt",
+        "host_url": "https://ticketbox.vn/vo-cai-luong-duc-ta-quan-le-van-duyet-nguoi-mang-9-an-tu-25788"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "41",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.69396, 10.78476]
+      },
+      "properties": {
+        "name_vn": "14 Casper & Bon Nghiêm: Em Ăn Cơm Chưa?",
+        "from_date": "2026-11-22",
+        "to_date": "2026-11-22",
+        "start_time": "20:30",
+        "time": "N/A",
+        "isRegister": "Yes",
+        "event_url": "https://www.catmouse.vn/events/catmouse-14-casper-bon-nghiem",
+        "address": "Cat&Mouse, 37B Phạm Ngọc Thạch, phường Xuân Hòa, TP.HCM",
+        "address_url": "https://www.google.com/maps/place/Cat%26Mouse+Live+Music/@10.7844732,106.6937154,17z/data=!3m1!4b1!4m6!3m5!1s0x31752fa922ae3783:0x21cbb21dc5175da4!8m2!3d10.7844732!4d106.6937154!16s%2Fg%2F11xv01jdsf",
+        "image_url": "thumbs/41.jpg",
+        "host_name": "Cat&Mouse",
+        "host_url": "https://www.catmouse.vn"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "42",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.70026, 10.76767]
+      },
+      "properties": {
+        "name_vn": "Coffee Workshop tại Lacàph — Ngày Văn hóa Việt Nam",
+        "from_date": "2026-11-24",
+        "to_date": "2026-11-24",
+        "start_time": "09:00",
+        "time": "N/A",
+        "isRegister": "No",
+        "event_url": "https://forms.gle/ru9KhF2fbBdwmZzJ6",
+        "address": "Lacàph Coffee Experiences Space, 220 Nguyễn Công Trứ, phường Bến Thành, TP.HCM",
+        "address_url": "https://www.google.com/maps/place/Lac%C3%A0ph+Coffee+Experiences+Space/@10.7679743,106.700435,17z/data=!3m1!4b1!4m6!3m5!1s0x31752fafb4f8a93d:0x620ce60882082fd4!8m2!3d10.7679743!4d106.700435!16s%2Fg%2F11fs2_3bvt",
+        "image_url": "thumbs/42.jpg",
+        "host_name": "Lacàph Coffees of Việt Nam",
+        "host_url": "https://forms.gle/ru9KhF2fbBdwmZzJ6"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "43",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.70086, 10.78398]
+      },
+      "properties": {
+        "name_vn": "Đêm nhạc 14 Casper, K.O & Bon Nghiêm",
+        "from_date": "2026-11-25",
+        "to_date": "2026-11-25",
+        "start_time": "20:00",
+        "time": "N/A",
+        "isRegister": "Yes",
+        "event_url": "https://ticketbox.vn/dem-nhac-ben-thanh-2511-26729",
+        "address": "Phòng trà Bến Thành, Lầu 3, Nhà hát Bến Thành, 6 Mạc Đĩnh Chi, phường Sài Gòn, TP.HCM",
+        "address_url": "https://www.google.com/maps/place/Ben+Thanh+Theater/@10.7840882,106.7008902,17z/data=!3m1!4b1!4m6!3m5!1s0x31752f2bd90910bb:0x353c8a24656ad204!8m2!3d10.7840882!4d106.7008902!16s%2Fg%2F120n39kx",
+        "image_url": "thumbs/43.jpg",
+        "host_name": "Phòng trà Bến Thành",
+        "host_url": "https://ticketbox.vn/dem-nhac-ben-thanh-2511-26729"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "44",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.67484, 10.77193]
+      },
+      "properties": {
+        "name_vn": "WONDERSTRUCK – Animated Worlds in Orchestra",
+        "from_date": "2026-11-25",
+        "to_date": "2026-11-25",
+        "start_time": "20:00",
+        "time": "N/A",
+        "isRegister": "Yes",
+        "event_url": "https://flip.vn/events/wonderstruck2026",
+        "address": "Nhà hát Hòa Bình, 240 Đường 3 Tháng 2, phường Hòa Hưng, TP.HCM",
+        "address_url": "https://www.google.com/maps/place/Hoa+Binh+Theater/@10.7722951,106.6739215,17z/data=!3m1!4b1!4m6!3m5!1s0x31752ede41a643e7:0x72663dcdb85a499c!8m2!3d10.7722951!4d106.6739215!16s%2Fg%2F11j00sg4t7",
+        "image_url": "thumbs/44.jpg",
+        "host_name": "Sinfonia Vietnam",
+        "host_url": "https://flip.vn/events/wonderstruck2026"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "45",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.66798, 10.76095]
+      },
+      "properties": {
+        "name_vn": "ESCAPE – Thế hệ số",
+        "from_date": "2026-11-26",
+        "to_date": "2026-11-30",
+        "start_time": "09:00",
+        "time": "N/A",
+        "isRegister": "No",
+        "event_url": "https://ifv.vn/su-kien/trien-lam-escape-the-he-so/",
+        "address": "UEH / ArtTech Hub, C-Lab (B2.110) và sảnh B1, Campus B, UEH, 279 Nguyễn Tri Phương, phường Diên Hồng, TP.HCM",
+        "address_url": "https://www.google.com/maps/place/UEH%20/%20ArtTech%20Hub%2C%20C-Lab%20%28B2.110%29%20v%C3%A0%20s%E1%BA%A3nh%20B1%2C%20Campus%20B%2C%20UEH%2C%20279%20Nguy%E1%BB%85n%20Tri%20Ph%C6%B0%C6%A1ng%2C%20ph%C6%B0%E1%BB%9Dng%20Di%C3%AAn%20H%E1%BB%93ng%2C%20TP.HCM/@10.7609491,106.6679786,17z",
+        "image_url": "thumbs/45.jpg",
+        "host_name": "Viện Pháp tại Việt Nam",
+        "host_url": "https://ifv.vn"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "46",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.70421, 10.7738]
+      },
+      "properties": {
+        "name_vn": "Cảm Ơn Thanh Xuân — Đàm Vĩnh Hưng",
+        "from_date": "2026-11-27",
+        "to_date": "2026-11-27",
+        "start_time": "20:30",
+        "time": "N/A",
+        "isRegister": "Yes",
+        "event_url": "https://ticketbox.vn/dem-nhac-cam-on-thanh-xuan-by-danmusic-26872",
+        "address": "ĐAN Music, 12Bis Nguyễn Huệ, phường Sài Gòn, TP.HCM",
+        "address_url": "https://www.google.com/maps/place/%C4%90an+Music/@10.7728749,106.7053142,17z/data=!3m1!4b1!4m6!3m5!1s0x31752f005d782279:0xfe49a8e29d994416!8m2!3d10.7728749!4d106.7053142!16s%2Fg%2F11p2d887rb",
+        "image_url": "thumbs/46.jpg",
+        "host_name": "ĐAN Music (PG Entertainment)",
+        "host_url": "https://ticketbox.vn/dem-nhac-cam-on-thanh-xuan-by-danmusic-26872"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "47",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.7338, 10.8052]
+      },
+      "properties": {
+        "name_vn": "Truly International Comedy ft. Joel Bryant",
+        "from_date": "2026-11-27",
+        "to_date": "2026-11-27",
+        "start_time": "20:30",
+        "time": "N/A",
+        "isRegister": "Yes",
+        "event_url": "https://megatix.vn/events/truly-international-comedy-ft-joel-bryant",
+        "address": "Soma Saigon, 6 Lê Văn Miến, phường An Khánh, TP.HCM",
+        "address_url": "https://www.google.com/maps/place/SOMA+@+Green+Box/@10.804643,106.732175,17z/data=!3m1!4b1!4m6!3m5!1s0x3175261976955be9:0x3db924b8c34b4f0c!8m2!3d10.804643!4d106.732175!16s%2Fg%2F11f15hs3qk",
+        "image_url": "thumbs/47.jpg",
+        "host_name": "Truly International Comedy",
+        "host_url": "https://megatix.vn/events/truly-international-comedy-ft-joel-bryant"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "48",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.69396, 10.78476]
+      },
+      "properties": {
+        "name_vn": "Liên Bỉnh Phát: Người Thương",
+        "from_date": "2026-11-27",
+        "to_date": "2026-11-27",
+        "start_time": "20:30",
+        "time": "N/A",
+        "isRegister": "Yes",
+        "event_url": "https://www.catmouse.vn/events/catmouse-mini-show-nguoi-thuong",
+        "address": "Cat&Mouse, 37B Phạm Ngọc Thạch, phường Xuân Hòa, TP.HCM",
+        "address_url": "https://www.google.com/maps/place/Cat%26Mouse+Live+Music/@10.7844732,106.6937154,17z/data=!3m1!4b1!4m6!3m5!1s0x31752fa922ae3783:0x21cbb21dc5175da4!8m2!3d10.7844732!4d106.6937154!16s%2Fg%2F11xv01jdsf",
+        "image_url": "thumbs/48.jpg",
+        "host_name": "Cat&Mouse",
+        "host_url": "https://www.catmouse.vn"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "49",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.69689, 10.78179]
+      },
+      "properties": {
+        "name_vn": "ViCo SmartTour x Urbanist Travel: A Cho Lon Story",
+        "from_date": "2026-11-28",
+        "to_date": "2026-11-28",
+        "start_time": "08:30",
+        "time": "N/A",
+        "isRegister": "Yes",
+        "event_url": "https://ticketbox.vn/vico-smarttour-x-urbanist-travel-a-cho-lon-story-26792",
+        "address": "Nhà Văn hóa Thanh niên TP.HCM (điểm tập trung), 21 Phạm Ngọc Thạch, phường Xuân Hòa, TP.HCM",
+        "address_url": "https://www.google.com/maps/place/Ho+Chi+Minh+City+Youth+Cultural+House/@10.7838478,106.6943403,17z/data=!3m1!4b1!4m6!3m5!1s0x31752f3658915da5:0x7d08899395d00274!8m2!3d10.7838478!4d106.6943403!16s%2Fg%2F120mt77m",
+        "image_url": "thumbs/49.jpg",
+        "host_name": "ViCo Community & Urbanist Travel",
+        "host_url": "https://ticketbox.vn/vico-smarttour-x-urbanist-travel-a-cho-lon-story-26792"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "50",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.74903, 10.80545]
+      },
+      "properties": {
+        "name_vn": "Saint Ange Charity Christmas Fair 2026",
+        "from_date": "2026-11-28",
+        "to_date": "2026-11-28",
+        "start_time": "08:30",
+        "time": "N/A",
+        "isRegister": "Yes",
+        "event_url": "https://www.facebook.com/events/1682107293478299/",
+        "address": "Trường Quốc tế Pháp Saint Ange, Saint Ange, 19 Giang Văn Minh, phường An Khánh, TP.HCM",
+        "address_url": "https://www.google.com/maps/place/Tr%C6%B0%E1%BB%9Dng%20Qu%E1%BB%91c%20t%E1%BA%BF%20Ph%C3%A1p%20Saint%20Ange%2C%20Saint%20Ange%2C%2019%20Giang%20V%C4%83n%20Minh%2C%20ph%C6%B0%E1%BB%9Dng%20An%20Kh%C3%A1nh%2C%20TP.HCM/@10.8054472,106.7490324,17z",
+        "image_url": "thumbs/50.jpg",
+        "host_name": "Saint Ange School HCMC × Les Enfants du Dragon",
+        "host_url": "https://www.facebook.com/events/1682107293478299/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "51",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.70113, 10.79009]
+      },
+      "properties": {
+        "name_vn": "Saigon Garden Flea của Saigon Social Flock",
+        "from_date": "2026-11-28",
+        "to_date": "2026-11-29",
+        "start_time": "09:00",
+        "time": "N/A",
+        "isRegister": "No",
+        "event_url": "https://www.instagram.com/p/DfoeZp4nWAq/",
+        "address": "5A Nguyễn Đình Chiểu, phường Sài Gòn, TP.HCM",
+        "address_url": "https://www.google.com/maps/place/5A+%C4%90%C6%B0%E1%BB%9Dng+Nguy%E1%BB%85n+%C4%90%C3%ACnh+Chi%E1%BB%83u,+S%C3%A0i+G%C3%B2n,+H%E1%BB%93+Ch%C3%AD+Minh,+Vietnam/@10.7896678,106.7015184,17z/data=!3m1!4b1!4m6!3m5!1s0x317528b5379127c7:0xebd66dae035ffd20!8m2!3d10.7896678!4d106.7015184!16s%2Fg%2F11c2fr32xk",
+        "image_url": "thumbs/51.jpg",
+        "host_name": "Saigon Social Flock",
+        "host_url": "https://www.instagram.com/p/DfoeZp4nWAq/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "52",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.73317, 10.80149]
+      },
+      "properties": {
+        "name_vn": "Saigon Vintage Market",
+        "from_date": "2026-11-28",
+        "to_date": "2026-11-29",
+        "start_time": "10:00",
+        "time": "N/A",
+        "isRegister": "No",
+        "event_url": "https://www.instagram.com/p/DfjlIiIAoBz/",
+        "address": "Pearl Center (Thao Dien Pearl), tầng 1, 12 Quốc Hương, phường An Khánh, TP.HCM",
+        "address_url": "https://www.google.com/maps/place/Pearl+Center+-+Thao+Dien+Pearl/@10.8012804,106.7328725,17z/data=!3m1!4b1!4m6!3m5!1s0x3175261a51b3d5eb:0xca45e9df7b7cff4c!8m2!3d10.8012804!4d106.7328725!16s%2Fg%2F11g8n6572v",
+        "image_url": "thumbs/52.jpg",
+        "host_name": "Saigon Vintage Market",
+        "host_url": "https://www.instagram.com/p/DfjlIiIAoBz/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "53",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.71028, 10.7491]
+      },
+      "properties": {
+        "name_vn": "Vietnam Pro Wrestling: VIETNAMANIA 2",
+        "from_date": "2026-11-28",
+        "to_date": "2026-11-28",
+        "start_time": "18:00",
+        "time": "N/A",
+        "isRegister": "Yes",
+        "event_url": "https://flip.vn/events/vietnam-pro-wrestling-vpw-vietnamania-2-dau-vat-bieu-dien-truc-tiep-live-wwe-style-professional-wrestling-6253342633",
+        "address": "VAIB Studio, 37 Bế Văn Cấm, phường Tân Hưng, TP.HCM",
+        "address_url": "https://www.google.com/maps/place/37+B%E1%BA%BF+V%C4%83n+C%E1%BA%A5m,+T%C3%A2n+H%C6%B0ng,+H%E1%BB%93+Ch%C3%AD+Minh+700000,+Vietnam/@10.7495591,106.7084893,17z/data=!3m1!4b1!4m6!3m5!1s0x31752f76d92fa497:0x240bfdef5967031!8m2!3d10.7495591!4d106.7084893!16s%2Fg%2F11s8dx4436",
+        "image_url": "thumbs/53.jpg",
+        "host_name": "Vietnam Pro Wrestling (VPW)",
+        "host_url": "https://flip.vn/events/vietnam-pro-wrestling-vpw-vietnamania-2-dau-vat-bieu-dien-truc-tiep-live-wwe-style-professional-wrestling-6253342633"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "54",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.70086, 10.78398]
+      },
+      "properties": {
+        "name_vn": "Hồ Văn Cường: Bước",
+        "from_date": "2026-11-28",
+        "to_date": "2026-11-28",
+        "start_time": "19:00",
+        "time": "N/A",
+        "isRegister": "Yes",
+        "event_url": "https://ticketbox.vn/liveshow-ho-van-cuong-buoc-26679",
+        "address": "Lầu 1, Nhà hát Bến Thành, 6 Mạc Đĩnh Chi, phường Sài Gòn, TP.HCM",
+        "address_url": "https://www.google.com/maps/place/Ben+Thanh+Theater/@10.7840882,106.7008902,17z/data=!3m1!4b1!4m6!3m5!1s0x31752f2bd90910bb:0x353c8a24656ad204!8m2!3d10.7840882!4d106.7008902!16s%2Fg%2F120n39kx",
+        "image_url": "thumbs/54.jpg",
+        "host_name": "Liveshow Hồ Văn Cường: Bước",
+        "host_url": "https://ticketbox.vn/liveshow-ho-van-cuong-buoc-26679"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "55",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.62048, 10.8047]
+      },
+      "properties": {
+        "name_vn": "Chillpark: Dạ Quang",
+        "from_date": "2026-11-28",
+        "to_date": "2026-11-28",
+        "start_time": "19:30",
+        "time": "N/A",
+        "isRegister": "Yes",
+        "event_url": "https://ticketbox.vn/chillpark-da-quang-26736",
+        "address": "Celadon City, 88 đường N1, phường Tân Sơn Nhì, TP.HCM",
+        "address_url": "https://www.google.com/maps/place/88+%C4%90.+T%C3%A2n+Th%E1%BA%A1nh,+Celadon+City,+T%C3%A2n+S%C6%A1n+Nh%C3%AC,+H%E1%BB%93+Ch%C3%AD+Minh+700000,+Vietnam/@10.8041568,106.6200492,17z/data=!3m1!4b1!4m6!3m5!1s0x31752bf0179a56a3:0x73120d23dda33374!8m2!3d10.8041568!4d106.6200492!16s%2Fg%2F11nnknt82h",
+        "image_url": "thumbs/55.jpg",
+        "host_name": "Chillpark",
+        "host_url": "https://ticketbox.vn/chillpark-da-quang-26736"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "56",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.69069, 10.77637]
+      },
+      "properties": {
+        "name_vn": "All Mixed Up Vol. 11",
+        "from_date": "2026-11-28",
+        "to_date": "2026-11-28",
+        "start_time": "20:00",
+        "time": "N/A",
+        "isRegister": "Yes",
+        "event_url": "https://forms.gle/UbDbeJE21jPdDPSE7",
+        "address": "Alibi – Bar & Bites, Alibi, 93C Võ Văn Tần, phường Xuân Hòa, TP.HCM",
+        "address_url": "https://www.google.com/maps/place/Alibi+-+Bar+%26+Bites/@10.776192,106.6907443,17z/data=!3m1!4b1!4m6!3m5!1s0x31752fc7fdd7d35b:0xc5a16630789d2da1!8m2!3d10.776192!4d106.6907443!16s%2Fg%2F11w96vy4tr",
+        "image_url": "thumbs/56.jpg",
+        "host_name": "All Mixed Up",
+        "host_url": "https://forms.gle/UbDbeJE21jPdDPSE7"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "57",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.69396, 10.78476]
+      },
+      "properties": {
+        "name_vn": "Văn Mai Hương: Cầu Hôn",
+        "from_date": "2026-11-28",
+        "to_date": "2026-11-28",
+        "start_time": "20:30",
+        "time": "N/A",
+        "isRegister": "Yes",
+        "event_url": "https://www.catmouse.vn/events/catmouse-van-mai-huong",
+        "address": "Cat&Mouse, 37B Phạm Ngọc Thạch, phường Xuân Hòa, TP.HCM",
+        "address_url": "https://www.google.com/maps/place/Cat%26Mouse+Live+Music/@10.7844732,106.6937154,17z/data=!3m1!4b1!4m6!3m5!1s0x31752fa922ae3783:0x21cbb21dc5175da4!8m2!3d10.7844732!4d106.6937154!16s%2Fg%2F11xv01jdsf",
+        "image_url": "thumbs/57.jpg",
+        "host_name": "Cat&Mouse",
+        "host_url": "https://www.catmouse.vn"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "58",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.74736, 10.82959]
+      },
+      "properties": {
+        "name_vn": "Bình Quới – Bảo Tàng Sống Bưng Biền",
+        "from_date": "2026-11-29",
+        "to_date": "2026-11-29",
+        "start_time": "07:30",
+        "time": "N/A",
+        "isRegister": "Yes",
+        "event_url": "https://forms.gle/tr7gL4wJ7UPU7XDH8",
+        "address": "Vườn Xà Bần, 558/16 Bình Quới, phường Bình Quới, TP.HCM",
+        "address_url": "https://www.google.com/maps/place/V%C6%B0%E1%BB%9Dn+X%C3%A0+B%E1%BA%A7n/@10.8294974,106.7469614,17z/data=!3m1!4b1!4m6!3m5!1s0x31752778706da555:0x2d53d779ebadaf67!8m2!3d10.8294974!4d106.7469614!16s%2Fg%2F11yc8xc0yk",
+        "image_url": "thumbs/58.jpg",
+        "host_name": "Bảo Trân & Phương Đỗ (Pea)",
+        "host_url": "https://forms.gle/tr7gL4wJ7UPU7XDH8"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "59",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.6968, 10.78999]
+      },
+      "properties": {
+        "name_vn": "Workshop vòng nguyệt quế tươi Giáng sinh",
+        "from_date": "2026-11-29",
+        "to_date": "2026-11-29",
+        "start_time": "09:00",
+        "time": "N/A",
+        "isRegister": "Yes",
+        "event_url": "https://www.facebook.com/events/1361946855853819/",
+        "address": "Murmur Working Cafe, 106 Điện Biên Phủ, phường Tân Định, TP.HCM",
+        "address_url": "https://www.google.com/maps/place/Murmur+Working+Cafe/@10.789797,106.6967908,17z/data=!3m1!4b1!4m6!3m5!1s0x31752f43e419898d:0xb9d1ee78d4a5190c!8m2!3d10.789797!4d106.6967908!16s%2Fg%2F11k3dyjfzg",
+        "image_url": "thumbs/59.jpg",
+        "host_name": "Murmur Working Cafe",
+        "host_url": "https://www.facebook.com/events/1361946855853819/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "60",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.70664, 10.84457]
+      },
+      "properties": {
+        "name_vn": "2026 ANNYEONG Ho Chi Minh City Music Festival",
+        "from_date": "2026-11-29",
+        "to_date": "2026-11-29",
+        "start_time": "18:00",
+        "time": "N/A",
+        "isRegister": "Yes",
+        "event_url": "https://ticketbox.vn/2026-annyeong-ho-chi-minh-city-music-festival-26757",
+        "address": "Khu đô thị Vạn Phúc City, phường Hiệp Bình, TP.HCM",
+        "address_url": "https://www.google.com/maps/place/Khu%20%C4%91%C3%B4%20th%E1%BB%8B%20V%E1%BA%A1n%20Ph%C3%BAc%20City%2C%20ph%C6%B0%E1%BB%9Dng%20Hi%E1%BB%87p%20B%C3%ACnh%2C%20TP.HCM/@10.8445703,106.7066421,17z",
+        "image_url": "thumbs/60.jpg",
+        "host_name": "APPLEWOOD / APPLEWOOD Vietnam",
+        "host_url": "https://ticketbox.vn/2026-annyeong-ho-chi-minh-city-music-festival-26757"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "61",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.70014, 10.77541]
+      },
+      "properties": {
+        "name_vn": "Festival OCOP Việt Nam 2026",
+        "from_date": "2026-12-03",
+        "to_date": "2026-12-06",
+        "start_time": "08:00",
+        "time": "N/A",
+        "isRegister": "No",
+        "event_url": "https://dichoi.live/su-kien/festival-ocop-viet-nam-2026-pho-di-bo-nguyen-hue-uafpz",
+        "address": "Phố đi bộ Nguyễn Huệ, phường Sài Gòn, TP.HCM",
+        "address_url": "https://www.google.com/maps/place/Nguy%C3%AA%CC%83n+Hu%C3%AA%CC%A3,+S%C3%A0i+G%C3%B2n,+H%E1%BB%93+Ch%C3%AD+Minh,+Vietnam/@10.7738229,106.7036792,17z/data=!3m1!4b1!4m6!3m5!1s0x31752f46bf7d119d:0xebf6179d9abce572!8m2!3d10.7738229!4d106.7036792!16s%2Fg%2F11clt74722",
+        "image_url": "thumbs/61.jpg",
+        "host_name": "Bộ Nông nghiệp và Môi trường & UBND TP.HCM",
+        "host_url": "https://dichoi.live"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "62",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.69999, 10.77996]
+      },
+      "properties": {
+        "name_vn": "Saigon Urban Street Fest 2026",
+        "from_date": "2026-12-04",
+        "to_date": "2026-12-06",
+        "start_time": "00:00",
+        "time": "N/A",
+        "isRegister": "No",
+        "event_url": "https://artlive.vn/sai-gon-urban-street-fest-ba-mua-va-hanh-trinh-ket-noi-van-hoa-duong-pho-sai-gon/",
+        "address": "Bưu điện Trung tâm Sài Gòn, 2 Công xã Paris, phường Sài Gòn, TP.HCM",
+        "address_url": "https://www.google.com/maps/place/Saigon+Central+Post+Office/@10.7799129,106.699902,17z/data=!3m1!4b1!4m6!3m5!1s0x31752e8e801c1a47:0xb0f8d5737b239bb2!8m2!3d10.7799129!4d106.699902!16s%2Fm%2F02px4y6",
+        "image_url": "thumbs/62.jpg",
+        "host_name": "artLIVE",
+        "host_url": "https://artlive.vn"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "63",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.66854, 10.75242]
+      },
+      "properties": {
+        "name_vn": "Chợ Lớn Food Story #4",
+        "from_date": "2026-12-04",
+        "to_date": "2026-12-06",
+        "start_time": "09:00",
+        "time": "N/A",
+        "isRegister": "No",
+        "event_url": "https://www.instagram.com/cholondowntown/p/DfCP4POPU8u/",
+        "address": "Trung tâm Cung ứng dịch vụ công phường An Đông, 105 Trần Hưng Đạo, phường An Đông, TP.HCM",
+        "address_url": "https://www.google.com/maps/place/District+5+Cultural+Center/@10.7524216,106.6685424,17z/data=!3m1!4b1!4m6!3m5!1s0x31752ef97c173639:0xeaa4d1b90b4abd9b!8m2!3d10.7524216!4d106.6685424!16s%2Fg%2F1tgnz95n",
+        "image_url": "thumbs/63.jpg",
+        "host_name": "UBND phường An Đông",
+        "host_url": "https://www.instagram.com/cholondowntown"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "64",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.70086, 10.78398]
+      },
+      "properties": {
+        "name_vn": "Phan Mạnh Quỳnh & Bùi Lan Hương",
+        "from_date": "2026-12-04",
+        "to_date": "2026-12-04",
+        "start_time": "20:00",
+        "time": "N/A",
+        "isRegister": "Yes",
+        "event_url": "https://ticketbox.vn/phan-manh-quynh-bui-lan-huong-26812",
+        "address": "Phòng trà Bến Thành, Lầu 3, Nhà hát Bến Thành, 6 Mạc Đĩnh Chi, phường Sài Gòn, TP.HCM",
+        "address_url": "https://www.google.com/maps/place/Ben+Thanh+Theater/@10.7840882,106.7008902,17z/data=!3m1!4b1!4m6!3m5!1s0x31752f2bd90910bb:0x353c8a24656ad204!8m2!3d10.7840882!4d106.7008902!16s%2Fg%2F120n39kx",
+        "image_url": "thumbs/64.jpg",
+        "host_name": "Phòng trà Bến Thành",
+        "host_url": "https://ticketbox.vn/phan-manh-quynh-bui-lan-huong-26812"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "65",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.68568, 10.71946]
+      },
+      "properties": {
+        "name_vn": "BVISmas Fayre 2026",
+        "from_date": "2026-12-05",
+        "to_date": "2026-12-05",
+        "start_time": "09:30",
+        "time": "N/A",
+        "isRegister": "Yes",
+        "event_url": "https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=e3DJf4-dak-Fa664SP7xA0Ta2zQWKQZOvCsfpjW04HBUN0NPVlFQWE0xTEk0Q0FSOFZXSzFGRjNCUy4u",
+        "address": "BVIS TP.HCM, 44–46 Đường số 1, xã Bình Hưng, TP.HCM",
+        "address_url": "https://www.google.com/maps/place/British+Vietnamese+International+School+HCMC/@10.7220423,106.6878851,17z/data=!3m1!4b1!4m6!3m5!1s0x31752fa43f5ed3d7:0xc9ce5646fa1fc0f8!8m2!3d10.7220423!4d106.6878851!16s%2Fm%2F0nb3d92",
+        "image_url": "thumbs/65.jpg",
+        "host_name": "Trường Quốc tế Anh Việt BVIS TP.HCM",
+        "host_url": "https://forms.cloud.microsoft"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "66",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.68755, 10.77723]
+      },
+      "properties": {
+        "name_vn": "Kawaiimama Festival 2026",
+        "from_date": "2026-12-05",
+        "to_date": "2026-12-06",
+        "start_time": "10:00",
+        "time": "N/A",
+        "isRegister": "No",
+        "event_url": "https://kawaiimamafestival.com/events/kawaiimama-2026",
+        "address": "Nhà thi đấu Hồ Xuân Hương, đường Hồ Xuân Hương, phường Xuân Hòa, TP.HCM",
+        "address_url": "https://www.google.com/maps/place/Ho+Xuan+Huong+Gymnasium/@10.7773249,106.6874933,17z/data=!3m1!4b1!4m6!3m5!1s0x31752f25372311ad:0xa8adcf38403d223d!8m2!3d10.7773249!4d106.6874933!16s%2Fg%2F11h0vtqlgt",
+        "image_url": "thumbs/66.jpg",
+        "host_name": "Enfam Japan",
+        "host_url": "https://kawaiimamafestival.com"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "67",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.70288, 10.763]
+      },
+      "properties": {
+        "name_vn": "Saigon Record Fair 2026",
+        "from_date": "2026-12-05",
+        "to_date": "2026-12-05",
+        "start_time": "13:00",
+        "time": "N/A",
+        "isRegister": "No",
+        "event_url": "https://www.instagram.com/p/DfBm2PCkiKX/",
+        "address": "URBAN HUB, 1B Hoàng Diệu (Xóm Chiếu), Quận 4, TP.HCM",
+        "address_url": "https://www.google.com/maps/place/URBAN%20HUB%2C%201B%20Ho%C3%A0ng%20Di%E1%BB%87u%20%28X%C3%B3m%20Chi%E1%BA%BFu%29%2C%20Qu%E1%BA%ADn%204%2C%20TP.HCM/@10.762996,106.702884,17z",
+        "image_url": "thumbs/67.jpg",
+        "host_name": "Saigon Record Fair",
+        "host_url": "https://www.instagram.com/p/DfBm2PCkiKX/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "68",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.70873, 10.72307]
+      },
+      "properties": {
+        "name_vn": "ICO 30th Anniversary Winter Concert — SSIS",
+        "from_date": "2026-12-05",
+        "to_date": "2026-12-05",
+        "start_time": "14:30",
+        "time": "N/A",
+        "isRegister": "Yes",
+        "event_url": "https://funraise.org/give/Saigon-Children's-Charity-CIO/552da084-664a-4de5-9883-e3076854d0a7/",
+        "address": "Trường Quốc tế Nam Sài Gòn (SSIS), 78 Nguyễn Đức Cảnh, phường Tân Hưng, TP.HCM",
+        "address_url": "https://www.google.com/maps/place/Saigon+South+International+School/@10.7222995,106.7087845,17z/data=!3m1!4b1!4m6!3m5!1s0x31752fed28b765b7:0xd2efe72b1ba82b6f!8m2!3d10.7222995!4d106.7087845!16s%2Fm%2F05zrblp",
+        "image_url": "thumbs/68.jpg",
+        "host_name": "ICO HCMC × Saigon Children's Charity",
+        "host_url": "https://funraise.org"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "69",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.74794, 10.79047]
+      },
+      "properties": {
+        "name_vn": "IGS German Christmas Market 2026",
+        "from_date": "2026-12-05",
+        "to_date": "2026-12-05",
+        "start_time": "16:00",
+        "time": "N/A",
+        "isRegister": "No",
+        "event_url": "https://igs-hcmc.org/igs-german-christmas-market-2026",
+        "address": "Trường Quốc tế Đức TP.HCM (IGS), IGS, 253/11 Lương Định Của, phường Bình Trưng, TP.HCM",
+        "address_url": "https://www.google.com/maps/place/International+German+School+Ho+Chi+Minh+City+(IGS)/@10.7904738,106.747943,17z/data=!3m1!4b1!4m6!3m5!1s0x3175266b462bcba1:0xa35cd5e5b1576b53!8m2!3d10.7904738!4d106.747943!16s%2Fg%2F11dfh9b3qj",
+        "image_url": "thumbs/69.jpg",
+        "host_name": "Trường Quốc tế Đức TP.HCM (IGS)",
+        "host_url": "https://igs-hcmc.org"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "70",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.7335, 10.81569]
+      },
+      "properties": {
+        "name_vn": "Phaserunners",
+        "from_date": "2026-12-05",
+        "to_date": "2026-12-05",
+        "start_time": "19:00",
+        "time": "N/A",
+        "isRegister": "Yes",
+        "event_url": "https://ethoscollective.live/event/phaserunners/",
+        "address": "Blue Monkey Saigon, Hẻm 199M Nguyễn Văn Hưởng, phường An Khánh, TP.HCM",
+        "address_url": "https://www.google.com/maps/place/Blue+Monkey+Bar+Saigon/@10.813641,106.7334308,17z/data=!3m1!4b1!4m6!3m5!1s0x317527b5cfbd9d2f:0x1875d733719692da!8m2!3d10.813641!4d106.7334308!16s%2Fg%2F11yn8j412k",
+        "image_url": "thumbs/70.jpg",
+        "host_name": "Ethos Collective / HCMC Originals",
+        "host_url": "https://ethoscollective.live"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "71",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.72177, 10.77206]
+      },
+      "properties": {
+        "name_vn": "The Khang Show Music Wave: Thanh Xuân Rực Rỡ",
+        "from_date": "2026-12-05",
+        "to_date": "2026-12-05",
+        "start_time": "19:30",
+        "time": "N/A",
+        "isRegister": "Yes",
+        "event_url": "https://ticketbox.vn/the-khang-show-26773",
+        "address": "Space Above – Thisky Hall, 10 Mai Chí Thọ, Khu đô thị Sala, phường An Khánh, TP.HCM",
+        "address_url": "https://www.google.com/maps/place/Space%20Above%20%E2%80%93%20Thisky%20Hall%2C%2010%20Mai%20Ch%C3%AD%20Th%E1%BB%8D%2C%20Khu%20%C4%91%C3%B4%20th%E1%BB%8B%20Sala%2C%20ph%C6%B0%E1%BB%9Dng%20An%20Kh%C3%A1nh%2C%20TP.HCM/@10.7720643,106.7217734,17z",
+        "image_url": "thumbs/71.jpg",
+        "host_name": "The Khang Show",
+        "host_url": "https://ticketbox.vn/the-khang-show-26773"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "72",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.75002, 10.78947]
+      },
+      "properties": {
+        "name_vn": "Hòa nhạc Giáng sinh chiều Chủ Nhật của ICO",
+        "from_date": "2026-12-06",
+        "to_date": "2026-12-06",
+        "start_time": "14:30",
+        "time": "N/A",
+        "isRegister": "Yes",
+        "event_url": "https://icohcmc.com/upcoming-concert/",
+        "address": "Trường Quốc tế Úc (AIS), 264 Mai Chí Thọ, phường Bình Trưng, TP.HCM",
+        "address_url": "https://www.google.com/maps/place/Australian+International+School,+AIS+Saigon/@10.7899744,106.7505428,17z/data=!3m1!4b1!4m6!3m5!1s0x3175267456ff6c4b:0x9f8c29fb1650574c!8m2!3d10.7899744!4d106.7505428!16s%2Fm%2F02qf3_c",
+        "image_url": "thumbs/72.jpg",
+        "host_name": "ICO HCMC × Saigon Children's Charity",
+        "host_url": "https://icohcmc.com"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "73",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.69396, 10.78476]
+      },
+      "properties": {
+        "name_vn": "Quang Dũng & Hồng Ngọc: Giữ Lại Hạnh Phúc",
+        "from_date": "2026-12-06",
+        "to_date": "2026-12-06",
+        "start_time": "20:30",
+        "time": "N/A",
+        "isRegister": "Yes",
+        "event_url": "https://www.catmouse.vn/events/catmouse-quang-dung-hong-ngoc",
+        "address": "Cat&Mouse, 37B Phạm Ngọc Thạch, phường Xuân Hòa, TP.HCM",
+        "address_url": "https://www.google.com/maps/place/Cat%26Mouse+Live+Music/@10.7844732,106.6937154,17z/data=!3m1!4b1!4m6!3m5!1s0x31752fa922ae3783:0x21cbb21dc5175da4!8m2!3d10.7844732!4d106.6937154!16s%2Fg%2F11xv01jdsf",
+        "image_url": "thumbs/73.jpg",
+        "host_name": "Cat&Mouse",
+        "host_url": "https://www.catmouse.vn"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "74",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.664, 10.799]
+      },
+      "properties": {
+        "name_vn": "Nussknacker und Mausekönig (Kẹp hạt dẻ)",
+        "from_date": "2026-12-11",
+        "to_date": "2026-12-11",
+        "start_time": "19:00",
+        "time": "N/A",
+        "isRegister": "No",
+        "event_url": "https://quickom.net/event/7224",
+        "address": "Tư dinh Tổng Lãnh sự quán Đức, 257 Hoàng Văn Thụ, phường Tân Sơn Hòa, TP.HCM",
+        "address_url": "https://www.google.com/maps/place/257+%C4%90.+Ho%C3%A0ng+V%C4%83n+Th%E1%BB%A5,+T%C3%A2n+S%C6%A1n+H%C3%B2a,+H%E1%BB%93+Ch%C3%AD+Minh,+Vietnam/@10.799884,106.663525,17z/data=!3m1!4b1!4m6!3m5!1s0x3175293030e5103d:0x2fda9667c96e4552!8m2!3d10.799884!4d106.663525!16s%2Fg%2F11c2c8b_9l",
+        "image_url": "thumbs/74.jpg",
+        "host_name": "Nhóm bạn yêu nhạc cổ điển Sài Gòn × From Alpha to Opera",
+        "host_url": "https://quickom.net/event/7224"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "75",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.6932, 10.7731]
+      },
+      "properties": {
+        "name_vn": "Đồ Rê Mi Fa Sol LÔCÔ",
+        "from_date": "2026-12-12",
+        "to_date": "2026-12-14",
+        "start_time": "10:00",
+        "time": "N/A",
+        "isRegister": "No",
+        "event_url": "https://www.instagram.com/p/Dfo7CAKvAYG/",
+        "address": "Nhà thi đấu Nguyễn Du, 116 Nguyễn Du, phường Bến Thành, TP.HCM",
+        "address_url": "https://www.google.com/maps/place/Nguyen+Du+Gymnasium/@10.7732829,106.6929444,17z/data=!3m1!4b1!4m6!3m5!1s0x31752f3bf6222bcb:0x559552e530933b04!8m2!3d10.7732829!4d106.6929444!16s%2Fg%2F1hf2pshn5",
+        "image_url": "thumbs/75.jpg",
+        "host_name": "LÔCÔ Art Market",
+        "host_url": "https://www.instagram.com/p/Dfo7CAKvAYG/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "76",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.7311, 10.72422]
+      },
+      "properties": {
+        "name_vn": "ARC Saigon Charity Christmas Bazaar",
+        "from_date": "2026-12-12",
+        "to_date": "2026-12-12",
+        "start_time": "10:00",
+        "time": "N/A",
+        "isRegister": "No",
+        "event_url": "https://www.instagram.com/p/DfuTxkSCRio/",
+        "address": "Trường Đài Bắc tại TP.HCM, Lô S3, Khu A, Đô thị Mới Nam Thành phố, phường Tân Mỹ, TP.HCM",
+        "address_url": "https://www.google.com/maps/place/Taipei+School+in+Ho+Chi+Minh+City/@10.7238597,106.7309977,17z/data=!3m1!4b1!4m6!3m5!1s0x31752567245c7b83:0xbc9eaf024dfbee05!8m2!3d10.7238597!4d106.7309977!16s%2Fg%2F11clfxd6_c",
+        "image_url": "thumbs/76.jpg",
+        "host_name": "ARC Saigon",
+        "host_url": "https://www.instagram.com/p/DfuTxkSCRio/"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "77",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.76183, 10.76934]
+      },
+      "properties": {
+        "name_vn": "PLAYLEAGUE – Let the Beat Drop!",
+        "from_date": "2026-12-12",
+        "to_date": "2026-12-13",
+        "start_time": "15:00",
+        "time": "N/A",
+        "isRegister": "Yes",
+        "event_url": "https://ticketbox.vn/playleague-let-the-beat-drop-26841",
+        "address": "PlayLeague, 181 Trương Văn Bang, phường Cát Lái, TP.HCM",
+        "address_url": "https://www.google.com/maps/place/PlayLeague%2C%20181%20Tr%C6%B0%C6%A1ng%20V%C4%83n%20Bang%2C%20ph%C6%B0%E1%BB%9Dng%20C%C3%A1t%20L%C3%A1i%2C%20TP.HCM/@10.7693383,106.7618313,17z",
+        "image_url": "thumbs/77.jpg",
+        "host_name": "VNGGames",
+        "host_url": "https://ticketbox.vn/playleague-let-the-beat-drop-26841"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "78",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.72134, 10.73066]
+      },
+      "properties": {
+        "name_vn": "Những Thành Phố Mơ Màng Year End 2026",
+        "from_date": "2026-12-12",
+        "to_date": "2026-12-12",
+        "start_time": "16:00",
+        "time": "N/A",
+        "isRegister": "Yes",
+        "event_url": "https://ticketbox.vn/ntpmm-year-end-saigon-2026-26646",
+        "address": "SECC, 799 Nguyễn Văn Linh, phường Tân Mỹ, TP.HCM",
+        "address_url": "https://www.google.com/maps/place/Saigon+Exhibition+and+Convention+Center+(SECC)/@10.7306572,106.7213436,17z/data=!3m1!4b1!4m6!3m5!1s0x31752f884b977323:0x12bab2d8a70949ca!8m2!3d10.7306572!4d106.7213436!16s%2Fg%2F1tfx2dcp",
+        "image_url": "thumbs/78.jpg",
+        "host_name": "Những Thành Phố Mơ Màng",
+        "host_url": "https://ticketbox.vn/ntpmm-year-end-saigon-2026-26646"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "79",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.664, 10.799]
+      },
+      "properties": {
+        "name_vn": "Aschenbrödels Traum (Lọ Lem Chiêm Bao)",
+        "from_date": "2026-12-12",
+        "to_date": "2026-12-12",
+        "start_time": "19:00",
+        "time": "N/A",
+        "isRegister": "No",
+        "event_url": "https://quickom.net/event/7225",
+        "address": "Tư dinh Tổng Lãnh sự quán Đức, 257 Hoàng Văn Thụ, phường Tân Sơn Hòa, TP.HCM",
+        "address_url": "https://www.google.com/maps/place/257+%C4%90.+Ho%C3%A0ng+V%C4%83n+Th%E1%BB%A5,+T%C3%A2n+S%C6%A1n+H%C3%B2a,+H%E1%BB%93+Ch%C3%AD+Minh,+Vietnam/@10.799884,106.663525,17z/data=!3m1!4b1!4m6!3m5!1s0x3175293030e5103d:0x2fda9667c96e4552!8m2!3d10.799884!4d106.663525!16s%2Fg%2F11c2c8b_9l",
+        "image_url": "thumbs/79.jpg",
+        "host_name": "Nhóm bạn yêu nhạc cổ điển Sài Gòn × From Alpha to Opera",
+        "host_url": "https://quickom.net/event/7225"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "80",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.7345, 10.8045]
+      },
+      "properties": {
+        "name_vn": "Scene Incubator #10",
+        "from_date": "2026-12-12",
+        "to_date": "2026-12-12",
+        "start_time": "19:00",
+        "time": "N/A",
+        "isRegister": "Yes",
+        "event_url": "https://ethoscollective.live/event/scene-incubator-10-n-d-t-route-59-happyco-encased-in-flesh-district-105/",
+        "address": "Úm Ba La (Bardo Cocktail Café), 14 Đường số 11, Thảo Điền, Thủ Đức, TP. Hồ Chí Minh",
+        "address_url": "https://www.google.com/maps/place/%C3%9Am%20Ba%20La%20%28Bardo%20Cocktail%20Caf%C3%A9%29%2C%2014%20%C4%90%C6%B0%E1%BB%9Dng%20s%E1%BB%91%2011%2C%20Th%E1%BA%A3o%20%C4%90i%E1%BB%81n%2C%20Th%E1%BB%A7%20%C4%90%E1%BB%A9c%2C%20TP.%20H%E1%BB%93%20Ch%C3%AD%20Minh/@10.8045,106.7345,17z",
+        "image_url": "thumbs/80.jpg",
+        "host_name": "Ethos Collective",
+        "host_url": "https://ethoscollective.live"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "81",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.66042, 10.78241]
+      },
+      "properties": {
+        "name_vn": "Âm Nhạc & Quê Hương",
+        "from_date": "2026-12-12",
+        "to_date": "2026-12-12",
+        "start_time": "19:30",
+        "time": "N/A",
+        "isRegister": "Yes",
+        "event_url": "https://ticketbox.vn/am-nhac-va-que-huong-26853",
+        "address": "Sân khấu C30 Hòa Bình, 141 Bắc Hải, phường Diên Hồng, TP.HCM",
+        "address_url": "https://www.google.com/maps/place/S%C3%A2n+kh%E1%BA%A5u+C30+H%C3%B2a+B%C3%ACnh/@10.7789862,106.6576345,17z/data=!3m1!4b1!4m6!3m5!1s0x31752f35d65d45c7:0xd6134b1fddea7b3e!8m2!3d10.7789862!4d106.6576345!16s%2Fg%2F11lfgx28lx",
+        "image_url": "thumbs/81.jpg",
+        "host_name": "Mặt Trời Việt",
+        "host_url": "https://ticketbox.vn/am-nhac-va-que-huong-26853"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "82",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.7335, 10.81569]
+      },
+      "properties": {
+        "name_vn": "Britpop vs Grunge",
+        "from_date": "2026-12-12",
+        "to_date": "2026-12-12",
+        "start_time": "20:00",
+        "time": "N/A",
+        "isRegister": "Yes",
+        "event_url": "https://forms.gle/y3JaK62WNHqJ5XPT8",
+        "address": "Blue Monkey Saigon, Hẻm 199M Nguyễn Văn Hưởng, phường An Khánh, TP.HCM",
+        "address_url": "https://www.google.com/maps/place/Blue+Monkey+Bar+Saigon/@10.813641,106.7334308,17z/data=!3m1!4b1!4m6!3m5!1s0x317527b5cfbd9d2f:0x1875d733719692da!8m2!3d10.813641!4d106.7334308!16s%2Fg%2F11yn8j412k",
+        "image_url": "thumbs/82.jpg",
+        "host_name": "Phoasis Tribute Band",
+        "host_url": "https://forms.gle/y3JaK62WNHqJ5XPT8"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "83",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.69396, 10.78476]
+      },
+      "properties": {
+        "name_vn": "Phương Linh: Lãng Quên Chiều Thu",
+        "from_date": "2026-12-12",
+        "to_date": "2026-12-12",
+        "start_time": "20:30",
+        "time": "N/A",
+        "isRegister": "Yes",
+        "event_url": "https://www.catmouse.vn/events/catmouse-mini-show-phuong-linh",
+        "address": "Cat&Mouse, 37B Phạm Ngọc Thạch, phường Xuân Hòa, TP.HCM",
+        "address_url": "https://www.google.com/maps/place/Cat%26Mouse+Live+Music/@10.7844732,106.6937154,17z/data=!3m1!4b1!4m6!3m5!1s0x31752fa922ae3783:0x21cbb21dc5175da4!8m2!3d10.7844732!4d106.6937154!16s%2Fg%2F11xv01jdsf",
+        "image_url": "thumbs/83.jpg",
+        "host_name": "Cat&Mouse",
+        "host_url": "https://www.catmouse.vn"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "84",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.75245, 10.8058]
+      },
+      "properties": {
+        "name_vn": "Saigon Satoshi Flea Market – Christmas 2026",
+        "from_date": "2026-12-13",
+        "to_date": "2026-12-13",
+        "start_time": "14:00",
+        "time": "N/A",
+        "isRegister": "No",
+        "event_url": "https://www.meetup.com/bitcoin-saigon-meetup/events/317021611/",
+        "address": "Big Bếp (cũ là Funk Factory), Big Bếp, 10 An Phú, phường An Khánh, TP.HCM",
+        "address_url": "https://www.google.com/maps/place/Big+B%E1%BA%BFp/@10.806125,106.7522343,17z/data=!3m1!4b1!4m6!3m5!1s0x317527f387dcaefb:0x42ee3c53365af5c7!8m2!3d10.806125!4d106.7522343!16s%2Fg%2F11xv1b76cq",
+        "image_url": "thumbs/84.jpg",
+        "host_name": "Bitcoin Saigon",
+        "host_url": "https://www.meetup.com"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "85",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.70086, 10.78398]
+      },
+      "properties": {
+        "name_vn": "Đêm nhạc Quốc Thiên",
+        "from_date": "2026-12-16",
+        "to_date": "2026-12-16",
+        "start_time": "20:00",
+        "time": "N/A",
+        "isRegister": "Yes",
+        "event_url": "https://ticketbox.vn/ben-thanh-quoc-thien-26814",
+        "address": "Phòng trà Bến Thành (lầu 3 Nhà hát Bến Thành), Lầu 3 Nhà hát Bến Thành, 6 Mạc Đĩnh Chi, phường Sài Gòn, TP.HCM",
+        "address_url": "https://www.google.com/maps/place/B%E1%BA%BFn+Th%C3%A0nh+Music+Lounge/@10.7840882,106.7008902,17z/data=!3m1!4b1!4m6!3m5!1s0x31752feda28ba4f3:0x3750069c861d27f1!8m2!3d10.7840882!4d106.7008902!16s%2Fg%2F11jzb0hlsn",
+        "image_url": "thumbs/85.jpg",
+        "host_name": "Phòng trà Bến Thành",
+        "host_url": "https://ticketbox.vn/ben-thanh-quoc-thien-26814"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "86",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.65499, 10.77017]
+      },
+      "properties": {
+        "name_vn": "Hà Anh Tuấn Exclusive Concert \"Circus of Friends\"",
+        "from_date": "2026-12-17",
+        "to_date": "2026-12-17",
+        "start_time": "20:00",
+        "time": "N/A",
+        "isRegister": "Yes",
+        "event_url": "https://ticketbox.vn/circus-of-friends-26766",
+        "address": "Rạp Xiếc và Biểu diễn đa năng Phú Thọ, đường Lữ Gia, phường Phú Thọ, TP.HCM",
+        "address_url": "https://www.google.com/maps/place/R%E1%BA%A1p+Xi%E1%BA%BFc+v%C3%A0+Bi%E1%BB%83u+di%E1%BB%85n+%C4%91a+n%C4%83ng+Ph%C3%BA+Th%E1%BB%8D/@10.7705747,106.6551327,17z/data=!3m1!4b1!4m6!3m5!1s0x31752f0044ed09dd:0xa7292212cfaecce!8m2!3d10.7705747!4d106.6551327!16s%2Fg%2F11nh9qj2c3",
+        "image_url": "thumbs/86.jpg",
+        "host_name": "Viet Vision",
+        "host_url": "https://ticketbox.vn/circus-of-friends-26766"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "87",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.67654, 10.79317]
+      },
+      "properties": {
+        "name_vn": "Saigon Artist Fair Christmas",
+        "from_date": "2026-12-18",
+        "to_date": "2026-12-20",
+        "start_time": "10:00",
+        "time": "N/A",
+        "isRegister": "No",
+        "event_url": "https://www.threads.com/@dor.vn/post/DfBt_fZE8b5",
+        "address": "Flux&Flow Space, 48/17M Hồ Biểu Chánh, phường Phú Nhuận, TP.HCM",
+        "address_url": "https://www.google.com/maps/place/Flux%26Flow+Space/@10.792844,106.6747335,17z/data=!3m1!4b1!4m6!3m5!1s0x317529002f16a38d:0x8386f8666c7fe0fc!8m2!3d10.792844!4d106.6747335!16s%2Fg%2F11njx73m36",
+        "image_url": "thumbs/87.jpg",
+        "host_name": "Saigon Artist Fair",
+        "host_url": "https://www.threads.com"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "88",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.68637, 10.78759]
+      },
+      "properties": {
+        "name_vn": "Một Tay Nải Xanh",
+        "from_date": "2026-12-19",
+        "to_date": "2026-12-20",
+        "start_time": "08:30",
+        "time": "N/A",
+        "isRegister": "No",
+        "event_url": "https://mottainai.kilala.vn/",
+        "address": "Paper & I, 152 Nam Kỳ Khởi Nghĩa, TP.HCM",
+        "address_url": "https://www.google.com/maps/place/Paper%20%26%20I%2C%20152%20Nam%20K%E1%BB%B3%20Kh%E1%BB%9Fi%20Ngh%C4%A9a%2C%20TP.HCM/@10.787593,106.6863702,17z",
+        "image_url": "thumbs/88.jpg",
+        "host_name": "Kilala",
+        "host_url": "https://mottainai.kilala.vn"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "89",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.68843, 10.78359]
+      },
+      "properties": {
+        "name_vn": "Bà Chúa Hòn",
+        "from_date": "2026-12-19",
+        "to_date": "2026-12-20",
+        "start_time": "19:30",
+        "time": "N/A",
+        "isRegister": "Yes",
+        "event_url": "https://docs.google.com/forms/d/e/1FAIpQLSfvX3LdnNZCpzyym5TaJCIRgHAEj4Ov5UNlrV-_yF13XcnVcg/viewform",
+        "address": "Nhà Thiếu nhi Thành phố, 36 Lê Quý Đôn, phường Xuân Hòa, TP.HCM",
+        "address_url": "https://www.google.com/maps/place/Children's+House+of+Ho+Chi+Minh+city/@10.7838047,106.6886054,17z/data=!3m1!4b1!4m6!3m5!1s0x31752f31899a0e25:0x2fc78baa3d080dee!8m2!3d10.7838047!4d106.6886054!16s%2Fg%2F1thxy8yy",
+        "image_url": "thumbs/89.jpg",
+        "host_name": "Sân Khấu Hồng Hạc & RuNam",
+        "host_url": "https://docs.google.com/forms/d/e/1FAIpQLSfvX3LdnNZCpzyym5TaJCIRgHAEj4Ov5UNlrV-_yF13XcnVcg/viewform"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "90",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.70086, 10.78398]
+      },
+      "properties": {
+        "name_vn": "The Starry: S'NOW",
+        "from_date": "2026-12-19",
+        "to_date": "2026-12-19",
+        "start_time": "20:00",
+        "time": "N/A",
+        "isRegister": "Yes",
+        "event_url": "https://ticketbox.vn/the-starry-snow-26708",
+        "address": "The Starry (lầu 1 Nhà hát Bến Thành), Lầu 1, Nhà hát Bến Thành, 6 Mạc Đĩnh Chi, phường Sài Gòn, TP.HCM",
+        "address_url": "https://www.google.com/maps/place/Ben+Thanh+Theater/@10.7840882,106.7008902,17z/data=!3m1!4b1!4m6!3m5!1s0x31752f2bd90910bb:0x353c8a24656ad204!8m2!3d10.7840882!4d106.7008902!16s%2Fg%2F120n39kx",
+        "image_url": "thumbs/90.jpg",
+        "host_name": "The Starry",
+        "host_url": "https://ticketbox.vn/the-starry-snow-26708"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "91",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.69396, 10.78476]
+      },
+      "properties": {
+        "name_vn": "Tăng Phúc & Thanh Duy: Vượt Ngàn Cảm Xúc",
+        "from_date": "2026-12-19",
+        "to_date": "2026-12-19",
+        "start_time": "20:30",
+        "time": "N/A",
+        "isRegister": "Yes",
+        "event_url": "https://www.catmouse.vn/events/catmouse-tang-phuc-thanh-duy",
+        "address": "Cat&Mouse, 37B Phạm Ngọc Thạch, phường Xuân Hòa, TP.HCM",
+        "address_url": "https://www.google.com/maps/place/Cat%26Mouse+Live+Music/@10.7844732,106.6937154,17z/data=!3m1!4b1!4m6!3m5!1s0x31752fa922ae3783:0x21cbb21dc5175da4!8m2!3d10.7844732!4d106.6937154!16s%2Fg%2F11xv01jdsf",
+        "image_url": "thumbs/91.jpg",
+        "host_name": "Cat&Mouse",
+        "host_url": "https://www.catmouse.vn"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "92",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.67484, 10.77193]
+      },
+      "properties": {
+        "name_vn": "Noel Cho Tình Nhân Anniversary Liveshow",
+        "from_date": "2026-12-20",
+        "to_date": "2026-12-20",
+        "start_time": "20:00",
+        "time": "N/A",
+        "isRegister": "Yes",
+        "event_url": "https://ticketbox.vn/noel-cho-tinh-nhan-anniversary-liveshow-26815",
+        "address": "Nhà hát Hòa Bình, 240 Đường 3 Tháng 2, phường Hòa Hưng, TP.HCM",
+        "address_url": "https://www.google.com/maps/place/Hoa+Binh+Theater/@10.7722951,106.6739215,17z/data=!3m1!4b1!4m6!3m5!1s0x31752ede41a643e7:0x72663dcdb85a499c!8m2!3d10.7722951!4d106.6739215!16s%2Fg%2F11j00sg4t7",
+        "image_url": "thumbs/92.jpg",
+        "host_name": "Vạn Show",
+        "host_url": "https://ticketbox.vn/noel-cho-tinh-nhan-anniversary-liveshow-26815"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "93",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.69396, 10.78476]
+      },
+      "properties": {
+        "name_vn": "Vicky Nhung & Nguyễn Kiều Oanh: Sao Lại Kết Thúc Và Chia Tay?",
+        "from_date": "2026-12-20",
+        "to_date": "2026-12-20",
+        "start_time": "20:30",
+        "time": "N/A",
+        "isRegister": "Yes",
+        "event_url": "https://www.catmouse.vn/events/catmouse-vicky-nhung-nguyen-kieu-oanh",
+        "address": "Cat&Mouse, 37B Phạm Ngọc Thạch, phường Xuân Hòa, TP.HCM",
+        "address_url": "https://www.google.com/maps/place/Cat%26Mouse+Live+Music/@10.7844732,106.6937154,17z/data=!3m1!4b1!4m6!3m5!1s0x31752fa922ae3783:0x21cbb21dc5175da4!8m2!3d10.7844732!4d106.6937154!16s%2Fg%2F11xv01jdsf",
+        "image_url": "thumbs/93.jpg",
+        "host_name": "Cat&Mouse",
+        "host_url": "https://www.catmouse.vn"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "94",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.70086, 10.78398]
+      },
+      "properties": {
+        "name_vn": "Đêm nhạc Đông Hùng",
+        "from_date": "2026-12-25",
+        "to_date": "2026-12-25",
+        "start_time": "20:00",
+        "time": "N/A",
+        "isRegister": "Yes",
+        "event_url": "https://ticketbox.vn/ben-thanh-dong-hung-26783",
+        "address": "Phòng trà Bến Thành (Lầu 3, Nhà hát Bến Thành), Lầu 3, Nhà hát Bến Thành, 6 Mạc Đĩnh Chi, phường Sài Gòn, TP.HCM",
+        "address_url": "https://www.google.com/maps/place/B%E1%BA%BFn+Th%C3%A0nh+Music+Lounge/@10.7840882,106.7008902,17z/data=!3m1!4b1!4m6!3m5!1s0x31752feda28ba4f3:0x3750069c861d27f1!8m2!3d10.7840882!4d106.7008902!16s%2Fg%2F11jzb0hlsn",
+        "image_url": "thumbs/94.jpg",
+        "host_name": "Phòng trà Bến Thành",
+        "host_url": "https://ticketbox.vn/ben-thanh-dong-hung-26783"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "95",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.69396, 10.78476]
+      },
+      "properties": {
+        "name_vn": "Thành Vá: Hành Trình Có Em",
+        "from_date": "2026-12-25",
+        "to_date": "2026-12-25",
+        "start_time": "20:30",
+        "time": "N/A",
+        "isRegister": "Yes",
+        "event_url": "https://www.catmouse.vn/events/catmouse-thanh-va-3",
+        "address": "Cat&Mouse, 37B Phạm Ngọc Thạch, phường Xuân Hòa, TP.HCM",
+        "address_url": "https://www.google.com/maps/place/Cat%26Mouse+Live+Music/@10.7844732,106.6937154,17z/data=!3m1!4b1!4m6!3m5!1s0x31752fa922ae3783:0x21cbb21dc5175da4!8m2!3d10.7844732!4d106.6937154!16s%2Fg%2F11xv01jdsf",
+        "image_url": "thumbs/95.jpg",
+        "host_name": "Cat&Mouse",
+        "host_url": "https://www.catmouse.vn"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "96",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.6155, 10.8545]
+      },
+      "properties": {
+        "name_vn": "Otaku Year End Festival 2026",
+        "from_date": "2026-12-26",
+        "to_date": "2026-12-27",
+        "start_time": "08:00",
+        "time": "N/A",
+        "isRegister": "Yes",
+        "event_url": "https://veve.com.vn/event/otaku-festival-lan-19-yearend-fest-gkg5",
+        "address": "Trung tâm Triển lãm Quốc tế SKY EXPO Việt Nam, Đường Số 2, phường Tân Chánh Hiệp, TP.HCM",
+        "address_url": "https://www.google.com/maps/place/Trung%20t%C3%A2m%20Tri%E1%BB%83n%20l%C3%A3m%20Qu%E1%BB%91c%20t%E1%BA%BF%20SKY%20EXPO%20Vi%E1%BB%87t%20Nam%2C%20%C4%90%C6%B0%E1%BB%9Dng%20S%E1%BB%91%202%2C%20ph%C6%B0%E1%BB%9Dng%20T%C3%A2n%20Ch%C3%A1nh%20Hi%E1%BB%87p%2C%20TP.HCM/@10.8545,106.6155,17z",
+        "image_url": "thumbs/96.jpg",
+        "host_name": "Otaku Festival",
+        "host_url": "https://veve.com.vn"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "97",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.67484, 10.77193]
+      },
+      "properties": {
+        "name_vn": "Ghibli Tribute Concert: Carrying You",
+        "from_date": "2026-12-26",
+        "to_date": "2026-12-27",
+        "start_time": "20:00",
+        "time": "N/A",
+        "isRegister": "Yes",
+        "event_url": "https://8thetheatre.com/events/carrying-you-sg2712",
+        "address": "Nhà hát Hòa Bình, 240 Đường 3 Tháng 2, phường Hòa Hưng, TP.HCM",
+        "address_url": "https://www.google.com/maps/place/Hoa+Binh+Theater/@10.7722951,106.6739215,17z/data=!3m1!4b1!4m6!3m5!1s0x31752ede41a643e7:0x72663dcdb85a499c!8m2!3d10.7722951!4d106.6739215!16s%2Fg%2F11j00sg4t7",
+        "image_url": "thumbs/97.jpg",
+        "host_name": "8 The Theatre / CAM Philharmonic",
+        "host_url": "https://8thetheatre.com"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "98",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.69396, 10.78476]
+      },
+      "properties": {
+        "name_vn": "Trường Vũ & Như Quỳnh: Nối Lại Tình Xưa",
+        "from_date": "2026-12-26",
+        "to_date": "2026-12-26",
+        "start_time": "20:30",
+        "time": "N/A",
+        "isRegister": "Yes",
+        "event_url": "https://www.catmouse.vn/events/catmouse-truong-vu-nhu-quynh",
+        "address": "Cat&Mouse, 37B Phạm Ngọc Thạch, phường Xuân Hòa, TP.HCM",
+        "address_url": "https://www.google.com/maps/place/Cat%26Mouse+Live+Music/@10.7844732,106.6937154,17z/data=!3m1!4b1!4m6!3m5!1s0x31752fa922ae3783:0x21cbb21dc5175da4!8m2!3d10.7844732!4d106.6937154!16s%2Fg%2F11xv01jdsf",
+        "image_url": "thumbs/98.jpg",
+        "host_name": "Cat&Mouse",
+        "host_url": "https://www.catmouse.vn"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "99",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.67484, 10.77193]
+      },
+      "properties": {
+        "name_vn": "Liveshow 35 Năm: Dòng Chảy Thanh Âm — Kim Tiểu Long",
+        "from_date": "2027-01-10",
+        "to_date": "2027-01-10",
+        "start_time": "19:30",
+        "time": "N/A",
+        "isRegister": "Yes",
+        "event_url": "https://ticketbox.vn/dong-chay-thanh-am-26685",
+        "address": "Nhà hát Hòa Bình, 240 Đường 3 Tháng 2, phường Hòa Hưng, TP.HCM",
+        "address_url": "https://www.google.com/maps/place/Hoa+Binh+Theater/@10.7722951,106.6739215,17z/data=!3m1!4b1!4m6!3m5!1s0x31752ede41a643e7:0x72663dcdb85a499c!8m2!3d10.7722951!4d106.6739215!16s%2Fg%2F11j00sg4t7",
+        "image_url": "thumbs/99.jpg",
+        "host_name": "Giai Điệu Xanh",
+        "host_url": "https://ticketbox.vn/dong-chay-thanh-am-26685"
+      }
+    }
+  ]
+}
