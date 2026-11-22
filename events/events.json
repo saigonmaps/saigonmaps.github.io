@@ -2496,9 +2496,9 @@
         "event_url": "https://www.facebook.com/events/1798925674701068/",
         "address": "211 Nguyễn Thái Học, Ho Chi Minh City, Vietnam",
         "address_url": "https://www.google.com/maps/place/211+Nguy%E1%BB%85n+Th%C3%A1i+H%E1%BB%8Dc,+B%E1%BA%BFn+Th%C3%A0nh,+H%E1%BB%93+Ch%C3%AD+Minh,+Vietnam/@10.7690426,106.694543,17z/data=!3m1!4b1!4m6!3m5!1s0x31752f3e72d523e7:0xbe07712ba8c37d8!8m2!3d10.7690426!4d106.694543!16s%2Fg%2F11rg5x54f6",
-        "image_url": "",
         "host_name": "Phở Museum - Bảo tàng Ẩm thực Việt Nam",
-        "host_url": "https://www.facebook.com/61583146872296"
+        "host_url": "https://www.facebook.com/61583146872296",
+        "image_url": "thumbs/100.jpg"
       }
     }
   ]
