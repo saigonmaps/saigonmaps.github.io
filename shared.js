@@ -173,6 +173,7 @@ export function createSiteNavPanel(activeKey = "maps") {
   const items = [
     { key: "maps", href: "/", label: "Maps" },
     { key: "villas", href: "/villas/", label: "Villas" },
+    { key: "events", href: "/events/", label: "Events" },
   ];
 
   const panel = document.createElement("nav");
@@ -182,7 +183,7 @@ export function createSiteNavPanel(activeKey = "maps") {
   panel.innerHTML = items
     .map(
       (item) => `
-        <a href="${item.href}" class="${
+        <a href="${item.href}" target="_blank" class="${
         item.key === activeKey ? "is-current" : ""
       }" ${item.key === activeKey ? 'aria-current="page"' : ""}>${
         item.label
