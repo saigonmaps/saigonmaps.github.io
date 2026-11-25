@@ -2500,6 +2500,456 @@
         "host_url": "https://www.facebook.com/61583146872296",
         "image_url": "thumbs/100.jpg"
       }
+    },
+    {
+      "type": "Feature",
+      "id": "101",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7295,
+          10.80305
+        ]
+      },
+      "properties": {
+        "name_vn": "We Thrive Thao Dien #2",
+        "from_date": "2026-11-25",
+        "to_date": "2026-11-25",
+        "start_time": "19:00",
+        "time": "N/A",
+        "isRegister": "Yes",
+        "event_url": "https://luma.com/qpwl57mw",
+        "address": "Luna & Co. - Rooftop Bar, 2 Nguyễn Bá Huân, An Khánh, Hồ Chí Minh 10000, Việt Nam",
+        "address_url": "https://www.google.com/maps/place/Luna+%26+Co.+-+Rooftop+Bar/@10.8030506,106.7295036,17z/data=!3m1!4b1!4m6!3m5!1s0x317527001cd4cf55:0x6f0e8f4501177c3f!8m2!3d10.8030506!4d106.7295036!16s%2Fg%2F11w__d8yfg",
+        "host_name": "Luna&Co.",
+        "host_url": "https://luma.com/qpwl57mw",
+        "image_url": "thumbs/101.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "102",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.80988,
+          10.84113
+        ]
+      },
+      "properties": {
+        "name_vn": "TP. HCM | Vòng Bán Kết FPT Tích Tịch Tình Tang 2026",
+        "from_date": "2026-11-29",
+        "to_date": "2026-11-29",
+        "start_time": "08:00",
+        "time": "N/A",
+        "isRegister": "Yes",
+        "event_url": "https://luma.com/v9k06axx",
+        "address": "Trường Đại học FPT TP. HCM, Lô E2a, 7 Đ. D1, Tăng Nhơn Phú, Hồ Chí Minh 700000, Việt Nam",
+        "address_url": "https://www.google.com/maps/place/FPT+University+HCMC/@10.8411276,106.809883,17z/data=!3m1!4b1!4m6!3m5!1s0x31752731176b07b1:0xb752b24b379bae5e!8m2!3d10.8411276!4d106.809883!16s%2Fg%2F11j2zx_fz_",
+        "host_name": "FES-Event",
+        "host_url": "https://luma.com/fes-event",
+        "image_url": "thumbs/102.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "103",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.75223,
+          10.81203
+        ]
+      },
+      "properties": {
+        "name_vn": "The Witnessing Power of Underwater Photography",
+        "from_date": "2026-12-01",
+        "to_date": "2026-12-01",
+        "start_time": "18:30",
+        "time": "N/A",
+        "isRegister": "Yes",
+        "event_url": "https://luma.com/p2ieteap",
+        "address": "Club Rivage, 513e Đường Số 11, An Phú, Hồ Chí Minh 70000, Việt Nam",
+        "address_url": "https://www.google.com/maps/place/Club+Rivage/@10.8120251,106.7522276,17z/data=!3m1!4b1!4m6!3m5!1s0x31752713543c3eb9:0xb222323a42b0fead!8m2!3d10.8120251!4d106.7522276!16s%2Fg%2F11ys4nqdy6",
+        "host_name": "Green Drinks Saigon",
+        "host_url": "https://luma.com/greendrinkssaigon",
+        "image_url": "thumbs/103.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "104",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69137,
+          10.78127
+        ]
+      },
+      "properties": {
+        "name_vn": "Documentary & Reflections #26: The Eyes Of Ghana (2025)",
+        "from_date": "2026-12-02",
+        "to_date": "2026-12-02",
+        "start_time": "19:00",
+        "time": "N/A",
+        "isRegister": "Yes",
+        "event_url": "https://luma.com/ogynry50",
+        "address": "Rêverie - Make dreams taste real, 7 Ngô Thời Nhiệm, Xuân Hòa, Hồ Chí Minh, Việt Nam",
+        "address_url": "https://www.google.com/maps/place/R%C3%AAverie+-+Make+dreams+taste+real/@10.7812667,106.6913689,17z/data=!3m1!4b1!4m6!3m5!1s0x31752fa4fb6cbaff:0xae60b3a59dc2f8cd!8m2!3d10.7812667!4d106.6913689!16s%2Fg%2F11rgks2ntw",
+        "host_name": "Documentary & Reflections",
+        "host_url": "https://luma.com/documentary-and-reflections",
+        "image_url": "thumbs/104.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "105",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68654,
+          10.80622
+        ]
+      },
+      "properties": {
+        "name_vn": "Forms Unfixed — triển lãm cá nhân Lý Trực Sơn tại Vin Gallery",
+        "from_date": "2026-11-19",
+        "to_date": "2027-01-31",
+        "start_time": "10:00",
+        "time": "N/A",
+        "isRegister": "No",
+        "event_url": "https://www.vingallery.com/events/5084",
+        "address": "Vin Gallery, 35/8 Nguyễn Văn Đậu, phường Bình Lợi Trung, TP.HCM",
+        "address_url": "https://www.google.com/maps/place/Vin+Gallery/@10.806222,106.686542,17z/data=!3m1!4b1!4m6!3m5!1s0x31752619712a719f:0x7c7456559cb3ddeb!8m2!3d10.806222!4d106.686542!16s%2Fg%2F1ptw7mcxv",
+        "host_name": "Vin Gallery & Gallery Medium",
+        "host_url": "https://www.vingallery.com",
+        "image_url": "thumbs/105.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "106",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69971,
+          10.80377
+        ]
+      },
+      "properties": {
+        "name_vn": "Moss Noel — tự làm cây thông kokedama sống tại Lá Nhà Garden",
+        "from_date": "2026-11-24",
+        "to_date": "2026-12-25",
+        "start_time": "00:00",
+        "time": "N/A",
+        "isRegister": "Yes",
+        "event_url": "https://ticketbox.vn/la-nha-garden-workshop-moss-noel-qua-cau-reu-don-giang-sinh-26849",
+        "address": "Lá Nhà Garden, 356/6/12 Bạch Đằng, phường Bình Thạnh, TP.HCM",
+        "address_url": "https://www.google.com/maps/place/L%C3%A1+Nh%C3%A0/@10.8037728,106.6997095,17z/data=!3m1!4b1!4m6!3m5!1s0x31752900463d27f7:0x5182c0b06badc7f3!8m2!3d10.8037728!4d106.6997095!16s%2Fg%2F11zync870g",
+        "host_name": "Lá Nhà Garden",
+        "host_url": "https://ticketbox.vn/la-nha-garden-workshop-moss-noel-qua-cau-reu-don-giang-sinh-26849",
+        "image_url": "thumbs/106.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "107",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.70254,
+          10.77464
+        ]
+      },
+      "properties": {
+        "name_vn": "ILV Holiday Bazaar 2026 — hội chợ cuối năm tại Royal Hotel Saigon",
+        "from_date": "2026-11-25",
+        "to_date": "2026-11-25",
+        "start_time": "09:00",
+        "time": "N/A",
+        "isRegister": "No",
+        "event_url": "https://www.instagram.com/p/DfUi8s6TyMf/",
+        "address": "Royal Hotel Saigon, 133 Nguyễn Huệ, phường Sài Gòn, TP.HCM",
+        "address_url": "https://www.google.com/maps/place/Kim+Do+%E2%80%93+Royal+Hotel+Saigon/@10.774645,106.7025442,17z/data=!4m9!3m8!1s0x31752f471c942639:0xec17d9a5fd2d30b7!5m2!4m1!1i2!8m2!3d10.774645!4d106.7025442!16s%2Fg%2F1vs5t5t2",
+        "host_name": "International Ladies in Vietnam (ILV)",
+        "host_url": "https://www.instagram.com/p/DfUi8s6TyMf/",
+        "image_url": "thumbs/107.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "108",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69197,
+          10.78602
+        ]
+      },
+      "properties": {
+        "name_vn": "HONG SAO Vol.5: Trùng Miên – Giấc Mơ Lặp Lại",
+        "from_date": "2026-11-26",
+        "to_date": "2026-11-26",
+        "start_time": "10:00",
+        "time": "N/A",
+        "isRegister": "Yes",
+        "event_url": "https://www.instagram.com/hongsao.event/p/DgB_XMyoXT6/",
+        "address": "[Tên].space, 59 Phạm Ngọc Thạch, phường Xuân Hòa, TP.HCM",
+        "address_url": "https://www.google.com/maps/place/59+Ph%E1%BA%A1m+Ng%E1%BB%8Dc+Th%E1%BA%A1ch,+Xu%C3%A2n+H%C3%B2a,+H%E1%BB%93+Ch%C3%AD+Minh,+Vietnam/@10.7860227,106.6919679,17z/data=!3m1!4b1!4m6!3m5!1s0x31752f85d6f513c1:0x8bf317768de24f0!8m2!3d10.7860227!4d106.6919679!16s%2Fg%2F11rb3gnm5d",
+        "host_name": "HONG SAO & 326 Concepts",
+        "host_url": "https://www.instagram.com/hongsao.event",
+        "image_url": "thumbs/108.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "109",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.66353,
+          10.79988
+        ]
+      },
+      "properties": {
+        "name_vn": "Goethe-Fest 2026 — lễ hội văn hóa Đức tại Tư dinh Tổng Lãnh sự",
+        "from_date": "2026-11-28",
+        "to_date": "2026-11-28",
+        "start_time": "14:00",
+        "time": "N/A",
+        "isRegister": "Yes",
+        "event_url": "https://www.facebook.com/events/257-đường-hoàng-văn-thụ-phường-2-quận-tân-bình-hồ-chí-minh-việt-nam/goethe-fest-2026-nước-đức-chạm-nghe-nhìn-thưởng-thức-và-cảm-nhận/1143290531504053/",
+        "address": "Tư dinh Tổng Lãnh sự quán Đức, 257 Hoàng Văn Thụ, phường Tân Sơn Hòa, TP.HCM",
+        "address_url": "https://www.google.com/maps/place/257+%C4%90.+Ho%C3%A0ng+V%C4%83n+Th%E1%BB%A5,+T%C3%A2n+S%C6%A1n+H%C3%B2a,+H%E1%BB%93+Ch%C3%AD+Minh,+Vietnam/@10.799884,106.663525,17z/data=!3m1!4b1!4m6!3m5!1s0x3175293030e5103d:0x2fda9667c96e4552!8m2!3d10.799884!4d106.663525!16s%2Fg%2F11c2c8b_9l",
+        "host_name": "Viện Goethe TP. Hồ Chí Minh",
+        "host_url": "https://www.facebook.com/events/257-đường-hoàng-văn-thụ-phường-2-quận-tân-bình-hồ-chí-minh-việt-nam/goethe-fest-2026-nước-đức-chạm-nghe-nhìn-thưởng-thức-và-cảm-nhận/1143290531504053/",
+        "image_url": "thumbs/109.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "110",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6773,
+          10.78916
+        ]
+      },
+      "properties": {
+        "name_vn": "Acorn Rum Ball — workshop làm bánh mùa đông tại Garden Art",
+        "from_date": "2026-11-28",
+        "to_date": "2026-12-27",
+        "start_time": "14:00",
+        "time": "N/A",
+        "isRegister": "Yes",
+        "event_url": "https://ticketbox.vn/winter-baking-workshop-acorn-rum-ball-from-the-fairy-tale-kitchen-series-26846",
+        "address": "Garden Art, lầu 1, 386/17C Lê Văn Sỹ, phường Nhiêu Lộc, TP.HCM",
+        "address_url": "https://www.google.com/maps/place/Garden+Art/@10.7891611,106.6772955,17z/data=!3m1!4b1!4m6!3m5!1s0x31752f004b647d81:0xc611bfcb3f189375!8m2!3d10.7891611!4d106.6772955!16s%2Fg%2F11y9_lm4gb",
+        "host_name": "Garden Art",
+        "host_url": "https://ticketbox.vn/winter-baking-workshop-acorn-rum-ball-from-the-fairy-tale-kitchen-series-26846",
+        "image_url": "thumbs/110.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "111",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68597,
+          10.78066
+        ]
+      },
+      "properties": {
+        "name_vn": "A Symphony of Emotions (Thanh Âm Cảm Xúc)",
+        "from_date": "2026-11-28",
+        "to_date": "2026-11-28",
+        "start_time": "19:00",
+        "time": "N/A",
+        "isRegister": "Yes",
+        "event_url": "https://quickom.net/event/7261",
+        "address": "Sihub, tầng 2, 123 Trương Định, phường Xuân Hòa, TP.HCM",
+        "address_url": "https://www.google.com/maps/place/Sihub+-+Startup+%26+Innovation+Hub+of+HCMC/@10.7806564,106.6859651,17z/data=!3m1!4b1!4m6!3m5!1s0x31752f0077bd7f21:0x36152c473166eaa6!8m2!3d10.7806564!4d106.6859651!16s%2Fg%2F11y3t1r4y6",
+        "host_name": "Saigon Classical Music Group",
+        "host_url": "https://quickom.net/event/7261",
+        "image_url": "thumbs/111.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "112",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.73217,
+          10.80464
+        ]
+      },
+      "properties": {
+        "name_vn": "Speak Up @ SOMA — đêm open mic spoken word ở Thảo Điền",
+        "from_date": "2026-11-29",
+        "to_date": "2026-11-29",
+        "start_time": "19:00",
+        "time": "N/A",
+        "isRegister": "No",
+        "event_url": "https://www.instagram.com/p/DgEj_JDoNfU/",
+        "address": "SOMA, 6 Lê Văn Miến, phường An Khánh, TP.HCM",
+        "address_url": "https://www.google.com/maps/place/SOMA+@+Green+Box/@10.804643,106.732175,17z/data=!3m1!4b1!4m6!3m5!1s0x3175261976955be9:0x3db924b8c34b4f0c!8m2!3d10.804643!4d106.732175!16s%2Fg%2F11f15hs3qk",
+        "host_name": "SOMA Saigon",
+        "host_url": "https://www.instagram.com/p/DgEj_JDoNfU/",
+        "image_url": "thumbs/112.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "113",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.75223,
+          10.81203
+        ]
+      },
+      "properties": {
+        "name_vn": "Green Drinks Saigon: Sức mạnh chứng nhân của ảnh dưới nước",
+        "from_date": "2026-12-01",
+        "to_date": "2026-12-01",
+        "start_time": "18:30",
+        "time": "N/A",
+        "isRegister": "No",
+        "event_url": "https://luma.com/p2ieteap",
+        "address": "Club Rivage, 513E Đường số 11, phường An Khánh, TP.HCM",
+        "address_url": "https://www.google.com/maps/place/Club+Rivage/@10.8120251,106.7522276,17z/data=!3m1!4b1!4m6!3m5!1s0x31752713543c3eb9:0xb222323a42b0fead!8m2!3d10.8120251!4d106.7522276!16s%2Fg%2F11ys4nqdy6",
+        "host_name": "Green Drinks Saigon",
+        "host_url": "https://luma.com/p2ieteap",
+        "image_url": "thumbs/113.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "114",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69798,
+          10.78727
+        ]
+      },
+      "properties": {
+        "name_vn": "Phiên Chợ Địa Phương — phiên chợ thủ công hai ngày tại Địa Phương",
+        "from_date": "2026-12-05",
+        "to_date": "2026-12-06",
+        "start_time": "00:00",
+        "time": "N/A",
+        "isRegister": "No",
+        "event_url": "https://www.instagram.com/p/Df4qDpCBsOk/",
+        "address": "Địa Phương, 98 Nguyễn Đình Chiểu, phường Tân Định, TP.HCM",
+        "address_url": "https://www.google.com/maps/place/%C4%90%E1%BB%8Ba+Ph%C6%B0%C6%A1ng/@10.7872726,106.6979764,17z/data=!3m1!4b1!4m6!3m5!1s0x31752fa0f9320dbd:0x3b29434e467f7ebb!8m2!3d10.7872726!4d106.6979764!16s%2Fg%2F11krhn3cgw",
+        "host_name": "Địa Phương",
+        "host_url": "https://www.instagram.com/p/Df4qDpCBsOk/",
+        "image_url": "thumbs/114.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "115",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.74696,
+          10.8295
+        ]
+      },
+      "properties": {
+        "name_vn": "Bình Quới – Bảo Tàng Sống Bưng Biền",
+        "from_date": "2026-12-06",
+        "to_date": "2026-12-06",
+        "start_time": "06:00",
+        "time": "N/A",
+        "isRegister": "Yes",
+        "event_url": "https://forms.gle/tr7gL4wJ7UPU7XDH8",
+        "address": "Vườn Xà Bần, 558/16 Bình Quới, phường Bình Quới, TP.HCM",
+        "address_url": "https://www.google.com/maps/place/V%C6%B0%E1%BB%9Dn+X%C3%A0+B%E1%BA%A7n/@10.8294974,106.7469614,17z/data=!3m1!4b1!4m6!3m5!1s0x31752778706da555:0x2d53d779ebadaf67!8m2!3d10.8294974!4d106.7469614!16s%2Fg%2F11yc8xc0yk",
+        "host_name": "Bảo Trân & Phương Đỗ (Pea)",
+        "host_url": "https://forms.gle/tr7gL4wJ7UPU7XDH8",
+        "image_url": "thumbs/115.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "116",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.75088,
+          10.81009
+        ]
+      },
+      "properties": {
+        "name_vn": "Workshop Giáng sinh tại Mia Saigon — làm nến thơm và trang trí nhà bánh gừng bên sông",
+        "from_date": "2026-12-12",
+        "to_date": "2026-12-25",
+        "start_time": "15:00",
+        "time": "N/A",
+        "isRegister": "Yes",
+        "event_url": "https://www.miasaigon.com/offers/mia-workshops/",
+        "address": "Mia Saigon, 2–4 Đường số 10, phường An Khánh, TP.HCM",
+        "address_url": "https://www.google.com/maps/place/2-4+%C4%90%C6%B0%E1%BB%9Dng+s%E1%BB%91+10,+An+Kh%C3%A1nh,+H%E1%BB%93+Ch%C3%AD+Minh+700000,+Vietnam/@10.8100885,106.7508753,17z/data=!3m1!4b1!4m6!3m5!1s0x31752641bacf1199:0x8bd784259937e911!8m2!3d10.8100885!4d106.7508753!16s%2Fg%2F11hd20ts07",
+        "host_name": "Mia Saigon",
+        "host_url": "https://www.miasaigon.com",
+        "image_url": "thumbs/116.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "117",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68295,
+          10.76439
+        ]
+      },
+      "properties": {
+        "name_vn": "Saigon Sake Fest 2026 — đêm hội sake, ẩm thực Nhật và âm nhạc tại Nikko Saigon",
+        "from_date": "2026-12-12",
+        "to_date": "2026-12-12",
+        "start_time": "18:00",
+        "time": "N/A",
+        "isRegister": "Yes",
+        "event_url": "https://ticketbox.vn/saigon-sake-fest-2026-26890",
+        "address": "Khách sạn Nikko Saigon, 235 Nguyễn Văn Cừ, phường Cầu Ông Lãnh, TP.HCM",
+        "address_url": "https://www.google.com/maps/place/Hotel+Nikko+Saigon/@10.764387,106.682954,17z/data=!4m9!3m8!1s0x31752f1bc01bd717:0x358e347ff4f609c5!5m2!4m1!1i2!8m2!3d10.764387!4d106.682954!16s%2Fg%2F1v16mt3y",
+        "host_name": "Saigon Sake Fest",
+        "host_url": "https://ticketbox.vn/saigon-sake-fest-2026-26890",
+        "image_url": "thumbs/117.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "118",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.70219,
+          10.78631
+        ]
+      },
+      "properties": {
+        "name_vn": "Thay Lời Muốn Nói tháng 12: Cảm Ơn Ta Là Vợ Chồng tại Nhà hát Truyền hình HTV",
+        "from_date": "2026-12-13",
+        "to_date": "2026-12-13",
+        "start_time": "20:00",
+        "time": "N/A",
+        "isRegister": "Yes",
+        "event_url": "https://ticketbox.vn/htv-thay-loi-muon-noi-t12-26774",
+        "address": "Nhà hát Truyền hình HTV, 14 Đinh Tiên Hoàng, phường Sài Gòn, TP.HCM",
+        "address_url": "https://www.google.com/maps/place/14+%C4%90inh+Ti%C3%AAn+Ho%C3%A0ng,+Ph%C6%B0%E1%BB%9Dng,+S%C3%A0i+G%C3%B2n,+H%E1%BB%93+Ch%C3%AD+Minh,+Vietnam/@10.7863128,106.7021925,17z/data=!3m1!4b1!4m6!3m5!1s0x31752f4a57df7f19:0x6a4f31f42d6282fa!8m2!3d10.7863128!4d106.7021925!16s%2Fg%2F11wb25trz8",
+        "host_name": "Đài Phát thanh và Truyền hình TP.HCM (HTV)",
+        "host_url": "https://ticketbox.vn/htv-thay-loi-muon-noi-t12-26774",
+        "image_url": "thumbs/118.jpg"
+      }
     }
   ]
 }
