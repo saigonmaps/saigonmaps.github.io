@@ -379,16 +379,6 @@ function applyLayerVisibility() {
   });
 }
 
-function changeHistoricLayer() {
-  const selectedYear = layerSelect.value;
-  loadHistoricLayer(selectedYear);
-  applyLayerVisibility();
-  const selectedMap = mapData.find((data) => data.year === selectedYear);
-  if (selectedMap) {
-    map.fitBounds(selectedMap.extent, { padding: 50 });
-  }
-}
-
 function changeOpacity() {
   const opacity = parseFloat(opacitySlider.value);
   mapData.forEach((data) => {
@@ -401,7 +391,7 @@ function changeOpacity() {
       map.setLayoutProperty(id, "visibility", symbolsVisible);
   });
 }
-layerSelect.addEventListener("change", changeHistoricLayer);
+layerSelect.addEventListener("change", applyLayerVisibility);
 opacitySlider.addEventListener("input", changeOpacity);
 
 mapData.forEach((data) => {
