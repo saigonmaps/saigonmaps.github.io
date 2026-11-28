@@ -2195,7 +2195,7 @@
         "isRegister": "No",
         "event_url": "https://mottainai.kilala.vn/",
         "address": "Paper & I, 152 Nam Kỳ Khởi Nghĩa, TP.HCM",
-        "address_url": "https://www.google.com/maps/place/Paper%20%26%20I%2C%20152%20Nam%20K%E1%BB%B3%20Kh%E1%BB%9Fi%20Ngh%C4%A9a%2C%20TP.HCM/@10.787593,106.6863702,17z",
+        "address_url": "https://www.google.com/maps/place/Paper+%26+I/@10.7792526,106.6956156,17z/data=!3m1!4b1!4m6!3m5!1s0x31752f4b1d7cf6f9:0x8a37e7a5a411e7af!8m2!3d10.7792526!4d106.6956156!16s%2Fg%2F11sm_dyns8",
         "image_url": "thumbs/88.jpg",
         "host_name": "Kilala",
         "host_url": "https://mottainai.kilala.vn"
@@ -2949,6 +2949,281 @@
         "host_name": "Đài Phát thanh và Truyền hình TP.HCM (HTV)",
         "host_url": "https://ticketbox.vn/htv-thay-loi-muon-noi-t12-26774",
         "image_url": "thumbs/118.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "119",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69207,
+          10.79373
+        ]
+      },
+      "properties": {
+        "name_vn": "Xin Mời (Welcome) — triển lãm đầu tiên tại Lê Cabinet",
+        "from_date": "2026-10-25",
+        "to_date": "2027-01-17",
+        "start_time": "10:00",
+        "time": "N/A",
+        "isRegister": "No",
+        "event_url": "https://www.lecabinetvn.com",
+        "address": "Lê Cabinet Collection & Galleries, 38/11 Trần Khắc Chân, phường Tân Định, TP.HCM",
+        "address_url": "https://www.google.com/maps/place/L%C3%AA+Cabinet/@10.7937305,106.6920749,17z/data=!3m1!4b1!4m6!3m5!1s0x3175294a6f1b8cc5:0x75776895fb63897d!8m2!3d10.7937305!4d106.6920749!16s%2Fg%2F11zz4ndntq",
+        "host_name": "Lê Cabinet Collection & Galleries",
+        "host_url": "https://www.lecabinetvn.com",
+        "image_url": "thumbs/119.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "120",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69965,
+          10.78054
+        ]
+      },
+      "properties": {
+        "name_vn": "Cây tre trăm đốt — Ngày hội Sách và Văn hóa Đêm tại Đường Sách TP.HCM",
+        "from_date": "2026-11-27",
+        "to_date": "2026-11-29",
+        "start_time": "17:00",
+        "time": "N/A",
+        "isRegister": "Yes",
+        "event_url": "https://www.facebook.com/duongsachtphcmvn",
+        "address": "Đường Sách TP.HCM, đường Nguyễn Văn Bình, phường Sài Gòn, TP.HCM",
+        "address_url": "https://www.google.com/maps/place/%C4%90.+Nguy%E1%BB%85n+V%C4%83n+B%C3%ACnh,+S%C3%A0i+G%C3%B2n,+H%E1%BB%93+Ch%C3%AD+Minh,+Vietnam/@10.7805353,106.6996501,17z/data=!3m1!4b1!4m6!3m5!1s0x31752f37d724e605:0xb6a917ebe263b6b9!8m2!3d10.7805353!4d106.6996501!16s%2Fg%2F1v2ywcng",
+        "host_name": "Công ty TNHH Đường Sách TP.HCM",
+        "host_url": "https://www.facebook.com/duongsachtphcmvn",
+        "image_url": "thumbs/120.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "121",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.70348,
+          10.77993
+        ]
+      },
+      "properties": {
+        "name_vn": "Ngày hội vui chơi cho các bạn nhỏ — Xuôi dòng sông Sài Gòn tại IDECAF",
+        "from_date": "2026-11-28",
+        "to_date": "2026-11-28",
+        "start_time": "08:30",
+        "time": "N/A",
+        "isRegister": "No",
+        "event_url": "https://ifv.vn/su-kien/26410/",
+        "address": "IDECAF, 31 Thái Văn Lung, phường Sài Gòn, TP.HCM",
+        "address_url": "https://www.google.com/maps/place/31+Th%C3%A1i+V%C4%83n+Lung,+S%C3%A0i+G%C3%B2n,+H%E1%BB%93+Ch%C3%AD+Minh,+Vietnam/@10.7799265,106.7034778,17z/data=!3m1!4b1!4m6!3m5!1s0x31752f48edcfc0dd:0x6f1a0cedb6452e71!8m2!3d10.7798619!4d106.7034699!16s%2Fg%2F11c2j1gvkv",
+        "host_name": "Viện Pháp tại Việt Nam / CARE / IDECAF",
+        "host_url": "https://ifv.vn",
+        "image_url": "thumbs/121.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "122",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.70348,
+          10.77993
+        ]
+      },
+      "properties": {
+        "name_vn": "Xuôi dòng sông Sài Gòn — triển lãm tại IDECAF",
+        "from_date": "2026-11-28",
+        "to_date": "2026-12-05",
+        "start_time": "08:30",
+        "time": "N/A",
+        "isRegister": "No",
+        "event_url": "https://ifv.vn/su-kien/26410/",
+        "address": "IDECAF, 31 Thái Văn Lung, phường Sài Gòn, TP.HCM",
+        "address_url": "https://www.google.com/maps/place/31+Th%C3%A1i+V%C4%83n+Lung,+S%C3%A0i+G%C3%B2n,+H%E1%BB%93+Ch%C3%AD+Minh,+Vietnam/@10.7799265,106.7034778,17z/data=!3m1!4b1!4m6!3m5!1s0x31752f48edcfc0dd:0x6f1a0cedb6452e71!8m2!3d10.7798619!4d106.7034699!16s%2Fg%2F11c2j1gvkv",
+        "host_name": "Viện Pháp tại Việt Nam / Đại sứ quán Pháp / IDECAF",
+        "host_url": "https://ifv.vn",
+        "image_url": "thumbs/122.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "123",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.74696,
+          10.8295
+        ]
+      },
+      "properties": {
+        "name_vn": "Bữa ăn cộng đồng – Kết nối giữa thiên nhiên",
+        "from_date": "2026-11-28",
+        "to_date": "2026-11-28",
+        "start_time": "10:30",
+        "time": "N/A",
+        "isRegister": "Yes",
+        "event_url": "https://forms.gle/uqUXVyzBsvHbzD9d7",
+        "address": "Vườn Xà Bần, 558/16 Bình Quới, phường Bình Quới, TP.HCM",
+        "address_url": "https://www.google.com/maps/place/V%C6%B0%E1%BB%9Dn+X%C3%A0+B%E1%BA%A7n/@10.8294974,106.7469614,17z/data=!3m1!4b1!4m6!3m5!1s0x31752778706da555:0x2d53d779ebadaf67!8m2!3d10.8294974!4d106.7469614!16s%2Fg%2F11yc8xc0yk",
+        "host_name": "Vườn Xà Bần x a little space",
+        "host_url": "https://forms.gle/uqUXVyzBsvHbzD9d7",
+        "image_url": "thumbs/123.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "124",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.73955,
+          10.80447
+        ]
+      },
+      "properties": {
+        "name_vn": "Pop-up Weekend — phiên chợ cuối tuần tại BLOQ Saigon",
+        "from_date": "2026-11-28",
+        "to_date": "2026-11-29",
+        "start_time": "15:00",
+        "time": "N/A",
+        "isRegister": "Yes",
+        "event_url": "https://www.facebook.com/BLOQSaigon/posts/1133272669607011",
+        "address": "BLOQ Saigon, 19 Trần Ngọc Diện, phường An Khánh, TP.HCM",
+        "address_url": "https://www.google.com/maps/place/19+Tr%E1%BA%A7n+Ng%E1%BB%8Dc+Di%E1%BB%87n,+An+Kh%C3%A1nh,+H%E1%BB%93+Ch%C3%AD+Minh+700000,+Vietnam/@10.8044683,106.7395548,17z/data=!3m1!4b1!4m6!3m5!1s0x317527ce91e45681:0x921fce4cb65f53cf!8m2!3d10.8044683!4d106.7395548!16s%2Fg%2F11vjcx2b81",
+        "host_name": "BLOQ Saigon",
+        "host_url": "https://www.facebook.com/BLOQSaigon",
+        "image_url": "thumbs/124.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "125",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.80988,
+          10.84113
+        ]
+      },
+      "properties": {
+        "name_vn": "FPT Tích Tịch Tình Tang 2026: Vòng bán kết TP.HCM",
+        "from_date": "2026-11-29",
+        "to_date": "2026-11-29",
+        "start_time": "08:00",
+        "time": "N/A",
+        "isRegister": "No",
+        "event_url": "https://luma.com/v9k06axx",
+        "address": "Hội trường Academic, Đại học FPT TP.HCM, Lô E2a-7 Đường D1, Khu Công nghệ cao, phường Tăng Nhơn Phú, TP.HCM",
+        "address_url": "https://www.google.com/maps/place/FPT+University+HCMC/@10.8411276,106.809883,17z/data=!3m1!4b1!4m6!3m5!1s0x31752731176b07b1:0xb752b24b379bae5e!8m2!3d10.8411276!4d106.809883!16s%2Fg%2F11j2zx_fz_",
+        "host_name": "FPT Student Experience Space",
+        "host_url": "https://luma.com/v9k06axx",
+        "image_url": "thumbs/125.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "126",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69262,
+          10.78371
+        ]
+      },
+      "properties": {
+        "name_vn": "Câu lạc bộ Mỹ thuật Trẻ 2026 — triển lãm tại Hội Mỹ thuật TP.HCM",
+        "from_date": "2026-11-29",
+        "to_date": "2026-12-05",
+        "start_time": "10:00",
+        "time": "N/A",
+        "isRegister": "No",
+        "event_url": "https://hoimythuattphcm.vn/",
+        "address": "Hội Mỹ thuật TP.HCM, 218A Pasteur, Phường Xuân Hòa, TP.HCM",
+        "address_url": "https://www.google.com/maps/place/Fine+Arts+Association+HCMC/@10.7837069,106.6926205,17z/data=!3m1!4b1!4m6!3m5!1s0x31752f3166cb3a61:0xbf45dc85f4da5c45!8m2!3d10.7837069!4d106.6926205!16s%2Fg%2F1thgdhxv",
+        "host_name": "Hội Mỹ thuật Thành phố Hồ Chí Minh",
+        "host_url": "https://hoimythuattphcm.vn",
+        "image_url": "thumbs/126.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "127",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.70671,
+          10.78259
+        ]
+      },
+      "properties": {
+        "name_vn": "Nhen \"NHÓM\" Ký Hoạ #1 — buổi ký hoạ nhóm tại Cảng Ba Son",
+        "from_date": "2026-11-29",
+        "to_date": "2026-11-29",
+        "start_time": "15:30",
+        "time": "N/A",
+        "isRegister": "No",
+        "event_url": "https://forms.gle/oJR9oxgXuxiXFM9K7",
+        "address": "Cảng Ba Son, Số 2 Tôn Đức Thắng, phường Sài Gòn, TP.HCM",
+        "address_url": "https://www.google.com/maps/place/C%E1%BA%A3ng%20Ba%20Son%2C%20S%E1%BB%91%202%20T%C3%B4n%20%C4%90%E1%BB%A9c%20Th%E1%BA%AFng%2C%20ph%C6%B0%E1%BB%9Dng%20S%C3%A0i%20G%C3%B2n%2C%20TP.HCM/@10.7825867,106.7067132,17z",
+        "host_name": "Nhen Nhóm",
+        "host_url": "https://forms.gle/oJR9oxgXuxiXFM9K7",
+        "image_url": "thumbs/127.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "128",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7219,
+          10.8597
+        ]
+      },
+      "properties": {
+        "name_vn": "RICE: Nghệ nhân giữ nghề — Lần 2",
+        "from_date": "2026-12-05",
+        "to_date": "2026-12-05",
+        "start_time": "16:00",
+        "time": "N/A",
+        "isRegister": "Yes",
+        "event_url": "https://forms.gle/J62jjZUG8T19bCwQ7",
+        "address": "LaCà Phê, 38 Quốc Lộ 13, phường Hiệp Bình, TP.HCM",
+        "address_url": "https://www.google.com/maps/place/LaC%C3%A0%20Ph%C3%AA%2C%2038%20Qu%E1%BB%91c%20L%E1%BB%99%2013%2C%20ph%C6%B0%E1%BB%9Dng%20Hi%E1%BB%87p%20B%C3%ACnh%2C%20TP.HCM/@10.859697,106.721904,17z",
+        "host_name": "RICE Channel TV",
+        "host_url": "https://forms.gle/J62jjZUG8T19bCwQ7",
+        "image_url": "thumbs/128.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "129",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.69319,
+          10.77313
+        ]
+      },
+      "properties": {
+        "name_vn": "Japanese Film Fest 2026: mười phim Nhật ở Galaxy Nguyễn Du",
+        "from_date": "2027-01-08",
+        "to_date": "2027-01-23",
+        "start_time": "19:30",
+        "time": "N/A",
+        "isRegister": "Yes",
+        "event_url": "https://hn.jpf.go.jp/events/jff-2026-vn",
+        "address": "Galaxy Cinema Nguyễn Du, 116 Nguyễn Du, phường Bến Thành, TP.HCM",
+        "address_url": "https://www.google.com/maps/place/Galaxy+Cinema+Nguy%E1%BB%85n+Du/@10.7731281,106.6931875,17z/data=!3m1!4b1!4m6!3m5!1s0x31752f3c0189fa2b:0x6e75dc36d4dba07d!8m2!3d10.7731281!4d106.6931875!16s%2Fg%2F1q5bp6_2g",
+        "host_name": "Quỹ Giao lưu Quốc tế Nhật Bản tại Việt Nam",
+        "host_url": "https://hn.jpf.go.jp",
+        "image_url": "thumbs/129.jpg"
       }
     }
   ]
